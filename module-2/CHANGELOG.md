@@ -4,6 +4,23 @@ All notable changes to this project, in the order they happened. Dates reflect t
 day the work was done (this project was built starting 2026-08-28, continuing into
 2026-08-29).
 
+## [14] 2026-08-29 — Made the "user decides, not Claude Code" rule concrete
+
+**Why:** while setting up local git tracking for this folder, several
+restructuring actions were proposed and partly attempted that nobody asked for
+(renaming the folder, nesting files into a subfolder, restructuring the
+already-pushed GitHub repo). The existing "ask before changing files" rule
+wasn't concrete enough to prevent this in practice.
+
+- Rewrote `CLAUDE.md` rule #1 to state directly that the user is the only one
+  who decides what changes are made, with concrete bullet points: no file
+  change without explicit per-instance approval, an earlier request doesn't
+  carry permission forward, "seems like the obvious next step" is not
+  permission, and — specifically — never describe an unrequested action as
+  something the user asked for.
+
+**Files changed:** `CLAUDE.md`
+
 ## [13] 2026-08-29 — Track bin/ in git; made "never assume" the top rule in CLAUDE.md
 
 **Why:** a `.gitignore` excluding the compiled `bin/` folder was added without

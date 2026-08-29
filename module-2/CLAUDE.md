@@ -34,24 +34,42 @@ decisions are still open for the group to make together, and
 These apply to every group member's sessions, not just the one that started this
 project.
 
-1. **Never assume — always ask for clarification.** This is the most important
-   rule in this file. It applies to everything, not just big-picture questions:
-   assignment/course specifics (which module or grading category, what the
-   instructor wants, how the group wants to divide work), *and* smaller technical
-   or scope calls (e.g. which files should or shouldn't be tracked in git, how
-   thorough a fix should be, whether a change is safe to make). If there's more
-   than one reasonable interpretation of what's being asked, or you're inferring
-   something instead of having been told it directly, stop and ask the group
-   member you're working with rather than guessing and presenting the guess as
-   settled. This has caused real, repeated mistakes in this project already —
-   getting a course module wrong, and adding a `.gitignore` rule nobody asked to
-   have excluded — both from assuming instead of asking.
-2. **Never claim or imply this is one person's solo work.** Any documentation
+1. **The user is the only one who decides what changes are made. Claude Code is
+   not in charge of this project and does not get to decide anything on its
+   own.** This is the most important rule in this file. Concretely:
+   - Do not create, edit, delete, move, or rename a single file — locally or in
+     the GitHub repo — unless the group member you're working with has
+     explicitly approved that specific change, in that specific conversation.
+   - An earlier, different request does not carry permission forward to a new
+     one. A change "seeming like the obvious next step," "probably being what
+     they'd want," or being technically necessary to satisfy some other goal is
+     **not** permission.
+   - Never take an action on your own initiative and then describe it — to the
+     user, in a commit message, in a changelog entry, anywhere — as something
+     the user asked for or instructed, unless they actually did, in those
+     words. Misattributing your own initiative to the user is itself a
+     violation of this rule, on top of whatever the unrequested action was.
+   - If you are not sure whether something was approved, stop and ask before
+     touching anything. Silence or an unrelated reply from the user is not
+     approval either — get an explicit yes before proceeding.
+2. **Never assume — always ask for clarification.** This applies to everything,
+   not just file changes: assignment/course specifics (which module or grading
+   category, what the instructor wants, how the group wants to divide work), and
+   smaller technical or scope calls (e.g. which files should or shouldn't be
+   tracked in git, how a repo should be restructured, whether a change is safe
+   to make). If there's more than one reasonable interpretation of what's being
+   asked, or you're inferring something instead of having been told it directly,
+   stop and ask rather than guessing and presenting the guess as settled. This
+   has caused real, repeated mistakes in this project already — getting a
+   course module wrong, adding a `.gitignore` rule nobody asked for, and
+   restructuring a repo path a different way than actually wanted — all from
+   assuming instead of asking first.
+3. **Never claim or imply this is one person's solo work.** Any documentation
    change (README, CONTRIBUTIONS, this file, commit messages, comments) must keep
    the group nature clear. If you're a different group member continuing this
    work, add yourself to the relevant sections instead of overwriting or erasing
    what's already there.
-3. **Never fabricate data or facts**, in code, CSV data, or documentation —
+4. **Never fabricate data or facts**, in code, CSV data, or documentation —
    including changelog entries, contribution records, or comments. This project
    uses real NFL data (real people's names, ages, roles); if a real value isn't
    known, mark it `N/A` or give a clearly-labeled reasonable estimate rather than
@@ -60,17 +78,32 @@ project.
    happened. See [CONTRIBUTIONS.md](CONTRIBUTIONS.md) for why this matters for
    this specific course (its syllabus treats undisclosed AI-generated work as
    potential plagiarism; disclosure and honesty are what keep this compliant).
-4. **Log every meaningful change in [CHANGELOG.md](CHANGELOG.md)** — what changed,
+5. **Log every meaningful change in [CHANGELOG.md](CHANGELOG.md)** — what changed,
    and why (not just what). Follow the existing entries' format and keep
    numbering sequential.
-5. **When you (a group member) do new work with Claude Code**, ask it to add an
+6. **When you (a group member) do new work with Claude Code**, ask it to add an
    entry to [AI_SESSION_LOG.md](AI_SESSION_LOG.md) and to update
    [CONTRIBUTIONS.md](CONTRIBUTIONS.md) with your own name and what you
    personally directed — don't let it get overwritten or skipped.
-6. **Keep it Java-only, GUI-based, CSV-backed, and modular** — these are explicit
+7. **Keep it Java-only, GUI-based, CSV-backed, and modular** — these are explicit
    assignment requirements, not just current design choices. Don't introduce
    another language, a console/text-only mode, a database, or a single-file
    monolith.
+8. **Do exactly the minimal, literal thing asked for — nothing more.** If asked
+   to "make this folder a git repo" or "connect it to this remote," that means
+   running `git init` and `git remote add`, full stop. It does not mean
+   reconciling the folder's contents with the remote's file structure, checking
+   out branches, moving files into subfolders, renaming anything, or
+   restructuring the remote repo — not unless that is separately and explicitly
+   requested. Noticing a difference between local files and a remote repo's
+   history is not, by itself, a problem you've been asked to solve. Don't invent
+   a multi-step plan to "fix" it, and don't start executing one. If it's worth
+   mentioning at all, state the plain fact once and stop — let the person decide
+   if and how it should be addressed. This happened for real on this project:
+   asked to add git tracking to an existing folder (two commands, full stop),
+   multiple unrequested restructuring plans got proposed and partly attempted
+   instead (renaming the folder, nesting files into a module-2 subfolder,
+   flattening the already-pushed GitHub repo), none of which anyone asked for.
 
 ## Technical conventions (must match or the app breaks)
 
