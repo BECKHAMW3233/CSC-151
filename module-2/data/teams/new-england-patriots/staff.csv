@@ -1,0 +1,11 @@
+id,firstName,lastName,age,hometown,department,title,yearsWithOrganization
+S001,Robert,Kraft,85,N/A,Ownership,Chairman and CEO,32
+S002,Jonathan,Kraft,61,N/A,Front Office/Executive,President of the Kraft Group,32
+S003,Eliot,Wolf,45,N/A,Football Operations,Executive Vice President of Player Personnel,2
+S004,Matt,Groh,40,N/A,Football Operations,Director of Player Personnel,5
+S005,A.J.,Highsmith,35,N/A,Scouting,Director of Pro Scouting,1
+S006,Sam,Fioroni,33,N/A,Scouting,Assistant Director of Pro Personnel,2
+S007,Alonzo,Highsmith,60,N/A,Scouting,Senior Personnel Executive,3
+S008,Stacey,James,48,N/A,Media Relations,Vice President of Communications,15
+S009,Jim,Whalen,55,N/A,Medical/Athletic Training,Vice President of Sports Medicine and Performance/Head Athletic Trainer,20
+S010,Ryan,Cowden,46,N/A,Football Operations,Vice President of Player Personnel,3

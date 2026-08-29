@@ -1,0 +1,21 @@
+id,firstName,lastName,age,hometown,department,title,yearsWithOrganization
+S001,Josh,Harris,61,N/A,Ownership,Managing Partner,3
+S002,Mark,Clouse,57,N/A,Front Office/Executive,President,2
+S003,Adam,Peters,47,N/A,Football Operations,General Manager,2
+S004,Lance,Newmark,45,N/A,Football Operations,Assistant General Manager,2
+S005,Brandon,Sosna,42,N/A,Football Operations,Senior Vice President of Football Operations,2
+S006,Doug,Williams,71,N/A,Football Operations,Senior Advisor to the General Manager,10
+S007,Patrick,Arthur,45,N/A,Marketing,Chief Marketing Officer,2
+S008,Andre,Chambers,47,N/A,Human Resources,Chief People Officer,2
+S009,Ben,Cobleigh,44,N/A,Business Operations,Chief Growth Officer,2
+S010,Craig,Fischer,50,N/A,Business Operations,Chief Financial Officer,2
+S011,Mali,Friedman,48,N/A,Front Office/Executive,Chief Legal and Business Affairs Officer,2
+S012,Eric,King,43,N/A,Business Operations,Head of Technology,2
+S013,Trista,Langdon,46,N/A,Stadium Operations,Chief Venues Officer,2
+S014,Jim,Rushton,50,N/A,Business Operations,Chief Partnerships Officer,2
+S015,Andrew,Sidney,44,N/A,Stadium Operations,Chief Ticketing Officer,2
+S016,Andy,VanHorn,48,N/A,Business Operations,Head of Real Estate,2
+S017,Hannah,Harris,36,N/A,Front Office/Executive,Chief of Staff and Strategy,2
+S018,Reece,Fischer,34,N/A,Analytics,Head of Strategy and Analytics,2
+S019,Kirtan,Mehta,42,N/A,Business Operations,Chief External Affairs Officer,2
+S020,Susan,Schaeffler,45,N/A,Marketing,Executive Director of the Commanders Youth Academy,5

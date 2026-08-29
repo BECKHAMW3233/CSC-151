@@ -1,0 +1,29 @@
+id,firstName,lastName,age,hometown,department,title,yearsWithOrganization
+S001,Jody,Allen,67,N/A,Ownership,Chair,8
+S002,Bert,Kolde,65,N/A,Ownership,Vice Chair,25
+S003,Chuck,Arnold,54,N/A,Front Office/Executive,"President, Seahawks and First & Goal Inc.",30
+S004,John,Schneider,55,N/A,Football Operations,President of Football Operations/General Manager,17
+S005,Matt,Berry,45,N/A,Football Operations,Assistant General Manager,12
+S006,Willie,Schneider,40,N/A,Football Operations,Assistant General Manager,8
+S007,Jeff,Dunn,48,N/A,Front Office/Executive,Chief Strategy Officer,10
+S008,Ed,Goines,50,N/A,Front Office/Executive,Chief Legal Officer,9
+S009,Dave,Pearson,52,N/A,Media Relations,Chief Communications Officer,15
+S010,Karen,Spencer,50,N/A,Business Operations,Chief Financial Officer,10
+S011,Amy,Sprangers,48,N/A,Business Operations,Chief Revenue Officer,9
+S012,David,Young,50,N/A,Business Operations,Chief Operating Officer,11
+S013,Mario,Bailey,55,N/A,Marketing,VP of Community Engagement & Legends,20
+S014,Sarita,Carter,45,N/A,Human Resources,"VP, Human Resources & Administration",8
+S015,Eric,Engberg,47,N/A,Business Operations,VP of Suites & Premium,9
+S016,Tyson,Flandreau,42,N/A,Marketing,VP of Brand and Marketing,7
+S017,Mike,Flood,50,N/A,Business Operations,VP of Outreach & External Affairs,14
+S018,Peter,Fonfara,44,N/A,Business Operations,VP of Finance,9
+S019,Zach,Hensley,40,N/A,Stadium Operations,VP of Operations and GM of Lumen Field,8
+S020,Paimon,Jaberi,38,N/A,Analytics,VP of Business Strategy & Analytics,6
+S021,Marissa,John,42,N/A,Front Office/Executive,VP & General Counsel,7
+S022,Maurice,Kelly,48,N/A,Football Operations,VP of Player Affairs,10
+S023,Joey,Laine,40,N/A,Football Operations,VP of Football Administration,8
+S024,Sam,Ramsden,50,N/A,Medical/Athletic Training,VP of Health & Player Performance,20
+S025,William,Saguilla,42,N/A,Football Operations,VP of Football Finance,8
+S026,Chip,Suttles,48,N/A,Business Operations,VP of Technology,9
+S027,Patrick,Ward,38,N/A,Analytics,VP of Research & Analytics,6
+S028,Lisa,Young,46,N/A,Business Operations,VP of Corporate Partnerships,9

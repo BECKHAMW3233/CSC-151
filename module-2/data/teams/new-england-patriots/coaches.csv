@@ -1,0 +1,30 @@
+id,firstName,lastName,age,hometown,title,unit,yearsWithTeam,yearsExperienceTotal
+C001,Mike,Vrabel,51,N/A,Head Coach,Administration,1,9
+C002,Terrell,Williams,53,N/A,Assistant Head Coach,Administration,2,20
+C003,Josh,McDaniels,50,N/A,Offensive Coordinator,Offense,2,26
+C004,Thomas,Brown,39,N/A,Tight Ends/Passing Game Coordinator,Offense,2,10
+C005,Doug,Marrone,62,N/A,Offensive Line Coach,Offense,2,30
+C006,Ashton,Grant,33,N/A,Quarterbacks Coach,Offense,2,8
+C007,Todd,Downing,45,N/A,Wide Receivers Coach,Offense,2,18
+C008,Tony,Dews,44,N/A,Running Backs Coach,Offense,2,16
+C009,Jonathan,Decoster,30,N/A,Offensive Line Assistant,Offense,2,7
+C010,Jason,Houghtaling,47,N/A,Assistant Offensive Line Coach,Offense,3,20
+C011,Chuckie,Keeton,32,N/A,Offensive Assistant,Offense,1,5
+C012,Riley,Larkin,28,N/A,Offensive Assistant,Offense,1,3
+C013,Charles,London,45,N/A,Offensive Analyst,Offense,1,18
+C014,Zak,Kuhr,38,N/A,Defensive Coordinator,Defense,2,12
+C015,Vinny,DePalma,34,N/A,Inside Linebackers Coach,Defense,2,9
+C016,Clinton,McMillan,37,N/A,Defensive Line Coach,Defense,2,10
+C017,Mike,Smith,40,N/A,Outside Linebackers Coach,Defense,2,12
+C018,Justin,Hamilton,36,N/A,Cornerbacks Coach,Defense,2,9
+C019,Scott,Booker,55,N/A,Secondary Coach,Defense,1,25
+C020,BJ,Edmonds,30,N/A,Defensive Assistant,Defense,1,5
+C021,Kevin,Richardson,29,N/A,Defensive Assistant,Defense,1,4
+C022,Jeremy,Springer,40,N/A,Special Teams Coordinator,Special Teams,2,14
+C023,Tom,Quinn,58,N/A,Assistant Special Teams Coach,Special Teams,2,25
+C024,Frank,Piraino,46,N/A,Director of Sports Performance,Strength & Conditioning,3,18
+C025,Brandon,Martuccio,34,N/A,Strength and Conditioning Coach,Strength & Conditioning,3,9
+C026,Deron,Mayo,33,N/A,Strength and Conditioning Coach,Strength & Conditioning,2,8
+C027,Brian,McDonough,36,N/A,Strength and Conditioning Coach,Strength & Conditioning,3,10
+C028,John,Streicher,42,N/A,Vice President of Football Operations and Strategy,Administration,4,14
+C029,Ekene,Olekanma,30,N/A,Director of Coaching Analytics,Administration,2,6

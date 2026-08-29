@@ -1,0 +1,27 @@
+id,firstName,lastName,age,hometown,title,unit,yearsWithTeam,yearsExperienceTotal
+C001,Sean,McVay,40,N/A,Head Coach,Administration,9,18
+C002,Nate,Scheelhaase,35,N/A,Offensive Coordinator,Offense,4,10
+C003,Chris,Shula,40,N/A,Defensive Coordinator,Defense,5,12
+C004,Bubba,Ventrone,41,N/A,Special Teams Coordinator,Special Teams,4,14
+C005,Kliff,Kingsbury,47,N/A,Assistant Head Coach,Offense,2,14
+C006,Brian,Allen,31,N/A,Assistant Offensive Line Coach,Offense,2,3
+C007,Rob,Calabrese,38,N/A,Wide Receivers Coach,Offense,3,10
+C008,Ron,Gould,55,N/A,Running Backs Coach,Offense,3,25
+C009,Scott,Huff,40,N/A,Tight Ends Coach,Offense,3,10
+C010,Brian,Johnson,40,N/A,Senior Offensive Assistant,Offense,1,12
+C011,Zak,Kromer,34,N/A,Assistant Offensive Line Coach,Offense,2,8
+C012,Dave,Ragone,48,N/A,Associate Coordinator/Quarterbacks Coach,Offense,3,20
+C013,Dan,Shamash,33,N/A,Game Management Coordinator/Assistant Tight Ends Coach,Offense,3,8
+C014,Ryan,Wendell,39,N/A,Offensive Line Coach,Offense,3,7
+C015,Eric,Yarber,60,N/A,Senior Offensive Assistant/Wide Receivers Coach,Offense,2,28
+C016,Chris,Beake,40,N/A,Safeties Coach,Defense,3,11
+C017,Joe,Coniglio,36,N/A,Outside Linebackers Coach,Defense,2,9
+C018,Michael,Hunter,33,N/A,Assistant Defensive Backs Coach,Defense,2,6
+C019,Jimmy,Lake,54,N/A,Pass Game Coordinator/Defensive Backs Coach,Defense,3,22
+C020,Giff,Smith,55,N/A,Run Game Coordinator/Defensive Line Coach,Defense,3,24
+C021,Drew,Wilkins,42,N/A,Pass Rush Coordinator,Defense,3,15
+C022,Greg,Williams,45,N/A,Inside Linebackers Coach,Defense,2,16
+C023,Robert,Wright,60,N/A,Senior Defensive Assistant,Defense,2,30
+C024,Kyle,Hoke,33,N/A,Assistant Special Teams Coach,Special Teams,2,8
+C025,Carter,Crutchfield,34,N/A,Chief of Staff,Administration,3,9
+C026,Robert,Woods,33,N/A,Assistant Wide Receivers Coach,Offense,1,1

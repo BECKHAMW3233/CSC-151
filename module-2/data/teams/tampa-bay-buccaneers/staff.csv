@@ -1,0 +1,21 @@
+id,firstName,lastName,age,hometown,department,title,yearsWithOrganization
+S001,Joel,Glazer,59,N/A,Ownership,Owner/Co-Chairman,31
+S002,Bryan,Glazer,56,N/A,Ownership,Owner/Co-Chairman,31
+S003,Jason,Licht,57,N/A,Football Operations,General Manager,12
+S004,Brian,Ford,55,N/A,Business Operations,Chief Operating Officer,10
+S005,Mike,Greenberg,42,N/A,Football Operations,Assistant General Manager,8
+S006,Rob,McCartney,44,N/A,Football Operations,Assistant General Manager,10
+S007,Mike,Biehl,55,N/A,Scouting,Vice President of Player Personnel,20
+S008,Shelton,Quarles,52,N/A,Football Operations,Vice President of Football Operations,25
+S009,Bruce,Arians,72,N/A,Football Operations,Senior Advisor to the General Manager,8
+S010,Shane,Scannell,45,N/A,Scouting,Director of Player Personnel,12
+S011,Tony,Hardie,48,N/A,Scouting,Director of College Scouting,15
+S012,Bobby,Slater,50,N/A,Medical/Athletic Training,Vice President of Sports Medicine and Performance,15
+S013,John,Ames,45,N/A,Medical/Athletic Training,Senior Athletic Trainer,12
+S014,Nelson,Luis,45,N/A,Media Relations,Chief Communications Officer,10
+S015,Joe,Fada,50,N/A,Business Operations,Chief Financial Officer,12
+S016,Kristin,Hamwey,48,N/A,Human Resources,Chief People Officer,10
+S017,Ryan,Spradlin,50,N/A,Security,Chief Security Officer,8
+S018,Micah,Day,42,N/A,Stadium Operations,Vice President of Stadium Operations,8
+S019,Adam,Pinkoski,35,N/A,Analytics,Director of Data Science and Innovation,5
+S020,Brad,Berlin,45,N/A,Equipment,Equipment Director,15

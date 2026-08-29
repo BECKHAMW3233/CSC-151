@@ -1,0 +1,30 @@
+id,firstName,lastName,age,hometown,title,unit,yearsWithTeam,yearsExperienceTotal
+C001,Matt,LaFleur,46,N/A,Head Coach,Administration,8,20
+C002,Jonathan,Gannon,43,N/A,Defensive Coordinator,Defense,1,15
+C003,Adam,Stenavich,42,N/A,Offensive Coordinator,Offense,5,15
+C004,Cam,Achord,45,N/A,Special Teams Coordinator,Special Teams,3,18
+C005,Luke,Butkus,44,N/A,Offensive Line Coach,Offense,5,15
+C006,John,Dunn,45,N/A,Tight Ends Coach,Offense,5,15
+C007,Luke,Getsy,41,N/A,Quarterbacks Coach/Assistant Head Coach - Offense,Offense,2,15
+C008,Eddie,Gordon,36,N/A,Assistant Offensive Line Coach,Offense,3,7
+C009,Rob,Grosso,32,N/A,Assistant Wide Receivers Coach,Offense,2,6
+C010,Connor,Lewis,35,N/A,Pass Game Specialist/Game Management,Offense,3,8
+C011,Noah,Pauley,38,N/A,Wide Receivers Coach,Offense,3,10
+C012,Ben,Sirmans,45,N/A,Running Backs Coach,Offense,5,18
+C013,Jason,Vrable,50,N/A,Passing Game Coordinator,Offense,4,20
+C014,Jeremiah,Kolone,27,N/A,Offensive Assistant (Minority Fellowship),Offense,1,1
+C015,T.C.,McCartney,29,N/A,Offensive Quality Control Coach,Offense,2,4
+C016,Bobby,Babich,46,N/A,Secondary/Pass Game Coordinator,Defense,7,20
+C017,Daniel,Bullocks,42,N/A,Cornerbacks Coach,Defense,3,10
+C018,DeMarcus,Covington,40,N/A,Outside Linebackers/Run Game Coordinator/Assistant Head Coach - Defense,Defense,7,12
+C019,Jamael,Lett,30,N/A,Defensive Quality Control,Defense,2,5
+C020,Vince,Oghobaase,38,N/A,Defensive Line Coach,Defense,4,10
+C021,Sam,Siefkes,36,N/A,Linebackers Coach,Defense,3,9
+C022,Will,Smart,29,N/A,Defensive Quality Control Coach,Defense,2,4
+C023,Scott,Fuchs,55,N/A,Defensive Analyst,Defense,2,25
+C024,Cory,Harkey,37,N/A,Assistant Special Teams Coach,Special Teams,3,8
+C025,Jeff,Koonz,34,N/A,Assistant Special Teams Coach,Special Teams,3,7
+C026,Aaron,Hill,44,N/A,Strength & Conditioning Coordinator,Strength & Conditioning,6,18
+C027,Jake,Flint,32,N/A,Strength & Conditioning Assistant,Strength & Conditioning,4,8
+C028,Marcus,Jones,33,N/A,Strength & Conditioning Assistant,Strength & Conditioning,4,9
+C029,Ben,Schumacher,31,N/A,Strength & Conditioning Assistant,Strength & Conditioning,3,7

@@ -1,0 +1,29 @@
+id,firstName,lastName,age,hometown,title,unit,yearsWithTeam,yearsExperienceTotal
+C001,Liam,Coen,40,N/A,Head Coach,Administration,2,12
+C002,Grant,Udinski,32,N/A,Offensive Coordinator,Offense,2,9
+C003,Shane,Waldron,46,N/A,Assistant Head Coach/Pass Game Coordinator,Offense,2,20
+C004,Brian,Picucci,38,N/A,Run Game Coordinator,Offense,2,14
+C005,Spencer,Whipple,34,N/A,Quarterbacks Coach,Offense,2,10
+C006,Shaun,Sarrett,48,N/A,Offensive Line Coach,Offense,2,20
+C007,Edgar,Bennett,56,N/A,Wide Receivers Coach,Offense,2,26
+C008,Richard,Angulo,50,N/A,Tight Ends Coach,Offense,2,22
+C009,Chad,Morton,48,N/A,Running Backs Coach,Offense,2,18
+C010,John,Van Dam,52,N/A,Offensive Pass Game Specialist,Offense,2,24
+C011,Tyler,Tettleton,32,N/A,Assistant Wide Receivers Coach,Offense,2,7
+C012,Trevor,Mendelson,30,N/A,Assistant Offensive Line Coach,Offense,2,6
+C013,Fred,Walker,28,N/A,Offensive Assistant,Offense,2,4
+C014,Anthony,Campanile,45,N/A,Defensive Coordinator,Defense,2,18
+C015,Matt,Edwards,40,N/A,Defensive Line Coach,Defense,2,14
+C016,Tem,Lukabu,43,N/A,Linebackers Coach,Defense,2,16
+C017,Mathieu,Araujo,38,N/A,Defensive Pass Game Coordinator,Defense,2,12
+C018,Anthony,Perkins,40,N/A,Defensive Backs Coach,Defense,2,14
+C019,Bill,Sheridan,66,N/A,Senior Defensive Assistant,Defense,2,35
+C020,Grant,Morgan,27,N/A,Defensive Assistant/Assistant Defensive Line Coach,Defense,2,3
+C021,Derrick,LeBlanc,51,N/A,Pass Rush Specialist,Defense,2,20
+C022,Kevin,Wilkins,36,N/A,Assistant Linebackers Coach,Defense,2,10
+C023,Drew,Lascari,30,N/A,Assistant Defensive Backs Coach,Defense,2,6
+C024,Heath,Farwell,44,N/A,Associate Head Coach/Special Teams Coordinator,Special Teams,2,15
+C025,Luke,Thompson,30,N/A,Assistant Special Teams Coach,Special Teams,2,6
+C026,Jay,Kaiser,31,N/A,Assistant to the Head Coach,Administration,2,7
+C027,Jon,Dykema,36,N/A,Senior Director of Football Strategy and Game Management,Administration,3,10
+C028,Josh,Lima,27,N/A,Quality Control Coach,Administration,2,4

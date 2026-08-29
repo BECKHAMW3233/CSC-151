@@ -1,0 +1,22 @@
+id,firstName,lastName,age,hometown,department,title,yearsWithOrganization
+S001,Mike,Brown,91,N/A,Ownership,President/Owner,58
+S002,Katie,Blackburn,60,N/A,Front Office/Executive,Executive Vice President,35
+S003,Troy,Blackburn,54,N/A,Front Office/Executive,Vice President,25
+S004,Paul,Brown,50,N/A,Front Office/Executive,Vice President,20
+S005,Duke,Tobin,55,N/A,Football Operations,Director of Player Personnel,32
+S006,Trey,Brown,35,N/A,Football Operations,Assistant General Manager,10
+S007,Mike,Potts,50,N/A,Football Operations,Assistant General Manager,20
+S008,Steven,Radicevic,45,N/A,Football Operations,Assistant General Manager,15
+S009,John,Helmle,52,N/A,Business Operations,Chief Financial & Commercial Officer,18
+S010,Brian,Sells,48,N/A,Business Operations,Chief Business Officer,12
+S011,Matt,Summers,46,N/A,Medical/Athletic Training,Director of Sports Medicine/Head Athletic Trainer,15
+S012,Eric,Ball,58,N/A,Football Operations,Director of Player Relations,20
+S013,Sam,Francis,36,N/A,Analytics,Director of Football Research,8
+S014,Tyler,Gross,34,N/A,Analytics,Director of Football Applications,6
+S015,Mark,Herren,50,N/A,Security,Director of Security,12
+S016,Adam,Knollman,42,N/A,Equipment,Equipment Manager,14
+S017,Emily,Parker,40,N/A,Media Relations,Director of Communications,10
+S018,Lori,Seibert,45,N/A,Human Resources,Human Resources Manager,15
+S019,Duane,Haring,48,N/A,Stadium Operations,Director of Stadium and Event Operations,16
+S020,Caroline,Blackburn,32,N/A,Front Office/Executive,Vice President,8
+S021,Elizabeth,Blackburn,30,N/A,Front Office/Executive,Vice President,7

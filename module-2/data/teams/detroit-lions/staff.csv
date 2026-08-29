@@ -1,0 +1,19 @@
+id,firstName,lastName,age,hometown,department,title,yearsWithOrganization
+S001,Sheila,Ford Hamp,74,N/A,Ownership,Principal Owner & Chair,40
+S002,Richard,Haddad,50,N/A,Front Office/Executive,President and Chief Executive Officer,0
+S003,Brad,Holmes,47,N/A,Football Operations,Executive Vice President & General Manager,6
+S004,Mike,Disner,55,N/A,Business Operations,Chief Operating Officer,15
+S005,Allison,Maki,48,N/A,Business Operations,Chief Financial & Administrative Officer,10
+S006,Maggy,Carlyle,45,N/A,Front Office/Executive,Chief Legal Officer,6
+S007,Yasi,Sahely,40,N/A,Front Office/Executive,Senior Counsel,5
+S008,Brian,Facchini,46,N/A,Media Relations,Chief Communications & Brand Officer,8
+S009,Lindsay,Verstegen,44,N/A,Human Resources,Chief People & Inclusion Officer,6
+S010,Chris,Spielman,61,N/A,Football Operations,Senior Football Advisor to Ownership,10
+S011,Kelly,Kozole,45,N/A,Business Operations,SVP Commercial Revenue and Venue Strategy,10
+S012,Emily,Griffin,42,N/A,Marketing,SVP Marketing & Brand,7
+S013,Todd,Argust,52,N/A,Stadium Operations,SVP Facilities,15
+S014,Ashton,Mullinix,40,N/A,Analytics,SVP Consumer Revenue and Analytics,6
+S015,Elliott,Kessler,47,N/A,Business Operations,SVP of Finance,12
+S016,Dwayne,Joseph,44,N/A,Scouting,VP Player Personnel,8
+S017,Rob,Lohman,42,N/A,Scouting,VP Roster Operations/Evaluations,8
+S018,Steve,Lancaster,50,N/A,Business Operations,VP Information Technology,12

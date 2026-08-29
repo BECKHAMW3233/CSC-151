@@ -1,0 +1,23 @@
+id,firstName,lastName,age,hometown,department,title,yearsWithOrganization
+S001,Clark,Hunt,61,N/A,Ownership,Chairman and Chief Executive Officer,32
+S002,Mark,Donovan,58,N/A,Front Office/Executive,President,17
+S003,Brett,Veach,48,N/A,Football Operations,General Manager,25
+S004,Chris,Shea,44,N/A,Football Operations,Assistant General Manager,10
+S005,Mike,Bradway,42,N/A,Football Operations,Assistant General Manager,9
+S006,Dan,Crumb,50,N/A,Business Operations,Executive Vice President & Chief Financial Officer,15
+S007,Matt,Kenny,49,N/A,Business Operations,Executive Vice President and Chief Operations Officer,14
+S008,Tyler,Kirby,45,N/A,Business Operations,Chief Revenue Officer & EVP of Business Development,12
+S009,Kirsten,Krug,47,N/A,Front Office/Executive,Executive Vice President of Administration,18
+S010,Lara,Krug,50,N/A,Marketing,Chief Media and Marketing Officer & EVP of Marketing,20
+S011,Ryne,Nutt,40,N/A,Scouting,Vice President of Player Personnel,9
+S012,Tim,Terry,44,N/A,Scouting,Vice President of Player Personnel,12
+S013,Rick,Burkholder,58,N/A,Medical/Athletic Training,Vice President of Sports Medicine and Performance,14
+S014,Tyler,Bradstreet,38,N/A,Medical/Athletic Training,Vice President of Performance Psychology,6
+S015,Brad,Gee,45,N/A,Media Relations,Vice President of Football Communications,15
+S016,Luke,Shanno,38,N/A,Media Relations,Vice President of Corporate Communications,9
+S017,Cydney,Glaze,34,N/A,Media Relations,Senior Director of Football Communications,7
+S018,Rob,Alberino Jr.,42,N/A,Marketing,Vice President of Content and Production,10
+S019,Kellen,Begnoche,39,N/A,Business Operations,Vice President of Partnership Strategy,8
+S020,Jayne,Martin,41,N/A,Business Operations,Vice President of Fan Experience,9
+S021,Michael,Ragsdale,40,N/A,Analytics,"Vice President of Finance, Strategy & Analytics",8
+S022,Jeff,White,36,N/A,Analytics,Director of Data,6

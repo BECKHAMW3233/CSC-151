@@ -1,0 +1,100 @@
+id,firstName,lastName,age,hometown,jerseyNumber,position,college,yearsExperience,status,height,weightLbs
+P001,Jah,Joyner,25,N/A,96,DE,Minnesota,0,Active,6-4,262
+P002,Deion,Jones,31,N/A,50,LB,LSU,10,Active,6-1,222
+P003,Viliami,Fehoko Jr.,26,N/A,61,DE,San Jose State,2,Active,6-4,267
+P004,Doug,Kramer Jr.,28,N/A,58,C,Illinois,4,Active,6-2,300
+P005,Ogbo,Okoronkwo,31,N/A,59,LB,Oklahoma,9,Active,6-2,253
+P006,KhaDarel,Hodge,32,N/A,86,WR,Prairie View A&M,9,Active,6-2,210
+P007,Khalil,Herbert,28,N/A,40,RB,Virginia Tech,6,Active,5-9,212
+P008,Deebo,Samuel Sr.,30,N/A,19,WR,South Carolina,8,Active,6-0,215
+P009,Trenton,Irwin,30,N/A,82,WR,Stanford,6,Active,6-2,204
+P010,Quinton,Bell,30,N/A,58,DE,Prairie View A&M,5,Active,6-4,258
+P011,Ashtyn,Davis,29,N/A,29,S,California,7,Active,6-1,205
+P012,Larry,Worth III,21,N/A,47,LB,Arkansas,0,Active,6-4,220
+P013,James,Thompson Jr.,23,N/A,75,DT,Illinois,0,Active,6-6,308
+P014,Jalen,Stroman,23,N/A,38,S,Notre Dame,0,Active,6-0,203
+P015,Will,Pauling,23,N/A,84,WR,Notre Dame,0,Active,5-9,183
+P016,Bryson,Eason,24,N/A,67,DT,Tennessee,0,Active,6-2,323
+P017,Wesley,Grimes,22,N/A,18,WR,N.C. State,0,Active,6-2,194
+P018,Khalil,Dinkins,24,N/A,43,TE,Penn State,0,Active,6-4,226
+P019,Patrick,McMorris,24,N/A,24,S,California,3,Active,6-0,206
+P020,Sincere,McCormick,25,N/A,35,RB,UTSA,3,Active,5-8,204
+P021,Enrique,Cruz Jr.,23,N/A,69,OT,Kansas,0,Active,6-5,313
+P022,Jaden,Dugger,22,N/A,53,LB,Louisiana,0,Active,6-5,242
+P023,Ephesians,Prysock,23,N/A,35,CB,Washington,0,Active,6-3,196
+P024,Carver,Willis,24,N/A,74,OT,Washington,0,Active,6-5,303
+P025,Gracen,Halton,22,N/A,93,DT,Oklahoma,0,Active,6-2,293
+P026,Kaelon,Black,24,N/A,26,RB,Indiana,0,Active,5-10,208
+P027,Romello,Height,25,N/A,94,DE,Texas Tech,0,Active,6-2,239
+P028,De'Zhaun,Stribling,23,N/A,15,WR,Mississippi,0,Active,6-2,207
+P029,Jack,Jones,28,N/A,25,CB,Arizona State,5,Active,5-11,175
+P030,Robert,Jones,27,N/A,65,OG,Middle Tennessee,6,Active,6-4,322
+P031,Corliss,Waitman,31,N/A,7,P,South Alabama,4,Active,6-2,210
+P032,Christian,Kirk,29,N/A,3,WR,Texas A&M,9,Active,5-11,200
+P033,Nate,Hobbs,27,N/A,22,CB,Illinois,6,Active,6-0,195
+P034,Dre,Greenlaw,29,N/A,57,LB,Arkansas,8,Active,6-0,230
+P035,Osa,Odighizuwa,28,N/A,92,DT,UCLA,6,Active,6-2,280
+P036,Brett,Toth,29,N/A,78,C,Army,7,Active,6-6,304
+P037,Vederian,Lowe,27,N/A,76,OT,Illinois,5,Active,6-6,320
+P038,Mike,Evans,33,N/A,5,WR,Texas A&M,13,Active,6-5,231
+P039,Hayden,Rucci,25,N/A,83,TE,Wisconsin,1,Active,6-5,247
+P040,Garret,Wallow,27,N/A,49,LB,TCU,6,Active,6-2,230
+P041,Keion,White,27,N/A,56,DE,Georgia Tech,4,Active,6-5,285
+P042,Eddy,Pineiro,30,N/A,18,K,Florida,9,Active,5-11,190
+P043,Adrian,Martinez,26,N/A,4,QB,Kansas State,2,Active,6-2,220
+P044,Eli,Apple,31,N/A,30,CB,Ohio State,10,Active,6-1,203
+P045,C.J.,West,24,N/A,99,DT,Indiana,2,Active,6-1,316
+P046,Alfred,Collins,24,N/A,95,DT,Texas,2,Active,6-5,332
+P047,Kurtis,Rourke,25,N/A,14,QB,Indiana,1,Active,6-4,220
+P048,Sebastian,Valdez,24,N/A,55,DT,Washington,1,Active,6-3,301
+P049,Jakob,Robinson,25,N/A,43,CB,BYU,2,Active,5-10,181
+P050,Connor,Colby,23,N/A,75,OG,Iowa,2,Active,6-5,309
+P051,Marques,Sigle,24,N/A,36,S,Kansas State,2,Active,5-11,199
+P052,Jordan,James,22,N/A,29,RB,Oregon,2,Active,5-9,208
+P053,Jordan,Watkins,24,N/A,17,WR,Mississippi,2,Active,5-11,196
+P054,Upton,Stout,24,N/A,20,CB,Western Kentucky,2,Active,5-9,181
+P055,Nick,Martin,23,N/A,45,LB,Oklahoma State,2,Active,5-11,221
+P056,Siran,Neal,32,N/A,33,CB,Jacksonville State,9,Active,6-0,206
+P057,Mac,Jones,27,N/A,10,QB,Alabama,6,Active,6-3,220
+P058,Jon,Weeks,40,N/A,46,LS,Baylor,17,Active,5-10,242
+P059,Luke,Gifford,31,N/A,51,LB,Nebraska,8,Active,6-3,243
+P060,Demarcus,Robinson,31,N/A,7,WR,Florida,11,Active,6-1,202
+P061,Luke,Farrell,28,N/A,89,TE,Ohio State,6,Active,6-5,250
+P062,Isaac,Alarcon,28,N/A,67,OT,Tecnologico de Monterrey,1,Active,6-7,320
+P063,Austen,Pleasants,29,N/A,62,OT,Ohio,2,Active,6-7,330
+P064,Jalen,Graham,25,N/A,41,LB,Purdue,3,Active,6-3,220
+P065,Christian,McCaffrey,30,N/A,23,RB,Stanford,10,Active,5-11,210
+P066,Evan,Anderson,24,N/A,90,DT,Florida Atlantic,2,Active,6-3,326
+P067,Sam,Okuayinonu,28,N/A,91,DT,Maryland,4,Active,6-1,269
+P068,Brayden,Willis,26,N/A,9,TE,Oklahoma,4,Active,6-4,240
+P069,Trent,Williams,38,N/A,71,OT,Oklahoma,17,Active,6-5,320
+P070,Brandon,Parker,30,N/A,60,OT,North Carolina A&T,8,Active,6-8,320
+P071,Drake,Nugent,25,N/A,66,C,Michigan,1,Active,6-1,300
+P072,Tatum,Bethune,25,N/A,48,LB,Florida State,3,Active,6-1,230
+P073,Jacob,Cowing,25,N/A,6,WR,Arizona,3,Active,5-9,171
+P074,Malik,Mustapha,24,N/A,6,S,Wake Forest,3,Active,5-10,206
+P075,Dominick,Puni,26,N/A,77,OG,Kansas,3,Active,6-5,313
+P076,Renardo,Green,25,N/A,0,CB,Florida State,3,Active,6-0,186
+P077,Jake,Tonges,27,N/A,88,TE,California,4,Active,6-4,240
+P078,Darrell,Luter Jr.,26,N/A,28,CB,South Alabama,4,Active,6-0,190
+P079,Ji'Ayir,Brown,26,N/A,27,S,Penn State,4,Active,5-11,202
+P080,Nick,Zakelj,27,N/A,63,OT,Fordham,4,Active,6-6,316
+P081,Brock,Purdy,26,N/A,13,QB,Iowa State,5,Active,6-1,220
+P082,Malik,Turner,30,N/A,81,WR,Illinois,5,Active,6-2,202
+P083,Deommodore,Lenoir,26,N/A,2,CB,Oregon,6,Active,5-10,200
+P084,Colton,McKivitz,30,N/A,68,OT,West Virginia,7,Active,6-6,301
+P085,Jake,Brendel,33,N/A,64,C,UCLA,9,Active,6-4,299
+P086,Nick,Bosa,28,N/A,97,DE,Ohio State,8,Active,6-4,266
+P087,Fred,Warner,29,N/A,54,LB,BYU,9,Active,6-3,230
+P088,George,Kittle,32,N/A,85,TE,Iowa,10,Active,6-4,250
+P089,Kyle,Juszczyk,35,N/A,44,FB,Harvard,14,Active,6-2,235
+P090,Mykel,Williams,22,N/A,98,DE,Georgia,2,Physically Unable to Perform,6-5,267
+P091,Isaac,Guerendo,26,N/A,31,RB,Louisville,3,Physically Unable to Perform,6-0,221
+P092,Victor,Dimukeje,26,N/A,96,DE,Duke,6,Injured Reserve,6-2,262
+P093,Xavier,Thomas,26,N/A,50,DE,Clemson,3,Injured Reserve,6-2,250
+P094,Titus,Leo,27,N/A,96,DE,Wagner,3,Injured Reserve,6-3,245
+P095,Mikail,Kamara,24,N/A,59,DE,Indiana,0,Injured Reserve,6-1,260
+P096,Darrick,Forrest,27,N/A,29,S,Cincinnati,5,Injured Reserve,5-11,200
+P097,Andrew,Farmer II,26,N/A,50,DE,Lane College,2,Injured Reserve,6-4,250
+P098,Ricky,Pearsall,25,N/A,1,WR,Florida,3,Injured Reserve,6-1,189
+P099,Patrick,Taylor Jr.,28,N/A,32,RB,Memphis,6,Injured Reserve,6-2,217

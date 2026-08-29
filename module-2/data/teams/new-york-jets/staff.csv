@@ -1,0 +1,19 @@
+id,firstName,lastName,age,hometown,department,title,yearsWithOrganization
+S001,Robert Wood,Johnson,79,N/A,Ownership,Chairman,26
+S002,Christopher W.,Johnson,66,N/A,Ownership,Vice Chairman,26
+S003,Darren,Mougey,41,N/A,Football Operations,General Manager,2
+S004,Hymie,Elhai,60,N/A,Front Office/Executive,President,20
+S005,Brian,Friedman,52,N/A,Front Office/Executive,EVP and Chief Operating Officer,15
+S006,Eric,Gelfand,55,N/A,Media Relations,"EVP, Chief Brand & Communications Officer",10
+S007,Ian,Lasher,50,N/A,Business Operations,"EVP, Chief Commercial Officer",8
+S008,Andy,Lee,54,N/A,Front Office/Executive,EVP & Chief Legal Officer,12
+S009,Rick,Spielman,64,N/A,Football Operations,Senior Football Advisor,2
+S010,Robbie,Paton,40,N/A,Scouting,"Director, Player Personnel",5
+S011,Jason,Mandolesi,42,N/A,Scouting,"Director, College Scouting",6
+S012,Evan,Ardoin,38,N/A,Scouting,"Director, Pro Scouting",5
+S013,Erik,Korem,42,N/A,Strength & Conditioning,Director of Player Performance,3
+S014,David,Zuffelato,47,N/A,Medical/Athletic Training,"Senior Director, Player Health & Medical Services",8
+S015,Iwao,Fusillo,45,N/A,Analytics,"Senior Vice President, Chief Data & Analytics Officer",6
+S016,Jared,Winley,48,N/A,Media Relations,"Senior Vice President, Communications",10
+S017,Robert,Mastroddi,53,N/A,Security,"Senior Vice President, Security & Facilities Operations",15
+S018,Courtney,Anderson,49,N/A,Human Resources,"Senior Vice President, Human Resources & Administration",11

@@ -1,0 +1,18 @@
+id,firstName,lastName,age,hometown,department,title,yearsWithOrganization
+S001,George H.,McCaskey,70,N/A,Ownership,Chairman,15
+S002,Kevin,Warren,62,N/A,Front Office/Executive,President and Chief Executive Officer,4
+S003,Ryan,Poles,40,N/A,Football Operations,General Manager,5
+S004,Ted,Crews,55,N/A,Front Office/Executive,Special Advisor to the President/CEO & Chief Administrative Officer,5
+S005,Liz,Geist,48,N/A,Human Resources,EVP of People and Culture & Chief Human Resources Officer,3
+S006,Karen,Murphy,50,N/A,Stadium Operations,EVP of Stadium Development & Chief Operating Officer,3
+S007,Tanesha,Wade,45,N/A,Human Resources,EVP of Diversity Equity and Inclusion & Chief Impact Officer,2
+S008,Krista,Whitaker,47,N/A,Front Office/Executive,EVP of Legal and Business Affairs & Chief Legal Officer,2
+S009,Meka,White Morris,46,N/A,Business Operations,EVP of Revenue & Chief Business Officer,2
+S010,Laura,Anderson,50,N/A,Business Operations,SVP of Administration & Chief Financial Officer,8
+S011,Tanya,Dreesen,44,N/A,Front Office/Executive,SVP of Strategy and Global Affairs & Chief of Staff,5
+S012,Scott,Hagel,52,N/A,Media Relations,SVP of Public and Governmental Affairs,15
+S013,Paul,Neurauter,50,N/A,Stadium Operations,SVP of Operations and Sustainability,10
+S014,Matt,O'Brien,48,N/A,Business Operations,SVP of Global Commercial Revenue,6
+S015,Corey,Ruff,42,N/A,Analytics,SVP of Strategy and Analytics & Chief of Staff,4
+S016,John,Tarpey,54,N/A,Security,SVP of Security,10
+S017,Lee,Twarling,49,N/A,Stadium Operations,SVP of Fan/Guest Experience and Stadium Operations,8

@@ -1,0 +1,11 @@
+id,firstName,lastName,age,hometown,department,title,yearsWithOrganization
+S001,Terry,Pegula,75,N/A,Ownership,Owner/CEO/President,12
+S002,Kim,Pegula,55,N/A,Ownership,Owner,12
+S003,Brandon,Beane,49,N/A,Football Operations,President of Football Operations & General Manager,9
+S004,Pete,Guelli,48,N/A,Front Office/Executive,President of Business Operations,8
+S005,Brian,Gaine,53,N/A,Football Operations,Assistant General Manager,4
+S006,Terrance,Gray,42,N/A,Football Operations,Assistant General Manager,1
+S007,Dennis,Lock,38,N/A,Analytics,Vice President of Football Research,6
+S008,Alonzo,Dotson,32,N/A,Scouting,Assistant Director of College Scouting,4
+S009,Tyler,Pratt,33,N/A,Scouting,National Scout,9
+S010,Nathan,Breske,44,N/A,Medical/Athletic Training,Head Athletic Trainer,10

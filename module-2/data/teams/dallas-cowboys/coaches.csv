@@ -1,0 +1,28 @@
+id,firstName,lastName,age,hometown,title,unit,yearsWithTeam,yearsExperienceTotal
+C001,Brian,Schottenheimer,52,N/A,Head Coach,Administration,4,27
+C002,Klayton,Adams,43,N/A,Offensive Coordinator,Offense,2,19
+C003,Junior,Adams,46,N/A,Wide Receivers Coach,Offense,4,15
+C004,Ken,Dorsey,47,N/A,Pass Game Specialist,Offense,2,13
+C005,Ryan,Feder,34,N/A,Game Management Coordinator,Offense,2,8
+C006,Derrick,Foster,44,N/A,Running Backs Coach,Offense,3,12
+C007,Conor,Riley,40,N/A,Offensive Line Coach,Offense,3,10
+C008,Steve,Shimko,38,N/A,Quarterbacks Coach,Offense,3,9
+C009,Lunda,Wells,50,N/A,Tight Ends Coach,Offense,2,20
+C010,Jamel,Mutunga,32,N/A,Assistant Running Backs Coach,Offense,2,7
+C011,Stephen,Bravo-Brown,31,N/A,Assistant Wide Receivers Coach,Offense,2,6
+C012,Kyle,Fuller,33,N/A,Assistant Offensive Line Coach,Offense,2,8
+C013,Will,Grier,30,N/A,Offensive Assistant,Offense,2,3
+C014,Christian,Parker,34,N/A,Defensive Coordinator,Defense,3,12
+C015,Marcus,Dixon,45,N/A,Defensive Line Coach,Defense,5,16
+C016,Ryan,Smith,40,N/A,Secondary Coach,Defense,3,11
+C017,Derrick,Ansley,48,N/A,Defensive Pass Game Coordinator/Defensive Backs,Defense,2,20
+C018,Chidera,Uzo-Diribe,36,N/A,Outside Linebackers Coach,Defense,3,9
+C019,Scott,Symons,42,N/A,Inside Linebackers Coach,Defense,4,14
+C020,Robert,Muschamp,33,N/A,Assistant Secondary Coach,Defense,2,8
+C021,Demeitre,Brim,34,N/A,Assistant Defensive Line Coach,Defense,2,7
+C022,J.J.,Clark,30,N/A,Assistant Linebackers Coach,Defense,2,5
+C023,Nick,Sorensen,47,N/A,Special Teams Coordinator,Special Teams,2,18
+C024,Carlos,Polk,45,N/A,Assistant Special Teams Coach,Special Teams,3,13
+C025,Harold,Nash Jr.,46,N/A,Strength and Conditioning Coordinator,Strength & Conditioning,6,18
+C026,Kendall,Smith,33,N/A,Assistant Strength and Conditioning Coach,Strength & Conditioning,4,9
+C027,Cedric,Smith,35,N/A,Assistant Strength and Conditioning Coach,Strength & Conditioning,3,8

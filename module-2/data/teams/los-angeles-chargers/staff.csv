@@ -1,0 +1,23 @@
+id,firstName,lastName,age,hometown,department,title,yearsWithOrganization
+S001,Dean,Spanos,75,N/A,Ownership,Owner and Chairman of the Board,42
+S002,Michael,Spanos,46,N/A,Ownership,Owner and Vice Chairman,20
+S003,A.G.,Spanos,42,N/A,Front Office/Executive,President of Business Operations,15
+S004,John,Spanos,44,N/A,Front Office/Executive,President of Football Operations,20
+S005,Joe,Hortiz,50,N/A,Football Operations,General Manager,2
+S006,Chad,Alexander,45,N/A,Football Operations,Assistant General Manager,2
+S007,Jeanne,Bonk,55,N/A,Business Operations,Executive Vice President and Chief Operating Officer,15
+S008,Ed,McGuire,50,N/A,Football Operations,Executive Vice President of Football Administration/Player Finance,12
+S009,Fred,Maas,58,N/A,Front Office/Executive,Chief of Staff,10
+S010,Louis,Clark,42,N/A,Scouting,Senior Director of Pro Personnel,8
+S011,Dennis,Abraham,40,N/A,Scouting,Director of Pro Scouting,6
+S012,Corey,Krawiec,38,N/A,Scouting,Director of Player Personnel Strategy,5
+S013,Katie,Sylvan,37,N/A,Football Operations,Director of Football Administration,6
+S014,Marco,Zucconi,45,N/A,Medical/Athletic Training,"Director of Player Health, Wellness & Performance",9
+S015,Salvador,Lopez,43,N/A,Medical/Athletic Training,Head Athletic Trainer,8
+S016,Frank,Petrigliano,55,N/A,Medical/Athletic Training,Head Orthopaedic Team Physician,10
+S017,Daniel,Vigil,52,N/A,Medical/Athletic Training,Head Primary Care Team Physician,9
+S018,Josh,Rupprecht,40,N/A,Media Relations,SVP of Communications & Brand Messaging,8
+S019,Brian,Duddy,38,N/A,Media Relations,Director of Video Operations,7
+S020,Arthur,Hightower,40,N/A,Football Operations,Senior Director of Player Engagement,7
+S021,Chris,Smith,42,N/A,Equipment,Director of Equipment Operations,9
+S022,Yuman,Pirzada,46,N/A,Business Operations,Chief Financial Officer,8

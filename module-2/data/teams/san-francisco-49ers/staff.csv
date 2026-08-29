@@ -1,0 +1,21 @@
+id,firstName,lastName,age,hometown,department,title,yearsWithOrganization
+S001,Jed,York,46,N/A,Ownership,Principal Owner,18
+S002,Denise,DeBartolo York,75,N/A,Ownership,Co-Chairman,40
+S003,John,York,75,N/A,Ownership,Co-Chairman,31
+S004,Mara,York,28,N/A,Ownership,"Co-Owner, Chief Impact Officer",4
+S005,Jenna,York,26,N/A,Ownership,"Co-Owner, Chief Impact Officer",3
+S006,John,Lynch,54,N/A,Football Operations,President of Football Operations/General Manager,9
+S007,Paraag,Marathe,52,N/A,Front Office/Executive,President of 49ers Enterprises and EVP of Football Operations,26
+S008,RJ,Gillen,40,N/A,Football Operations,Assistant General Manager,7
+S009,Brian,Hampton,42,N/A,Football Operations,Assistant General Manager,6
+S010,Kwesi,Adofo-Mensah,41,N/A,Scouting,"Vice President, Personnel & Strategy",1
+S011,Tariq,Ahmad,44,N/A,Scouting,"Vice President, Player Personnel",8
+S012,Matt,Ploenzke,40,N/A,Analytics,"Vice President, Football R&D",6
+S013,Dustin,Little,45,N/A,Medical/Athletic Training,Head of Sports Medicine/Head Athletic Trainer,10
+S014,Dustin,Perry,43,N/A,Medical/Athletic Training,"Vice President, Player Health & Performance",8
+S015,Peter,Volmut,38,N/A,Media Relations,"Director, Football Communications",7
+S016,Corry,Rush,48,N/A,Media Relations,"Executive Vice President, Communications",12
+S017,Al,Guido,52,N/A,Business Operations,Chief Executive Officer,20
+S018,Harpreet,Basran,45,N/A,Human Resources,Chief People Officer,9
+S019,Peter,Wilhelm,50,N/A,Business Operations,Chief Financial Officer,11
+S020,Brent,Schoeb,47,N/A,Business Operations,Chief Operating Officer,9

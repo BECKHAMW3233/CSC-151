@@ -1,0 +1,19 @@
+id,firstName,lastName,age,hometown,department,title,yearsWithOrganization
+S001,Gayle,Benson,79,N/A,Ownership,Owner and Chief Executive Officer,8
+S002,Dennis,Lauscha,60,N/A,Front Office/Executive,President,15
+S003,Mickey,Loomis,69,N/A,Football Operations,Executive Vice President/General Manager,26
+S004,Khai,Harley,45,N/A,Football Operations,Senior Vice President of Football Operations/Assistant General Manager,10
+S005,Jeff,Ireland,58,N/A,Scouting,Senior Vice President/Assistant General Manager - College Personnel,12
+S006,Michael,Parenton,50,N/A,Scouting,Vice President of Pro Personnel,15
+S007,Randy,Mueller,68,N/A,Scouting,Senior Personnel Advisor,10
+S008,Ben,Hales,55,N/A,Business Operations,Senior Vice President/Chief Operating Officer,20
+S009,David,Chaix,50,N/A,Business Operations,Senior Vice President/Chief Financial Officer,15
+S010,Vicky,Neumeyer,50,N/A,Front Office/Executive,Senior Vice President/General Counsel,12
+S011,Greg,Rouchell,52,N/A,Human Resources,Senior Vice President of Human Resources/Corporate Counsel,18
+S012,Greg,Bensel,55,N/A,Media Relations,Senior Vice President of Communications,25
+S013,Doug,Miller,48,N/A,Media Relations,Vice President of Football Communications,12
+S014,Ben,Stollberg,45,N/A,Medical/Athletic Training,Director of Sports Medicine,8
+S015,Shone,Gipson,42,N/A,Medical/Athletic Training,Head Athletic Trainer,6
+S016,Zach,Stuart,33,N/A,Analytics,Director of Analytics,5
+S017,Danny,Lawless,50,N/A,Security,Director of Security,10
+S018,Scott,Kuhn,40,N/A,Football Operations,Director of Football Administration,8

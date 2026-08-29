@@ -1,0 +1,31 @@
+id,firstName,lastName,age,hometown,title,unit,yearsWithTeam,yearsExperienceTotal
+C001,Andy,Reid,67,N/A,Head Coach,Administration,14,28
+C002,Eric,Bieniemy,56,N/A,Offensive Coordinator,Offense,1,17
+C003,Joe,Bleymaier,42,N/A,Pass Game Coordinator,Offense,3,12
+C004,David,Girardi,38,N/A,Quarterbacks Coach,Offense,3,10
+C005,Andy,Heck,60,N/A,Offensive Line Coach,Offense,5,20
+C006,Corey,Matthaei,36,N/A,Assistant Offensive Line Coach,Offense,3,9
+C007,Tom,Melvin,45,N/A,Tight Ends Coach,Offense,7,17
+C008,DeMarco,Murray,38,N/A,Running Backs Coach,Offense,4,7
+C009,Chad,O'Shea,49,N/A,Wide Receivers Coach,Offense,4,20
+C010,Nate,Pagan,33,N/A,Offensive Quality Control Coach,Offense,2,6
+C011,Dan,Williams,34,N/A,Assistant Quarterbacks Coach,Offense,2,6
+C012,Steve,Spagnuolo,66,N/A,Defensive Coordinator,Defense,9,32
+C013,Terry,Bradden,45,N/A,Assistant Defensive Line Coach,Defense,3,15
+C014,Andre,Curtis,50,N/A,Defensive Backs/Safeties Coach,Defense,7,25
+C015,Joe,Cullen,58,N/A,Defensive Line Coach,Defense,6,30
+C016,Brendan,Daly,47,N/A,Linebackers Coach,Defense,4,20
+C017,Matt,House,45,N/A,Linebackers/Outside Linebackers Coach,Defense,4,18
+C018,Dave,Merritt,55,N/A,Defensive Backs Coach,Defense,6,22
+C019,Chris,Orr,29,N/A,Defensive Quality Control Coach,Defense,2,3
+C020,CJ,Cox,28,N/A,Defensive Quality Control Coach/Bill Walsh Fellow,Defense,1,1
+C021,Dave,Toub,63,N/A,Assistant Head Coach/Special Teams Coordinator,Special Teams,14,26
+C022,Porter,Ellett,32,N/A,Assistant Special Teams Coach,Special Teams,3,8
+C023,Rick,Burkholder,58,N/A,Vice President of Sports Medicine and Performance,Strength & Conditioning,14,32
+C024,Ryan,Reynolds,42,N/A,Head Strength and Conditioning Coach/Director of Sports Science,Strength & Conditioning,8,18
+C025,Greg,Carbin,34,N/A,Assistant Strength and Conditioning Coach,Strength & Conditioning,3,10
+C026,Nick,Cassetta,32,N/A,Assistant Strength and Conditioning Coach,Strength & Conditioning,3,8
+C027,Spencer,Reid,30,N/A,Assistant Strength and Conditioning Coach,Strength & Conditioning,2,6
+C028,Dylan,Street,35,N/A,Assistant to the Head Coach,Administration,7,12
+C029,Marc,Richards,40,N/A,Director of Football Research and Development,Administration,6,15
+C030,Mike,Frazier,33,N/A,Statistical Analysis Coordinator,Administration,4,8

@@ -1,0 +1,14 @@
+id,firstName,lastName,age,hometown,department,title,yearsWithOrganization
+S001,Arthur,Blank,83,N/A,Ownership,Owner and Chairman,24
+S002,Greg,Beadles,55,N/A,Front Office/Executive,President and Chief Executive Officer,32
+S003,Matt,Ryan,41,N/A,Football Operations,President of Football Operations,1
+S004,Ian,Cunningham,41,N/A,Football Operations,General Manager,1
+S005,Bob,Quinn,51,N/A,Football Operations,Senior Advisor to the Head Coach,1
+S006,Kevin,Winston,45,N/A,Football Operations,Vice President of Player Affairs,3
+S007,Kyle,Smith,45,N/A,Football Operations,Assistant General Manager,6
+S008,Jeff,Scott,43,N/A,Football Operations,Assistant General Manager,1
+S009,Bryce,Johnston,40,N/A,Football Operations,Senior Vice President of Football Administration,1
+S010,Ryan,Pace,51,N/A,Scouting,Director of Player Personnel,2
+S011,Shawn,Heinlen,45,N/A,Scouting,Director of Scouting,3
+S012,Tokunbo,Abanikanda,42,N/A,Scouting,Director of College Scouting,4
+S013,Jake,Pfeil,50,N/A,Medical/Athletic Training,Director of Sports Medicine,1

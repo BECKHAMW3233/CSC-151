@@ -1,0 +1,93 @@
+id,firstName,lastName,age,hometown,jerseyNumber,position,college,yearsExperience,status,height,weightLbs
+P001,Brady,Cook,24,N/A,4,QB,Missouri,2,Active,6-2,215
+P002,Cade,Klubnik,22,N/A,10,QB,Clemson,0,Active,6-2,207
+P003,Geno,Smith,35,N/A,7,QB,West Virginia,14,Active,6-2,221
+P004,Bailey,Zappe,27,N/A,11,QB,Western Kentucky,4,Active,6-1,220
+P005,Braelon,Allen,22,N/A,0,RB,Wisconsin,3,Active,6-1,235
+P006,Isaiah,Davis,24,N/A,32,RB,South Dakota State,3,Active,6-1,220
+P007,Breece,Hall,25,N/A,20,RB,Iowa State,5,Active,5-11,217
+P008,Kene,Nwangwu,28,N/A,3,RB,Iowa State,6,Active,6-1,210
+P009,Dominic,Richardson,25,N/A,12,RB,Tulsa,0,Active,6-0,204
+P010,Chip,Trayanum,24,N/A,40,RB,Toledo,0,Active,5-10,224
+P011,Andrew,Beck,30,N/A,47,FB,Texas,7,Active,6-3,255
+P012,Junior,Bergen,23,N/A,30,WR,Montana,1,Active,5-9,184
+P013,Cam,Camper,25,N/A,88,WR,Boise State,1,Active,6-3,198
+P014,Omar,Cooper Jr.,22,N/A,83,WR,Indiana,0,Active,6-0,199
+P015,Malik,McClain,23,N/A,84,WR,Arizona State,0,Active,6-4,195
+P016,Adonai,Mitchell,23,N/A,15,WR,Texas,3,Active,6-2,205
+P017,Tim,Patrick,32,N/A,17,WR,Utah,9,Active,6-5,210
+P018,Jamaal,Pritchett,23,N/A,81,WR,South Alabama,1,Active,5-8,175
+P019,Quincy,Skinner Jr.,23,N/A,39,WR,Vanderbilt,1,Active,6-2,205
+P020,Arian,Smith,24,N/A,82,WR,Georgia,2,Active,6-0,179
+P021,Isaiah,Williams,25,N/A,18,WR,Illinois,3,Active,5-10,185
+P022,Garrett,Wilson,26,N/A,5,WR,Ohio State,5,Active,6-0,183
+P023,Chase,Curtis,26,N/A,87,TE,TCU,0,Active,6-5,235
+P024,Connor,Hulstein,23,N/A,49,TE,Marist,0,Active,6-5,235
+P025,Jeremy,Ruckert,26,N/A,89,TE,Ohio State,5,Active,6-5,250
+P026,Kenyon,Sadiq,21,N/A,16,TE,Oregon,0,Active,6-3,241
+P027,Mason,Taylor,22,N/A,85,TE,LSU,2,Active,6-5,251
+P028,Jelani,Woods,27,N/A,86,TE,Virginia,5,Active,6-7,253
+P029,Josh,Myers,28,N/A,71,C,Ohio State,6,Active,6-5,310
+P030,Joe,Tippmann,25,N/A,66,C,Wisconsin,4,Active,6-6,313
+P031,Anez,Cooper,22,N/A,72,OG,Miami,0,Active,6-5,334
+P032,Liam,Fornadel,27,N/A,50,OG,James Madison,1,Active,6-4,312
+P033,Marquis,Hayes,27,N/A,77,OG,Oklahoma,2,Active,6-5,318
+P034,Xavier,Hill,25,N/A,76,OG,Colorado,0,Active,6-4,320
+P035,Kohl,Levao,28,N/A,60,OG,Hawaii,1,Active,6-6,350
+P036,Xavier,Newman,27,N/A,65,OG,Baylor,4,Active,6-2,297
+P037,Dylan,Parham,27,N/A,64,OG,Memphis,5,Active,6-3,311
+P038,Olu,Fashanu,23,N/A,74,OT,Penn State,3,Active,6-6,312
+P039,Courtland,Ford,24,N/A,75,OT,UCLA,0,Active,6-6,315
+P040,Armand,Membou,22,N/A,70,OT,Missouri,2,Active,6-4,332
+P041,Max,Mitchell,26,N/A,61,OT,Louisiana,5,Active,6-6,307
+P042,Chukwuma,Okorafor,29,N/A,79,OT,Western Michigan,8,Active,6-6,320
+P043,Landon,Young,29,N/A,67,OT,Kentucky,0,Active,6-7,321
+P044,Tyler,Baron,24,N/A,94,DE,Miami,2,Physically Unable to Perform,6-4,258
+P045,Anthony,Dunn Jr.,22,N/A,90,DE,Toledo,0,Active,6-4,262
+P046,Paschal,Ekeji,24,N/A,54,DE,Stellenbosch,1,Active,6-4,230
+P047,Nate,Lynn,24,N/A,92,DE,William & Mary,2,Active,6-3,256
+P048,Will,McDonald IV,27,N/A,9,DE,Iowa State,4,Active,6-4,245
+P049,Braiden,McGregor,25,N/A,55,DE,Michigan,3,Active,6-6,267
+P050,Joseph,Ossai,26,N/A,46,DE,Texas,6,Active,6-4,253
+P051,Jowon,Briggs,24,N/A,91,DT,Cincinnati,3,Active,6-1,313
+P052,Jack,Heflin,28,N/A,96,DT,Iowa,2,Active,6-3,304
+P053,Darrell,Jackson Jr.,23,N/A,95,DT,Florida State,0,Active,6-5,315
+P054,David,Onyemata,33,N/A,93,DT,Manitoba,11,Active,6-3,300
+P055,Payton,Page,23,N/A,98,DT,Clemson,1,Active,6-4,300
+P056,Harrison,Phillips,30,N/A,97,DT,Stanford,9,Active,6-3,307
+P057,Mazi,Smith,25,N/A,58,DT,Michigan,4,Active,6-3,337
+P058,T'Vondre,Sweat,25,N/A,99,DT,Texas,3,Active,6-4,366
+P059,Junior,Tafuna,25,N/A,62,DT,Utah,1,Active,6-3,305
+P060,David,Bailey,23,N/A,31,LB,Texas Tech,0,Active,6-3,251
+P061,Demario,Davis,37,N/A,56,LB,Arkansas State,15,Active,6-2,239
+P062,Kingsley,Enagbare,26,N/A,52,LB,South Carolina,5,Active,6-4,258
+P063,Jaden,Keller,23,N/A,48,LB,Virginia Tech,0,Active,6-3,235
+P064,Kiko,Mauigoa,23,N/A,51,LB,Miami,2,Active,6-2,233
+P065,Marcelino,McCrary-Ball,27,N/A,41,LB,Indiana,3,Active,6-0,214
+P066,Jamien,Sherwood,26,N/A,44,LB,Auburn,6,Active,6-2,216
+P067,Mykal,Walker,28,N/A,43,LB,Fresno State,6,Active,6-3,230
+P068,Chase,Wilson,24,N/A,53,LB,West Virginia,0,Active,6-1,230
+P069,Mory,Bamba,25,N/A,38,CB,BYU,0,Active,6-2,193
+P070,Tre,Brown,28,N/A,30,CB,Oklahoma,6,Active,5-10,186
+P071,Jarvis,Brownlee Jr.,25,N/A,2,CB,Louisville,3,Active,5-10,194
+P072,Jordan,Clark,25,N/A,33,CB,Notre Dame,2,Active,5-9,184
+P073,Keenan,Garber,26,N/A,45,CB,Kansas State,1,Active,6-0,188
+P074,D'Angelo,Ponds,21,N/A,23,CB,Indiana,0,Active,5-8,182
+P075,Brandon,Stephens,28,N/A,21,CB,SMU,6,Active,6-1,215
+P076,Qwan'tez,Stiggers,24,N/A,37,CB,N/A,3,Active,6-0,197
+P077,Azareye'h,Thomas,22,N/A,1,CB,Florida State,2,Active,6-1,197
+P078,Samuel,Womack III,27,N/A,22,CB,Toledo,5,Active,5-10,189
+P079,Nahshon,Wright,27,N/A,26,CB,Oregon State,6,Active,6-4,190
+P080,Dane,Belton,25,N/A,6,S,Iowa,5,Active,6-1,205
+P081,Andre,Cisco,26,N/A,8,S,Syracuse,6,Active,6-0,210
+P082,Dean,Clark,25,N/A,35,S,Fresno State,2,Active,6-1,206
+P083,Minkah,Fitzpatrick,29,N/A,29,S,Alabama,9,Active,6-1,202
+P084,Jarius,Monroe,25,N/A,25,S,Tulane,1,Active,6-2,205
+P085,Malachi,Moore,24,N/A,27,S,Alabama,2,Active,5-11,196
+P086,VJ,Payne,22,N/A,34,S,Kansas State,0,Active,6-3,206
+P087,Tanner,Wall,26,N/A,36,S,BYU,0,Active,6-1,196
+P088,Jason,Sanders,30,N/A,19,K,New Mexico,9,Active,5-11,186
+P089,Austin,McNamara,25,N/A,14,P,Texas Tech,2,Active,6-4,204
+P090,Thomas,Hennessy,32,N/A,42,LS,Duke,10,Active,6-2,246
+P091,Kingsley,Jonathan,28,N/A,57,DE,Syracuse,3,Injured Reserve,6-4,260
+P092,Caullin,Lacy,24,N/A,35,WR,Louisville,0,Injured Reserve,5-9,183

@@ -1,0 +1,25 @@
+id,firstName,lastName,age,hometown,department,title,yearsWithOrganization
+S001,Mark,Davis,70,N/A,Ownership,Owner,17
+S002,Sandra,Douglass Morgan,44,N/A,Front Office/Executive,President,4
+S003,John,Spytek,45,N/A,Football Operations,General Manager,1
+S004,Brian,Stark,45,N/A,Football Operations,Assistant General Manager,3
+S005,Mark,Thewes,47,N/A,Football Operations,Senior Vice President of Football Operations and Strategy,8
+S006,Brandon,Hunt,42,N/A,Scouting,Vice President of Player Personnel,5
+S007,Anthony,Patch,44,N/A,Scouting,Senior Personnel Executive,6
+S008,Brandon,Yeargan,38,N/A,Scouting,Director of College Scouting,5
+S009,Ben,Chester,40,N/A,Scouting,Director of Pro Scouting,5
+S010,Kunal,Singh,34,N/A,Analytics,Director of Football Strategy,3
+S011,Michael,Crome,50,N/A,Business Operations,Senior Vice President and Chief Financial Officer,10
+S012,Justin,Carley,46,N/A,Front Office/Executive,"Senior Vice President, Chief Legal Officer and General Counsel",7
+S013,Heather,DeSanto,45,N/A,Human Resources,Senior Vice President of Human Resources,6
+S014,Kristen,Banks,40,N/A,Marketing,Senior Vice President of Marketing,6
+S015,Qiava,Martinez,43,N/A,Business Operations,Senior Vice President and Chief Sales Officer,6
+S016,Brad,Phinney,44,N/A,Business Operations,Senior Vice President and Chief Experience Officer,7
+S017,Chris,Cortez,45,N/A,Medical/Athletic Training,Head Athletic Trainer,10
+S018,Drew,Grant,38,N/A,Medical/Athletic Training,Director of Rehabilitation,6
+S019,Scott,Touchet,42,N/A,Medical/Athletic Training,Director of Sports Medicine Administration/Athletic Trainer,9
+S020,Ricky,Ng,36,N/A,Medical/Athletic Training,Director of Performance Nutrition,4
+S021,Will,Kiss,40,N/A,Media Relations,Vice President of Communications,8
+S022,Rebecca,Finlay,39,N/A,Marketing,Vice President of Brand and Creative,6
+S023,Christopher,Sotiropulos,44,N/A,Stadium Operations,Vice President of Stadium Operations,7
+S024,Matt,Pasco,42,N/A,Business Operations,Vice President of Technology,6

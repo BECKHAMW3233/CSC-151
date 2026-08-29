@@ -1,0 +1,33 @@
+id,firstName,lastName,age,hometown,title,unit,yearsWithTeam,yearsExperienceTotal
+C001,Joe,Brady,36,N/A,Head Coach,Administration,1,9
+C002,Pete,Carmichael,58,N/A,Offensive Coordinator,Offense,2,28
+C003,Jim,Leonhard,43,N/A,Defensive Coordinator,Defense,1,10
+C004,Jeff,Rodgers,51,N/A,Special Teams Coordinator,Special Teams,7,22
+C005,Bobby,April III,40,N/A,Outside Linebackers Coach,Defense,3,15
+C006,Rob,Boras,52,N/A,Run Game Coordinator/Tight Ends Coach,Offense,3,25
+C007,Joe,Danna,38,N/A,Secondary Coach,Defense,4,12
+C008,John,Egorugwu,34,N/A,Inside Linebackers Coach,Defense,2,8
+C009,John,Fox,71,N/A,Senior Assistant,Administration,1,40
+C010,Austin,Gund,30,N/A,Assistant Offensive Line Coach,Offense,2,6
+C011,Bo,Hardegree,42,N/A,Quarterbacks Coach,Offense,3,16
+C012,Terrance,Jamison,39,N/A,Defensive Line Coach,Defense,3,14
+C013,Marc,Lubick,45,N/A,Pass Game Specialist/Game Management,Offense,4,20
+C014,DJ,Mangas,34,N/A,Pass Game Specialist,Offense,3,9
+C015,Trace,McSorley,31,N/A,Offensive Assistant,Offense,1,2
+C016,Pat,Meyer,55,N/A,Offensive Line Coach,Offense,6,24
+C017,Conor,Raad,29,N/A,Defensive Assistant,Defense,2,5
+C018,Jason,Rebrovich,48,N/A,Senior Defensive Assistant,Defense,5,20
+C019,Craig,Robertson,37,N/A,Defensive Quality Control Coach,Defense,2,4
+C020,Kyle,Shurmur,29,N/A,Assistant Quarterbacks Coach,Offense,1,2
+C021,Kelly,Skipper,44,N/A,Running Backs Coach,Offense,3,18
+C022,Drew,Terrell,39,N/A,Wide Receivers Coach,Offense,3,9
+C023,Jay,Valai,39,N/A,Cornerbacks Coach,Defense,3,9
+C024,Alvin,Vaughn,33,N/A,Defensive Assistant,Defense,2,7
+C025,Turner,West,31,N/A,Assistant Special Teams Coach,Special Teams,2,6
+C026,Milli,Wilson,27,N/A,Offensive Assistant/Fellowship Coach,Offense,1,2
+C027,Matt,Worswick,45,N/A,Director of Team Administration,Administration,10,15
+C028,Will,Greenberg,46,N/A,Head Strength and Conditioning Coach,Strength & Conditioning,8,20
+C029,AJ,Blue,32,N/A,Assistant Strength & Conditioning Coach,Strength & Conditioning,3,8
+C030,Hal,Luther,34,N/A,Assistant Strength & Conditioning Coach,Strength & Conditioning,4,9
+C031,Nick,Lacy,31,N/A,Assistant Strength & Conditioning Coach,Strength & Conditioning,2,6
+C032,Jason,Oszvart,33,N/A,Assistant Strength & Conditioning Coach,Strength & Conditioning,3,7

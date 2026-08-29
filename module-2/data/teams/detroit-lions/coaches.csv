@@ -1,0 +1,30 @@
+id,firstName,lastName,age,hometown,title,unit,yearsWithTeam,yearsExperienceTotal
+C001,Dan,Campbell,50,N/A,Head Coach,Administration,6,27
+C002,Drew,Petzing,39,N/A,Offensive Coordinator,Offense,2,10
+C003,Kelvin,Sheppard,38,N/A,Defensive Coordinator,Defense,2,10
+C004,Dave,Fipp,50,N/A,Special Teams Coordinator,Special Teams,6,18
+C005,Scottie,Montgomery,44,N/A,Associate Head Coach/Wide Receivers,Offense,2,15
+C006,Mark,Brunell,56,N/A,Quarterbacks Coach,Offense,3,10
+C007,Tashard,Choice,40,N/A,Running Backs Coach,Offense,3,8
+C008,Hank,Fraley,48,N/A,Run Game Coordinator/Offensive Line,Offense,5,12
+C009,Bruce,Gradkowski,43,N/A,Assistant Wide Receivers Coach,Offense,3,6
+C010,Mike,Kafka,37,N/A,Pass Game Coordinator,Offense,1,10
+C011,Justin,Mesa,29,N/A,Offensive Quality Control,Offense,2,5
+C012,Steve,Oliver,36,N/A,Tight Ends Coach,Offense,3,8
+C013,David,Shaw,56,N/A,Pass Game Specialist,Offense,2,25
+C014,Dan,Skipper,32,N/A,Offensive Assistant,Offense,2,2
+C015,Marques,Tuiasosopo,46,N/A,Offensive Assistant,Offense,2,12
+C016,Jim,O'Neil,45,N/A,Assistant Head Coach/Safeties,Defense,3,18
+C017,Caleb,Collins,30,N/A,Defensive Assistant,Defense,2,5
+C018,David,Corrao,38,N/A,Senior Defensive Assistant/Outside Linebackers,Defense,4,10
+C019,Shaun Dion,Hamilton,30,N/A,Linebackers Coach,Defense,2,3
+C020,August,Mangin,29,N/A,Defensive Assistant,Defense,2,4
+C021,Kacy,Rodgers,58,N/A,Run Game Coordinator/Defensive Line,Defense,5,25
+C022,Dre,Thompson,26,N/A,Defensive Quality Control,Defense,1,2
+C023,Deshea,Townsend,51,N/A,Passing Game Coordinator/Defensive Backs,Defense,5,15
+C024,Jett,Modkins,32,N/A,Assistant Special Teams Coach,Special Teams,3,6
+C025,Josh,Schuler,45,N/A,Head Strength and Conditioning Coach,Strength & Conditioning,6,18
+C026,Jill,Costanza,40,N/A,Assistant Strength and Conditioning/Director of Sports Science,Strength & Conditioning,5,12
+C027,Thadeus,Jackson,34,N/A,Assistant Strength and Conditioning Coach,Strength & Conditioning,4,8
+C028,Cameron,Josse,33,N/A,Assistant Strength and Conditioning Coach,Strength & Conditioning,4,8
+C029,Grant,Steen,31,N/A,Assistant Strength and Conditioning Coach,Strength & Conditioning,3,6
