@@ -4,6 +4,33 @@ All notable changes to this project, in the order they happened. Dates reflect t
 day the work was done (this project was built starting 2026-08-28, continuing into
 2026-08-29).
 
+## [17] 2026-08-29 — Moved this project under module-2/ on GitHub; restored root README
+
+**Why:** the previous entry's `merge -s ours` correctly made local the source
+of truth, but had a side effect that wasn't caught beforehand: this repo holds
+a whole semester's coursework in per-module folders (documented in its own
+root README), and flattening this project to the repo root both erased that
+root README's content and left no room for other modules to coexist.
+
+- Rebuilt the commit's tree directly using git plumbing (`update-index` with
+  explicit blob paths, `write-tree`, `commit-tree`) rather than moving any
+  local files: every file that had been at the repo root is now tracked under
+  `module-2/` instead, and the original CSC-151 course README is restored at
+  the repo root. The local working folder on disk is completely untouched —
+  still flat, no `module-2` subfolder exists locally anywhere.
+- This means local disk layout and what git tracks at HEAD are now
+  intentionally different (`module-2/X` tracked, `X` physically on disk) — a
+  plain `git add` on a future change would re-add it at the wrong path.
+  Documented the full remap procedure in `CLAUDE.md` to repeat for future
+  commits, rather than letting this get rediscovered or silently drift back
+  to root.
+- Verified via an independent fresh clone from GitHub: root `README.md` is
+  the course README again, `module-2/` holds this entire project (all 32
+  teams' data included), and the local folder's own files are unchanged.
+
+**Files changed:** `CLAUDE.md` (repo-tracked commit only — see above for why
+this doesn't show as a normal file diff in the usual sense)
+
 ## [16] 2026-08-29 — Local folder is now the tracked, authoritative git source
 
 **Why:** the local folder needed to become the actual, direct source that gets

@@ -155,6 +155,48 @@ share a common commit history (only needed the first time, when a fresh
 This is the standing procedure for this project, not a one-off fix — use it
 any time `git status` shows local behind origin.
 
+### This project's files live under `module-2/` on GitHub, flat locally
+
+This repo holds a whole semester's coursework, one folder per module/project
+(see the root `README.md` for the full list). This project's own files must
+end up under `module-2/` on GitHub. Locally, though, they stay exactly where
+they are — flat, directly inside this project's own local folder, no
+`module-2` subfolder on disk anywhere. Do not create one to "fix" this; that
+was tried and explicitly rejected.
+
+Reconciling "flat on disk" with "nested on GitHub" is not possible with plain
+`git add`/`git commit` (a commit's tree is its exact file layout — there is no
+option to land files at a different path than where they physically sit,
+including with `git subtree`, which requires the same local subfolder to
+already exist). It **is** possible using git's lower-level plumbing commands,
+which let you stage a blob at any path in the index regardless of where the
+file sits on disk:
+
+```
+# 1. Get the tree of the current commit, remap every path to module-2/<path>,
+#    and feed it to update-index (module-2/README.md gets this project's
+#    README; the repo-root README.md stays the course-level one - see its
+#    blob SHA via `git ls-tree <first-repo-commit> -- README.md`).
+git ls-tree -r HEAD | awk '{split($0,a,"\t"); split(a[1],m," "); print m[1]" "m[2]" "m[3]"\tmodule-2/"a[2]}' > /tmp/idx.txt
+# then add one more line for the root README's blob SHA, unprefixed
+
+# 2. Rebuild the index from that list, write the tree, and commit it with
+#    the current HEAD as parent (this preserves all history):
+git read-tree --empty
+git update-index --index-info < /tmp/idx.txt
+NEW_TREE=$(git write-tree)
+NEW_COMMIT=$(git commit-tree "$NEW_TREE" -p HEAD -m "...")
+git update-ref refs/heads/main "$NEW_COMMIT"
+git push origin main
+```
+
+**The tradeoff this creates, every time:** after this, the index/HEAD tracks
+files at `module-2/X` while they physically sit at `X` on disk. A plain
+`git add` on any future change will try to re-add it at its real root path,
+undoing the remap. Repeat this same plumbing procedure for every future
+commit unless told otherwise — don't fall back to a normal `git add` for
+this project's files and assume it'll land in the right place.
+
 ## Technical conventions (must match or the app breaks)
 
 - **Packages:** `team.model` (data classes only), `team.data` (file I/O and
