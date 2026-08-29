@@ -4,6 +4,31 @@ All notable changes to this project, in the order they happened. Dates reflect t
 day the work was done (this project was built starting 2026-08-28, continuing into
 2026-08-29).
 
+## [16] 2026-08-29 — Local folder is now the tracked, authoritative git source
+
+**Why:** the local folder needed to become the actual, direct source that gets
+pushed to GitHub — not a stand-in copied through a separate staging location —
+with local always treated as current and GitHub reconciled to match it, never
+the reverse.
+
+- Reconciled this folder's git history with the already-pushed GitHub repo
+  using `git merge -s ours --allow-unrelated-histories`, then pushed normally
+  (no force-push). GitHub's `main` branch now matches this folder's structure
+  exactly (flat, no `module-2/` nesting); prior history remains intact and
+  reachable, just no longer what's on top.
+- `E:\java football project` now tracks `origin/main` directly — future
+  pushes happen straight from here, no separate clone needed.
+- Added a standing "Git workflow: the local folder is the single source of
+  truth" section to `CLAUDE.md`, with the exact fetch/status/diff-first check
+  and the `merge -s ours` procedure for when local is behind, so this doesn't
+  need to be rediscovered by a future session.
+- Logged the full back-and-forth that led here in `AI_SESSION_LOG.md`
+  (entries 34-46), including the wrong default assumption that caused it:
+  treating the shared remote as authoritative by default instead of checking
+  which side was supposed to win.
+
+**Files changed:** `CLAUDE.md`, `AI_SESSION_LOG.md`
+
 ## [15] 2026-08-29 — Logged the git-setup confusion in AI_SESSION_LOG.md
 
 **Why:** requested so the full record — including the mistakes, not just the

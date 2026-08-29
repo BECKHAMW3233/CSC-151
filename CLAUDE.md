@@ -105,6 +105,56 @@ project.
    instead (renaming the folder, nesting files into a module-2 subfolder,
    flattening the already-pushed GitHub repo), none of which anyone asked for.
 
+## Git workflow: the local folder is the single source of truth
+
+**GitHub is a mirror of this local folder, not the other way around.** Never
+do anything that would replace local files with GitHub's version:
+
+- Do not `git clone` this project into a new or separate directory to "start
+  fresh" or to stage a push — work directly in the project's actual local
+  folder.
+- Do not `git pull`, `git checkout <remote-branch>`, or `git reset --hard
+  origin/...` — any of these can overwrite local files with GitHub's version.
+- Never use `git push --force`, and never suggest it as a quick fix — not even
+  when it would technically resolve a conflict.
+
+**Before pushing, always check for divergence first** (read-only, safe, no
+permission needed to run these three):
+
+```
+git fetch origin                        # only updates git's record of origin - never touches working files
+git status                              # shows ahead / behind / diverged
+git diff --stat HEAD origin/<branch>    # shows exactly what differs, without applying anything
+```
+
+**If local is not behind** (even with or ahead of origin): a normal `git push`
+works fine.
+
+**If local is behind** (origin has commits or files the local folder doesn't
+know about — e.g. from someone using GitHub's web upload button, or a
+separate clone used earlier): a plain push will be rejected, and a normal
+`git pull` would check out origin's version over local's, which is exactly
+what must not happen. Instead, run:
+
+```
+git add -A && git commit -m "..."
+git fetch origin
+git merge -s ours --allow-unrelated-histories origin/<branch> -m "..."
+git push
+```
+
+`merge -s ours` records origin's commits into the history (nothing is
+destroyed — old content stays reachable through git history if it's ever
+needed) but the resulting tree is exactly the local folder's files, with
+nothing from origin applied to the working tree. That makes the following
+push a normal, non-force push, since the merge commit has origin's tip as an
+ancestor. Drop `--allow-unrelated-histories` if local and origin already
+share a common commit history (only needed the first time, when a fresh
+`git init` has no shared ancestry with an existing remote).
+
+This is the standing procedure for this project, not a one-off fix — use it
+any time `git status` shows local behind origin.
+
 ## Technical conventions (must match or the app breaks)
 
 - **Packages:** `team.model` (data classes only), `team.data` (file I/O and
