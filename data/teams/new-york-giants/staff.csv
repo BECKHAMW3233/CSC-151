@@ -1,0 +1,21 @@
+id,firstName,lastName,age,hometown,department,title,yearsWithOrganization
+S001,John,Mara,70,N/A,Ownership,President and Chief Executive Officer,40
+S002,Steve,Tisch,77,N/A,Ownership,Executive Vice President and Chairman of the Board,35
+S003,Joe,Schoen,46,N/A,Football Operations,Senior Vice President and General Manager,4
+S004,Brandon,Brown,42,N/A,Football Operations,Assistant General Manager,4
+S005,Dawn,Aponte,55,N/A,Football Operations,Senior Vice President of Football Operations and Strategy,6
+S006,Jerry,Meade,60,N/A,Security,Senior Vice President and Chief Security Officer,15
+S007,Tim,McDonnell,50,N/A,Scouting,Director of Player Personnel,10
+S008,John,Ritcher,48,N/A,Scouting,Director of College Scouting,9
+S009,Chris,Rossetti,47,N/A,Scouting,Director of Pro Scouting,8
+S010,Ronnie,Barnes,74,N/A,Medical/Athletic Training,Senior Vice President of Medical Services and Athletic Training,40
+S011,Adam,Bennett,45,N/A,Medical/Athletic Training,Head Athletic Trainer,10
+S012,Tim,Slaman,48,N/A,Equipment,Director of Equipment Operations,15
+S013,Pat,Hanlon,60,N/A,Media Relations,Senior Vice President of Communications,30
+S014,Russell,Scibetti,45,N/A,Analytics,Senior Vice President of Strategy and Business Intelligence,10
+S015,Nilay,Shah,45,N/A,Marketing,Senior Vice President of Marketing and Brand Strategy,8
+S016,Christine,Procops,52,N/A,Business Operations,Senior Vice President and Chief Financial Officer,12
+S017,Rich,Hernandez,50,N/A,Front Office/Executive,Senior Vice President and General Counsel,10
+S018,Amanda,Snyder,44,N/A,Human Resources,Vice President of Human Resources and Payroll,9
+S019,Justin,Warren,42,N/A,Business Operations,Vice President of Information Technology,8
+S020,Frank,Mara,58,N/A,Media Relations,Senior Vice President of Community Relations,30

@@ -1,0 +1,35 @@
+id,firstName,lastName,age,hometown,title,unit,yearsWithTeam,yearsExperienceTotal
+C001,Kyle,Shanahan,46,N/A,Head Coach,Administration,10,24
+C002,Klay,Kubiak,37,N/A,Offensive Coordinator,Offense,7,10
+C003,Joe,Graves,45,N/A,Run Game Coordinator,Offense,4,18
+C004,Leonard,Hankerson,38,N/A,Passing Game Coordinator/Wide Receivers Coach,Offense,3,7
+C005,Andrew,Hayes-Stoker,30,N/A,Offensive Assistant/Wide Receivers Coach,Offense,2,5
+C006,Miguel,Reveles,29,N/A,Offensive Assistant,Offense,2,4
+C007,Chris,Foerster,66,N/A,Assistant Head Coach/Offensive Line Coach,Offense,10,35
+C008,Roman,Sapolu,38,N/A,Assistant Offensive Line Coach,Offense,4,8
+C009,Cameron,Clemmons,33,N/A,Tight Ends Coach,Offense,3,8
+C010,Deuce,Schwartz,28,N/A,Offensive Assistant/Tight Ends Coach,Offense,2,4
+C011,Robert,Turner Jr.,34,N/A,Running Backs Coach,Offense,3,9
+C012,Mick,Lombardi,38,N/A,Quarterbacks Coach,Offense,7,12
+C013,Jacob,Webster,29,N/A,Offensive Assistant/Quarterbacks Coach,Offense,2,5
+C014,Raheem,Morris,49,N/A,Defensive Coordinator,Defense,1,20
+C015,Matt,Eberflus,57,N/A,Assistant Head Coach Defense,Defense,1,25
+C016,Jerry,Gray,65,N/A,Defensive Passing Game Coordinator,Defense,3,35
+C017,Johnny,Holland,61,N/A,Defensive Run Game Coordinator,Defense,4,20
+C018,Kris,Kocurek,50,N/A,Defensive Line Coach,Defense,6,20
+C019,Greg,Scruggs,35,N/A,Assistant Defensive Line Coach,Defense,3,6
+C020,Ray,Brown,45,N/A,Defensive Backs/Cornerbacks Coach,Defense,2,15
+C021,KJ,Wright,36,N/A,Linebackers Coach,Defense,1,2
+C022,Cameron,Brown,29,N/A,Defensive Quality Control Coach,Defense,2,5
+C023,Jake,Lynch,27,N/A,Defensive Quality Control Coach,Defense,1,3
+C024,Angel,Matute,28,N/A,Defensive Quality Control Coach,Defense,1,4
+C025,Brant,Boyer,52,N/A,Special Teams Coordinator,Special Teams,1,18
+C026,Colt,Anderson,39,N/A,Assistant Special Teams Coach,Special Teams,3,7
+C027,Ronald,Blair III,33,N/A,Special Teams Quality Control Coach,Special Teams,1,2
+C028,Mike,Nicolini,45,N/A,Head Strength & Conditioning Coach,Strength & Conditioning,8,20
+C029,Jordan,Nieuwsma,32,N/A,Assistant Strength & Conditioning Coach,Strength & Conditioning,4,9
+C030,Chauncey,Scissum,40,N/A,Assistant Strength & Conditioning Coach,Strength & Conditioning,6,15
+C031,Gregory,Segrove,34,N/A,Assistant Strength & Conditioning Coach,Strength & Conditioning,3,10
+C032,Patrick,Hagedorn,42,N/A,Chief of Staff - Football,Administration,9,15
+C033,Micah,Foerster,25,N/A,Seasonal Coaching Assistant,Administration,1,1
+C034,Max,Molz,27,N/A,Coaching Operations Assistant,Administration,2,4

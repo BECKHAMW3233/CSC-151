@@ -1,0 +1,23 @@
+id,firstName,lastName,age,hometown,department,title,yearsWithOrganization
+S001,Greg,Penner,56,N/A,Ownership,Owner and Chief Executive Officer,5
+S002,Carrie,Walton Penner,60,N/A,Ownership,Owner,5
+S003,Rob,Walton,81,N/A,Ownership,Owner,5
+S004,Mellody,Hobson,57,N/A,Ownership,Owner,5
+S005,Condoleezza,Rice,71,N/A,Ownership,Owner,5
+S006,Lewis,Hamilton,41,N/A,Ownership,Owner,5
+S007,Damani,Leech,49,N/A,Front Office/Executive,President,4
+S008,George,Paton,56,N/A,Football Operations,General Manager,6
+S009,Tim,Aragon,50,N/A,Front Office/Executive,General Counsel,10
+S010,Daniel,Brusilovsky,38,N/A,Front Office/Executive,Chief Technology Officer,3
+S011,Rich,Hurtado,48,N/A,Football Operations,Executive Vice President of Football Operations,4
+S012,Dennis,Moore,55,N/A,Business Operations,Chief Commercial Officer,5
+S013,Patrick,Smyth,47,N/A,Media Relations,Chief Communications Officer,6
+S014,Hailey,Sullivan,42,N/A,Marketing,Chief Marketing Officer,4
+S015,Justin,Webster,46,N/A,Business Operations,Chief Financial Officer,5
+S016,Kelly,Kleine Van Calligan,36,N/A,Football Operations,Vice President of Football Operations,7
+S017,Cody,Rager,40,N/A,Scouting,Vice President of Player Personnel,6
+S018,Beau,Lowery,44,N/A,Medical/Athletic Training,Vice President of Player Health & Performance,5
+S019,Tony,Lazzaro,41,N/A,Analytics,Vice President of Football Technology and Research,5
+S020,Erich,Schubert,39,N/A,Media Relations,Vice President of Communications & Content,6
+S021,Keith,Bishop,50,N/A,Security,Vice President of Security,8
+S022,Ray,Jackson,45,N/A,Football Operations,Vice President of Player Development,6

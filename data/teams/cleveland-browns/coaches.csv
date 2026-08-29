@@ -1,0 +1,35 @@
+id,firstName,lastName,age,hometown,title,unit,yearsWithTeam,yearsExperienceTotal
+C001,Todd,Monken,60,N/A,Head Coach,Administration,1,25
+C002,John,Carr,45,N/A,Chief of Staff,Administration,3,15
+C003,Travis,Switzer,40,N/A,Offensive Coordinator,Offense,1,14
+C004,Mike,Rutenberg,42,N/A,Defensive Coordinator,Defense,1,16
+C005,Byron,Storer,45,N/A,Special Teams Coordinator,Special Teams,1,15
+C006,Jeff,Anderson,36,N/A,Defensive Assistant/Nickelbacks Coach,Defense,1,8
+C007,Matt,Baker,32,N/A,Assistant Quarterbacks Coach,Offense,2,6
+C008,Mike,Bajakian,52,N/A,Quarterbacks Coach,Offense,1,22
+C009,Ephraim,Banda,37,N/A,Pass Game Coordinator,Offense,1,10
+C010,Jeff,Blasko,44,N/A,Run Game Coordinator/Tight Ends Coach,Offense,2,16
+C011,Dom,Borsani,29,N/A,Offensive Analyst,Offense,1,4
+C012,Danny,Breyer,35,N/A,Pass Game Coordinator,Offense,1,9
+C013,Dom,Capers,75,N/A,Senior Defensive Assistant,Defense,2,45
+C014,Jacques,Cesaire,44,N/A,Defensive Line Coach,Defense,1,10
+C015,Sanders,Davis,31,N/A,Offensive Assistant/Offensive Line,Offense,1,5
+C016,Zach,Dunn,30,N/A,Defensive Assistant/Assistant Linebackers,Defense,1,6
+C017,Bobby,Johnson,34,N/A,Assistant Offensive Line Coach,Offense,2,8
+C018,Christian,Jones,38,N/A,Wide Receivers Coach,Offense,1,12
+C019,Ian,Kolste,29,N/A,Offensive Quality Control Coach,Offense,1,4
+C020,Brandon,Lynch,40,N/A,Defensive Backs Coach/Pass Game Specialist,Defense,1,13
+C021,Travis,Monken,34,N/A,Offensive Analyst,Offense,1,7
+C022,Duce,Staley,49,N/A,Running Backs Coach,Offense,1,18
+C023,Ralph,Street,38,N/A,Assistant Defensive Line Coach,Defense,1,10
+C024,Keith,Tandy,37,N/A,Assistant Special Teams Coach,Special Teams,1,8
+C025,Jason,Tarver,50,N/A,Run Game Coordinator/Linebackers Coach,Defense,1,20
+C026,George,Warhop,63,N/A,Offensive Line Coach,Offense,2,30
+C027,Shaq,Wilson,31,N/A,Defensive Analyst,Defense,1,5
+C028,Paul,Worrilow,34,N/A,Defensive Quality Control Coach,Defense,1,7
+C029,John,Wozniak,33,N/A,Assistant Wide Receivers Coach,Offense,1,6
+C030,Larry,Jackson,48,N/A,Director of Strength and Conditioning,Strength & Conditioning,3,20
+C031,Josh,Christovich,32,N/A,Assistant Strength and Conditioning/Sports Science,Strength & Conditioning,2,7
+C032,Monty,Gibson,35,N/A,Assistant Strength and Conditioning,Strength & Conditioning,2,9
+C033,Dale,Jones,33,N/A,Assistant Strength and Conditioning,Strength & Conditioning,1,6
+C034,Ty,Taylor,31,N/A,Assistant Strength and Conditioning,Strength & Conditioning,1,5

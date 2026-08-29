@@ -1,0 +1,26 @@
+id,firstName,lastName,age,hometown,title,unit,yearsWithTeam,yearsExperienceTotal
+C001,Zac,Taylor,43,N/A,Head Coach,Administration,8,15
+C002,Dan,Pitcher,38,N/A,Offensive Coordinator,Offense,3,12
+C003,James,Casey,42,N/A,Tight Ends/Run Game Coordinator,Offense,5,10
+C004,Justin,Hill,40,N/A,Running Backs Coach,Offense,3,12
+C005,Davis,Koetter,29,N/A,Assistant Wide Receivers Coach,Offense,2,5
+C006,Brad,Kragthorpe,35,N/A,Quarterbacks Coach,Offense,4,9
+C007,Michael,McCarthy,33,N/A,Assistant Offensive Line Coach,Offense,2,7
+C008,Scott,Peters,50,N/A,Offensive Line Coach,Offense,2,15
+C009,Justin,Rascati,36,N/A,Pass Game Coordinator,Offense,3,9
+C010,Jordan,Salkin,31,N/A,Assistant Quarterbacks Coach,Offense,3,6
+C011,Troy,Walters,50,N/A,Wide Receivers Coach,Offense,6,20
+C012,Al,Golden,57,N/A,Defensive Coordinator,Defense,3,28
+C013,Sean,Desai,43,N/A,Senior Defensive Assistant,Defense,2,17
+C014,Mike,Hodges,38,N/A,Linebackers Coach,Defense,3,10
+C015,Jerry,Montgomery,47,N/A,Defensive Line/Run Game Coordinator,Defense,4,16
+C016,Mike,Moon,34,N/A,Assistant Defensive Line Coach,Defense,2,7
+C017,Charles,Burks,38,N/A,Secondary/Cornerbacks Coach,Defense,3,10
+C018,Jordan,Kovacs,36,N/A,Secondary/Safeties Coach,Defense,4,8
+C019,Ronnie,Regula,30,N/A,Assistant Linebackers Coach,Defense,2,6
+C020,Darrin,Simmons,54,N/A,Assistant Head Coach/Special Teams Coordinator,Special Teams,23,28
+C021,Ben,Jacobs,33,N/A,Assistant Special Teams Coach,Special Teams,3,7
+C022,Joey,Boese,46,N/A,Director of Player Performance/Head Strength & Conditioning Coach,Strength & Conditioning,8,18
+C023,Diamond,Simmons,31,N/A,Assistant Strength & Conditioning Coach,Strength & Conditioning,3,7
+C024,Garrett,Swanson,29,N/A,Assistant Strength & Conditioning Coach,Strength & Conditioning,2,5
+C025,Doug,Rosfeld,45,N/A,Chief of Coaching Staff,Administration,10,15

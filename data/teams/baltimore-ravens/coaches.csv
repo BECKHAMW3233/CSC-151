@@ -1,0 +1,35 @@
+id,firstName,lastName,age,hometown,title,unit,yearsWithTeam,yearsExperienceTotal
+C001,Jesse,Minter,43,N/A,Head Coach,Administration,1,19
+C002,Declan,Doyle,29,N/A,Offensive Coordinator,Offense,1,7
+C003,Anthony,Weaver,45,N/A,Defensive Coordinator,Defense,1,15
+C004,Anthony,Levine Sr.,39,N/A,Special Teams Coordinator,Special Teams,3,8
+C005,Harland,Bower,34,N/A,Outside Linebackers Coach,Defense,1,8
+C006,Marcus,Brady,46,N/A,Pass Game Coordinator,Offense,1,20
+C007,Randy,Brown,60,N/A,Senior Special Teams Coach,Special Teams,5,30
+C008,Kenan,Clarke,27,N/A,Coaching Fellowship,Offense,1,3
+C009,Keary,Colbert,43,N/A,Wide Receivers Coach,Offense,4,12
+C010,Ben,Davis,30,N/A,Coaching Research Engineer,Offense,2,5
+C011,Christina,DeRuyter,34,N/A,Chief of Staff to the Head Coach,Administration,1,8
+C012,Eliana,DeTata,26,N/A,Coaching Fellowship,Defense,1,2
+C013,Lou,Esposito,42,N/A,Defensive Line Coach,Defense,2,15
+C014,Eddie,Faulkner,50,N/A,Running Backs Coach,Offense,5,22
+C015,Shawn,Flaherty,33,N/A,Assistant Offensive Line Coach,Offense,3,7
+C016,Charlie,Gelman,31,N/A,Game Management Coordinator/Defensive Assistant,Administration,4,6
+C017,Prentice,Gill,32,N/A,Assistant Wide Receivers Coach,Offense,1,6
+C018,Greg,Goines,34,N/A,Assistant Strength & Conditioning Coach,Strength & Conditioning,3,8
+C019,Zack,Grossi,36,N/A,Tight Ends Coach,Offense,2,10
+C020,Travis,Hawkins,33,N/A,Coaching Fellow,Defense,1,4
+C021,Ben,Kotwica,50,N/A,Senior Assistant Special Teams Coach,Special Teams,6,20
+C022,Patrick,Kramer,29,N/A,Offensive Quality Control Coach,Offense,2,5
+C023,Dwayne,Ledford,55,N/A,Run Game Coordinator/Offensive Line Coach,Offense,4,24
+C024,Joe,Lombardi,50,N/A,Senior Offensive Assistant Coach,Offense,1,20
+C025,Mike,Mickens,39,N/A,Pass Game Coordinator/Secondary,Defense,4,9
+C026,Rick,Minter,68,N/A,Football Analyst,Administration,1,40
+C027,Matt,O'Donnell,30,N/A,Defensive Assistant,Defense,2,6
+C028,Alex,Officer,26,N/A,Coaching Fellow,Offense,1,2
+C029,Andrew,Rogan,28,N/A,Defensive Quality Control Coach,Defense,2,5
+C030,Tyler,Santucci,37,N/A,Inside Linebackers Coach,Defense,3,10
+C031,Miles,Taylor,32,N/A,Assistant Defensive Backs Coach,Defense,1,6
+C032,Opetaia,Tuiava,27,N/A,Coaching Fellow,Offense,1,3
+C033,PJ,Volker,34,N/A,Safeties Coach,Defense,2,8
+C034,Israel,Woolfork,38,N/A,Quarterbacks Coach,Offense,1,10

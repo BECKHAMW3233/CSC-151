@@ -1,0 +1,29 @@
+id,firstName,lastName,age,hometown,title,unit,yearsWithTeam,yearsExperienceTotal
+C001,Shane,Steichen,40,N/A,Head Coach,Administration,4,12
+C002,Lou,Anarumo,59,N/A,Defensive Coordinator,Defense,1,30
+C003,Jim Bob,Cooter,42,N/A,Offensive Coordinator,Offense,1,16
+C004,Brian,Mason,38,N/A,Special Teams Coordinator,Special Teams,2,12
+C005,Tom,Manning,40,N/A,Tight Ends Coach,Offense,3,14
+C006,DeAndre,Smith,45,N/A,Running Backs Coach,Offense,2,15
+C007,Tony,Sparano Jr.,40,N/A,Offensive Line Coach,Offense,2,14
+C008,Chris,Watt,34,N/A,Assistant Offensive Line Coach,Offense,1,6
+C009,Reggie,Wayne,47,N/A,Wide Receivers Coach,Offense,4,8
+C010,Cam,Turner,36,N/A,Quarterbacks Coach,Offense,2,8
+C011,Alex,Tanney,37,N/A,Passing Game Coordinator,Offense,2,6
+C012,Diego,Ortiz,29,N/A,Offensive Quality Control Coach,Offense,1,4
+C013,Brent,Stockstill,27,N/A,Offensive Quality Control Coach,Offense,1,3
+C014,James,Bettcher,48,N/A,Linebackers Coach,Defense,1,20
+C015,Jerome,Henderson,58,N/A,Defensive Backs Coach,Defense,2,25
+C016,Chris,Hewitt,47,N/A,Pass Game Coordinator/Secondary Coach,Defense,2,18
+C017,Marion,Hobby,58,N/A,Defensive Line Coach,Defense,3,25
+C018,Kalon,Humphries,35,N/A,Assistant Defensive Line Coach,Defense,1,8
+C019,Cato,June,44,N/A,Assistant Linebackers Coach,Defense,2,5
+C020,Jeremy,Bruce,30,N/A,Defensive Quality Control Coach,Defense,1,5
+C021,Dillon,Doyle,27,N/A,Defensive Quality Control Coach,Defense,1,3
+C022,Joe,Hastings,40,N/A,Senior Assistant Special Teams Coach,Special Teams,2,12
+C023,Richard,Howell,50,N/A,Senior Head Strength and Conditioning Coach,Strength & Conditioning,3,20
+C024,Mike,Minnis,45,N/A,Director of Sports Performance,Strength & Conditioning,2,15
+C025,Tyrell,Brown,30,N/A,Strength and Conditioning Assistant,Strength & Conditioning,1,5
+C026,Zane,Fakes,28,N/A,Strength and Conditioning Assistant,Strength & Conditioning,1,4
+C027,Sam,Khym,32,N/A,Strength and Conditioning Assistant/Performance Therapist,Strength & Conditioning,1,6
+C028,TJ,Ingels,30,N/A,Assistant to the Head Coach,Administration,2,5

@@ -1,0 +1,22 @@
+id,firstName,lastName,age,hometown,department,title,yearsWithOrganization
+S001,David,Tepper,61,N/A,Ownership,Chairman/Owner,7
+S002,Nicole,Tepper,58,N/A,Ownership,Chief Administrative Officer,7
+S003,Kristi,Coleman,50,N/A,Front Office/Executive,"President, Carolina Panthers",4
+S004,Dan,Morgan,46,N/A,Football Operations,President of Football Operations/General Manager,3
+S005,Brandt,Tilis,45,N/A,Football Operations,Executive Vice President of Football Operations,2
+S006,Jake,Burns,42,N/A,Front Office/Executive,Chief Strategy & Development Officer,3
+S007,Eric,Sudol,44,N/A,Business Operations,Chief Revenue Officer,3
+S008,Kisha,Smith,48,N/A,Human Resources,Chief People Officer,3
+S009,Jason,Stone,47,N/A,Stadium Operations,General Manager of Stadium & Venue Operations,4
+S010,Denny,Kellington,45,N/A,Medical/Athletic Training,VP of Player Health & Performance,5
+S011,Jeff,Brown,44,N/A,Football Operations,Vice President of Football Operations,4
+S012,Brian,Decker,40,N/A,Football Operations,Vice President of Development,3
+S013,Eric,Eager,38,N/A,Analytics,Vice President of Football Analytics,2
+S014,Eddie,Levins,46,N/A,Security,Vice President of Risk & Protection,5
+S015,Bruce,Speight,50,N/A,Media Relations,Vice President of Communications,10
+S016,Jared,Kirksey,41,N/A,Scouting,Director of Player Personnel,3
+S017,Lee,McNeill,44,N/A,Scouting,Director of Pro Scouting,4
+S018,Josh,Hingst,39,N/A,Strength & Conditioning,Director of Performance,3
+S019,Kyle,Lane,37,N/A,Football Operations,Video Director,5
+S020,Jaiquawn,Jarrett,36,N/A,Football Operations,Director of Player Engagement,2
+S021,Scott,Sineath,48,N/A,Security,Team Security Manager,6

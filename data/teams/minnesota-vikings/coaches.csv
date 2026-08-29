@@ -1,0 +1,28 @@
+id,firstName,lastName,age,hometown,title,unit,yearsWithTeam,yearsExperienceTotal
+C001,Kevin,O'Connell,41,N/A,Head Coach,Administration,5,15
+C002,Brian,Flores,45,N/A,Defensive Coordinator,Defense,4,20
+C003,Wes,Phillips,45,N/A,Offensive Coordinator,Offense,4,20
+C004,Matt,Daniels,42,N/A,Special Teams Coordinator,Special Teams,4,15
+C005,Frank,Smith,45,N/A,Assistant Head Coach,Offense,4,18
+C006,Josh,McCown,47,N/A,Offensive Passing Game Coordinator/Quarterbacks Coach,Offense,3,7
+C007,Keith,Carter,50,N/A,Offensive Line Coach,Offense,4,20
+C008,Curtis,Modkins,55,N/A,Running Game Coordinator/Running Backs Coach,Offense,3,25
+C009,Keenan,McCardell,56,N/A,Wide Receivers Coach,Offense,4,15
+C010,Ryan,Cordell,40,N/A,Tight Ends Coach/Game Management Coordinator,Offense,4,12
+C011,Chris,O'Hara,38,N/A,Assistant Offensive Coordinator,Offense,4,10
+C012,Kyle,Caskey,32,N/A,Offensive Quality Control,Offense,3,6
+C013,Ben,Ellefson,29,N/A,Offensive Assistant,Offense,2,3
+C014,Derek,Warehime,35,N/A,Assistant Offensive Line Coach,Offense,3,8
+C015,Jordan,Traylor,33,N/A,Assistant Quarterbacks Coach/Passing Game Specialist,Offense,2,6
+C016,Gerald,Alexander,42,N/A,Defensive Passing Game Coordinator/Defensive Backs Coach,Defense,4,12
+C017,Thad,Bogardus,36,N/A,Outside Linebackers Coach,Defense,3,8
+C018,Ryan,Nielsen,45,N/A,Defensive Running Game Coordinator,Defense,2,15
+C019,Mike,Siravo,55,N/A,Inside Linebackers Coach/Senior Defensive Assistant,Defense,4,25
+C020,Charlie,Frye,43,N/A,Defensive Assistant,Defense,2,8
+C021,Chenzo,Funari,32,N/A,Assistant Defensive Backs Coach,Defense,3,6
+C022,Dalmin,Gibson,30,N/A,Assistant Linebackers Coach,Defense,2,5
+C023,Patrick,Hill,38,N/A,Assistant Defensive Line Coach,Defense,3,9
+C024,Will,Johnson,34,N/A,Defensive Assistant,Defense,2,6
+C025,Chili,Davis,40,N/A,Assistant Special Teams Coach,Special Teams,3,10
+C026,Henry,Schneider IV,30,N/A,Assistant to the Head Coach,Administration,3,6
+C027,Derron,Montgomery,33,N/A,Assistant Wide Receivers Coach,Offense,2,6

@@ -1,0 +1,32 @@
+id,firstName,lastName,age,hometown,title,unit,yearsWithTeam,yearsExperienceTotal
+C001,Sean,Payton,62,N/A,Head Coach,Administration,4,21
+C002,Davis,Webb,31,N/A,Offensive Coordinator,Offense,4,7
+C003,Zach,Strief,45,N/A,Assistant Head Coach/Offensive Run Game Coordinator,Offense,6,13
+C004,John,Morton,58,N/A,Offensive Pass Game Coordinator,Offense,2,28
+C005,Chris,Morgan,52,N/A,Offensive Line Coach,Offense,3,27
+C006,Lou,Ayeni,45,N/A,Running Backs Coach,Offense,3,20
+C007,Ronald,Curry,46,N/A,Wide Receivers Coach,Offense,3,16
+C008,Austin,King,40,N/A,Tight Ends Coach,Offense,2,15
+C009,Logan,Kilgore,35,N/A,Quarterbacks Coach,Offense,2,7
+C010,Evan,Rothstein,40,N/A,Director of Game Management/Assistant Quarterbacks Coach,Offense,3,17
+C011,Kyle,Kempt,32,N/A,Offensive Quality Control Coach,Offense,1,1
+C012,JD,Johnson,30,N/A,Offensive Quality Control Coach,Offense,1,1
+C013,Willie,Snead IV,33,N/A,Offensive Quality Control Coach,Offense,1,1
+C014,Vance,Joseph,53,N/A,Defensive Coordinator,Defense,4,28
+C015,Joe,Vitt,72,N/A,Senior Defensive Assistant,Defense,2,45
+C016,Robert,Livingston,44,N/A,Defensive Pass Game Coordinator,Defense,3,14
+C017,Jamar,Cain,45,N/A,Defensive Line Coach,Defense,3,24
+C018,Doug,Belk,42,N/A,Defensive Backs Coach,Defense,3,16
+C019,Jeff,Schmedding,48,N/A,Inside Linebackers Coach,Defense,3,23
+C020,Isaac,Shewmaker,38,N/A,Outside Linebackers Coach,Defense,2,12
+C021,Michael,Wilhoite,38,N/A,Front Seven Coach,Defense,2,7
+C022,Brian,Niedermeyer,40,N/A,Defensive Quality Control Coach,Defense,3,15
+C023,Todd,Davis,34,N/A,Defensive Quality Control Coach,Defense,2,4
+C024,Darren,Rizzi,56,N/A,Special Teams Coordinator/Assistant Head Coach,Special Teams,4,34
+C025,Marwan,Maalouf,48,N/A,Assistant Special Teams Coach,Special Teams,4,25
+C026,Zach,Line,33,N/A,Special Teams Quality Control Coach,Special Teams,2,6
+C027,Shaun,Snee,42,N/A,Director of Strength & Conditioning,Strength & Conditioning,3,14
+C028,Dan,Dalrymple,58,N/A,Head Strength & Conditioning Coach,Strength & Conditioning,4,36
+C029,Zaviar,Gooden,32,N/A,Assistant Strength & Conditioning Coach,Strength & Conditioning,2,5
+C030,Taylor,Porter,40,N/A,Assistant Strength & Conditioning Coach,Strength & Conditioning,3,16
+C031,Paul,Kelly,45,N/A,Assistant to the Head Coach,Administration,4,15

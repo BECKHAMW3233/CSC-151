@@ -1,0 +1,31 @@
+id,firstName,lastName,age,hometown,title,unit,yearsWithTeam,yearsExperienceTotal
+C001,Kevin,Stefanski,44,N/A,Head Coach,Administration,1,22
+C002,Tommy,Rees,33,N/A,Offensive Coordinator,Offense,1,9
+C003,Jeff,Ulbrich,50,N/A,Defensive Coordinator,Defense,2,17
+C004,Craig,Aukerman,45,N/A,Special Teams Coordinator,Special Teams,2,15
+C005,Bill,Callahan,70,N/A,Offensive Line Coach,Offense,1,32
+C006,Tanner,Engstrand,40,N/A,Passing Game Coordinator,Offense,1,14
+C007,Matt,Jones,36,N/A,Assistant Offensive Line Coach,Offense,1,10
+C008,Nick,Jones,34,N/A,Assistant Offensive Line Coach,Offense,2,9
+C009,Kevin,Koger,36,N/A,Tight Ends Coach,Offense,2,9
+C010,Michael,Pitre,38,N/A,Running Backs Coach,Offense,2,12
+C011,Robert,Prince,55,N/A,Wide Receivers Coach,Offense,1,20
+C012,Alex,Van Pelt,56,N/A,Quarterbacks Coach,Offense,1,26
+C013,Jordan,Reid,30,N/A,Assistant Quarterbacks Coach,Offense,1,6
+C014,Justin,Hood,40,N/A,Secondary Coach,Defense,2,14
+C015,Dave,Huxtable,58,N/A,Senior Defensive Assistant,Defense,2,30
+C016,Troy,Kruchten,30,N/A,Defensive Quality Control Coach,Defense,1,7
+C017,Ricky,Manning,45,N/A,Assistant Defensive Backs/Nickels Coach,Defense,1,10
+C018,Nate,Ollie,45,N/A,Defensive Line Coach,Defense,2,16
+C019,Patrick,Toney,41,N/A,Defensive Passing Game Coordinator,Defense,1,14
+C020,Barrett,Ruud,43,N/A,Inside Linebackers Coach,Defense,2,12
+C021,John,Timu,34,N/A,Outside Linebackers Coach,Defense,1,8
+C022,Chase,Blackburn,41,N/A,Assistant Special Teams Coach,Special Teams,1,9
+C023,John,Griffin,42,N/A,Director of Player Performance,Strength & Conditioning,1,16
+C024,Erik,Jernstrom,33,N/A,Assistant Director of Strength & Conditioning,Strength & Conditioning,1,10
+C025,Frank,Wintrich,33,N/A,Assistant Director of Strength & Conditioning,Strength & Conditioning,1,9
+C026,Josh,Nelson,40,N/A,Director of Performance Science,Strength & Conditioning,1,13
+C027,Robert,Torres,32,N/A,Coordinator of Performance Science,Strength & Conditioning,1,8
+C028,Michael,Bearden,26,N/A,Coaching Fellow/Offensive Assistant,Offense,1,2
+C029,Madison,McDoulett,30,N/A,Manager of Coaching Administration and Family Services,Administration,2,6
+C030,Jacqueline,Roberts,32,N/A,Manager of Coaching Operations,Administration,2,7

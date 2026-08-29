@@ -1,0 +1,29 @@
+id,firstName,lastName,age,hometown,title,unit,yearsWithTeam,yearsExperienceTotal
+C001,Jim,Harbaugh,62,N/A,Head Coach,Administration,2,21
+C002,Mike,McDaniel,43,N/A,Offensive Coordinator,Offense,1,15
+C003,Shane,Day,52,N/A,Offensive Passing Game Coordinator/Quarterbacks Coach,Offense,2,20
+C004,Butch,Barry,52,N/A,Offensive Run Game Coordinator/Offensive Line Coach,Offense,2,20
+C005,Sanjay,Lal,53,N/A,Wide Receivers Coach,Offense,2,20
+C006,Chandler,Henley,36,N/A,Tight Ends Coach,Offense,2,10
+C007,Max,McCaffrey,32,N/A,Running Backs Coach,Offense,2,6
+C008,Nick,Hardwick,45,N/A,Assistant Offensive Line Coach,Offense,2,6
+C009,Adam,Gase,48,N/A,Passing Game Specialist,Offense,1,18
+C010,Rob,Everett,35,N/A,Offensive Assistant,Offense,2,8
+C011,Kirk,Campbell,37,N/A,Offensive Assistant,Offense,2,10
+C012,Josh,Hammond,30,N/A,Assistant Wide Receivers/Assistant Special Teams Coach,Offense,2,4
+C013,Chris,O'Leary,34,N/A,Defensive Coordinator,Defense,1,12
+C014,Steve,Clinkscale,50,N/A,Defensive Passing Game Coordinator/Defensive Backs Coach,Defense,2,20
+C015,Mike,Elston,53,N/A,Defensive Run Game Coordinator/Defensive Line Coach,Defense,2,25
+C016,Mike,Hiestand,66,N/A,Defensive Run Game Specialist,Defense,2,35
+C017,Sean,Spence,35,N/A,Linebackers Coach,Defense,2,6
+C018,Adam,Fuller,45,N/A,Safeties Coach,Defense,2,18
+C019,Dylan,Roney,34,N/A,Outside Linebackers Coach,Defense,2,8
+C020,Julian,Campenni,32,N/A,Assistant Defensive Line Coach,Defense,2,6
+C021,Denzel,Martin,30,N/A,Assistant Outside Linebackers Coach,Defense,2,4
+C022,Ryan,Ficken,42,N/A,Special Teams Coordinator,Special Teams,2,16
+C023,Chris,Gould,33,N/A,Assistant Special Teams Coach,Special Teams,2,8
+C024,Ben,Herbert,50,N/A,Executive Director of Player Performance,Strength & Conditioning,2,25
+C025,Jonathan,Brooks,40,N/A,Head Strength & Conditioning Coach,Strength & Conditioning,2,15
+C026,Devin,Woodhouse,38,N/A,Head Strength & Conditioning Coach,Strength & Conditioning,2,13
+C027,Ben,Rabe,33,N/A,Director of Performance Analytics,Strength & Conditioning,2,8
+C028,Lincoln,DeWolf,28,N/A,Performance Analyst,Strength & Conditioning,1,3

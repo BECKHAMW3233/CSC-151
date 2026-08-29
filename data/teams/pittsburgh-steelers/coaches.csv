@@ -1,0 +1,28 @@
+id,firstName,lastName,age,hometown,title,unit,yearsWithTeam,yearsExperienceTotal
+C001,Mike,McCarthy,62,N/A,Head Coach,Administration,1,30
+C002,Brian,Angelichio,45,N/A,Offensive Coordinator,Offense,1,18
+C003,Frank,Cignetti Jr.,60,N/A,Senior Offensive Assistant,Offense,3,35
+C004,Tom,Arth,42,N/A,Quarterbacks Coach,Offense,1,12
+C005,James,Campen,62,N/A,Offensive Line Coach,Offense,1,28
+C006,Ramon,Chinyoung Sr.,38,N/A,Running Backs Coach,Offense,1,10
+C007,Adam,Henry,52,N/A,Wide Receivers Coach,Offense,2,20
+C008,Robert,Kugler,40,N/A,Tight Ends Coach,Offense,1,12
+C009,Jahri,Evans,42,N/A,Assistant Offensive Line Coach,Offense,2,6
+C010,Tim,Berbenich,35,N/A,Game Management/Quarterbacks Coach,Offense,3,8
+C011,Eric,Simonelli,29,N/A,Offensive Quality Control Coach,Offense,2,5
+C012,Patrick,Graham,47,N/A,Defensive Coordinator,Defense,1,20
+C013,Joe,Whitt Jr.,50,N/A,Assistant Head Coach/Secondary Coach,Defense,1,22
+C014,Jason,Simmons,48,N/A,Defensive Pass Game Coordinator/Defensive Backs Coach,Defense,4,18
+C015,C.J.,Ah You,44,N/A,Outside Linebackers Coach,Defense,2,10
+C016,Scott,McCurley,38,N/A,Inside Linebackers Coach,Defense,2,9
+C017,Domata,Peko,45,N/A,Defensive Line Coach,Defense,2,8
+C018,Shawn,Howe,33,N/A,Defensive Assistant,Defense,1,6
+C019,Pat,Reilly,31,N/A,Defensive Assistant,Defense,1,5
+C020,Danny,Crossman,58,N/A,Special Teams Coordinator,Special Teams,8,25
+C021,Darian,Thompson,31,N/A,Special Teams Quality Control Coach,Special Teams,2,5
+C022,Steve,Scarnecchia,45,N/A,Chief of Staff,Administration,3,15
+C023,Mark,Lovat,48,N/A,Head Strength and Conditioning Coach,Strength & Conditioning,6,20
+C024,Grant,Thorne,38,N/A,Director of Performance Integration and Sports Science,Strength & Conditioning,3,10
+C025,Justus,Galac,29,N/A,Assistant Strength and Conditioning Coach,Strength & Conditioning,2,5
+C026,Abe,Munayer,28,N/A,Assistant Strength and Conditioning Coach,Strength & Conditioning,1,4
+C027,Madilyn,Johnson,26,N/A,Coaching Assistant,Administration,1,2

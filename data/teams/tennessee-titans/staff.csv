@@ -1,0 +1,22 @@
+id,firstName,lastName,age,hometown,department,title,yearsWithOrganization
+S001,Amy,Adams Strunk,70,N/A,Ownership,"Controlling Owner and Co-Chairman, Board of Directors",20
+S002,Kenneth S.,Adams IV,55,N/A,Ownership,Board of Directors Co-Chairman,15
+S003,Mike,Borgonzi,48,N/A,Football Operations,General Manager,1
+S004,Burke,Nihill,48,N/A,Front Office/Executive,President and Chief Executive Officer,5
+S005,Dave,Gardi,58,N/A,Football Operations,Executive Vice President of Football Operations,2
+S006,Dave,Ziegler,45,N/A,Football Operations,Assistant General Manager,1
+S007,Adolpho,Birch III,52,N/A,Front Office/Executive,Senior Vice President and Chief External and League Affairs Officer,10
+S008,Shannon,Myers,48,N/A,Business Operations,Senior Vice President and Chief Financial Officer,12
+S009,Daniel,Werly,42,N/A,Business Operations,Senior Vice President and Chief Operating Officer,4
+S010,Adam,Nuse,45,N/A,Business Operations,Senior Vice President and Chief Revenue Officer,9
+S011,Andrew,McIntyre,42,N/A,Business Operations,"Senior Vice President, Technology and Innovation",8
+S012,Erin,Swartz,40,N/A,Marketing,"Senior Vice President, Brand Marketing",7
+S013,Dan,Saganey,48,N/A,Scouting,Vice President of Player Personnel,6
+S014,Reggie,McKenzie,63,N/A,Scouting,Vice President/Football Advisor,4
+S015,Mike,Boni,44,N/A,Scouting,Director of College Scouting,5
+S016,Shane,Normandeau,42,N/A,Scouting,Director of Pro Scouting,4
+S017,Matt,Gregg,50,N/A,Medical/Athletic Training,Director of Sports Medicine,10
+S018,Joey,Barranco,42,N/A,Equipment,Director of Equipment Operations,9
+S019,Benny,Allen,48,N/A,Security,Director of Team Security,10
+S020,Valeria,Williams,45,N/A,Front Office/Executive,Vice President and General Counsel,7
+S021,Kate,Guerra,46,N/A,Media Relations,Vice President of Communications and Corporate Affairs,8

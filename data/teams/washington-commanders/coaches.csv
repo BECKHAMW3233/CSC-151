@@ -1,0 +1,29 @@
+id,firstName,lastName,age,hometown,title,unit,yearsWithTeam,yearsExperienceTotal
+C001,Dan,Quinn,55,N/A,Head Coach,Administration,3,26
+C002,David,Blough,30,N/A,Offensive Coordinator,Offense,2,4
+C003,Larry,Izzo,51,N/A,Special Teams Coordinator,Special Teams,3,15
+C004,Daronte,Jones,47,N/A,Defensive Coordinator,Defense,1,18
+C005,George,Banko,33,N/A,Assistant Linebackers Coach,Defense,2,8
+C006,Nick,Charlton,30,N/A,Offensive Assistant,Offense,2,6
+C007,Andre,Coleman,55,N/A,Assistant Wide Receivers/Returners Coach,Offense,3,25
+C008,Tommy,Donatell,40,N/A,Defensive Backs/Safeties Coach,Defense,3,14
+C009,Bobby,Engram,53,N/A,Wide Receivers Coach,Offense,3,18
+C010,Danny,Etling,31,N/A,Assistant Quarterbacks Coach,Offense,2,5
+C011,William,Gay,40,N/A,Defensive Backs/Cornerbacks Coach,Defense,2,7
+C012,John,Glenn,35,N/A,Special Teams Assistant,Special Teams,2,9
+C013,Eric,Henderson,45,N/A,Defensive Line/Run Game Coordinator,Defense,3,17
+C014,Sarah,Hogan,32,N/A,Coaching Chief of Staff,Administration,3,8
+C015,Luke,Johnson,28,N/A,Defensive Quality Control,Defense,2,5
+C016,Alex,Karamihas,27,N/A,Operations Assistant,Administration,2,4
+C017,Anthony,Lynn,57,N/A,Running Backs Coach,Offense,2,30
+C018,Jesse,Madden,30,N/A,Assistant Running Backs Coach,Offense,2,6
+C019,Ken,Norton Jr.,59,N/A,Linebackers Coach,Defense,2,25
+C020,John,Pagano,58,N/A,Outside Linebackers Coach,Defense,2,28
+C021,David,Raih,45,N/A,Offensive Pass Game Coordinator,Offense,2,18
+C022,Brian,Schneider,55,N/A,Assistant Special Teams Coordinator,Special Teams,3,26
+C023,Darnell,Stapleton,41,N/A,Offensive Line Coach,Offense,2,10
+C024,Brian,Stoldt,29,N/A,Offensive Quality Control,Offense,2,5
+C025,Darryl,Tapp,41,N/A,Assistant Defensive Line Coach,Defense,2,9
+C026,Shane,Toub,34,N/A,Assistant Offensive Line Coach,Offense,2,8
+C027,Wes,Welker,45,N/A,Offensive Assistant,Offense,2,10
+C028,D.J.,Williams,34,N/A,Quarterbacks Coach,Offense,2,7

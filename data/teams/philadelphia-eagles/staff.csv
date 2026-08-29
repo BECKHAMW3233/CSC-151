@@ -1,0 +1,21 @@
+id,firstName,lastName,age,hometown,department,title,yearsWithOrganization
+S001,Jeffrey,Lurie,73,N/A,Ownership,Chairman and Chief Executive Officer,32
+S002,Don,Smolenski,58,N/A,Front Office/Executive,President,25
+S003,Howie,Roseman,48,N/A,Football Operations,Executive Vice President/General Manager,26
+S004,Joe,Douglas,50,N/A,Scouting,Senior Vice President of Player Personnel,3
+S005,Jon,Ferrari,42,N/A,Football Operations,Assistant General Manager,15
+S006,Adam,Berry,40,N/A,Football Operations,Assistant General Manager,12
+S007,Dom,DiSandro,62,N/A,Football Operations,Senior Advisor to the General Manager/Chief Security Officer,25
+S008,Aileen,Dagrosa,52,N/A,Front Office/Executive,Senior Vice President General Counsel and Administrative Officer,15
+S009,Frank,Gumienny,55,N/A,Business Operations,Senior Vice President Chief Operating Officer,20
+S010,Tom,Hunkele,50,N/A,Medical/Athletic Training,Vice President of Sports Medicine/Head Athletic Trainer,15
+S011,Fernando,Noriega,45,N/A,Strength & Conditioning,Director of Player Performance and Sports Science,10
+S012,Bob,Lange,50,N/A,Media Relations,Senior Vice President of Communications,15
+S013,Brian,Napoli,48,N/A,Business Operations,Senior Vice President of Corporate Partnerships,14
+S014,Greg,Delimitros,45,N/A,Equipment,Vice President of Equipment Operations,18
+S015,Kristie,Pappal,46,N/A,Human Resources,Vice President of Human Resources,12
+S016,Bill,Mizell,47,N/A,Business Operations,Vice President of Information Technology,13
+S017,Tanmay,Patel,40,N/A,Analytics,Vice President of Business Data and Analytics,8
+S018,Anthony,Cozzi,38,N/A,Football Operations,Vice President of Software Innovation,7
+S019,Connor,Barwin,39,N/A,Football Operations,Head of Football Development and Strategy,4
+S020,Kevin,Sorli,45,N/A,Stadium Operations,Vice President of Ticket Operations,12

@@ -1,0 +1,29 @@
+id,firstName,lastName,age,hometown,title,unit,yearsWithTeam,yearsExperienceTotal
+C001,Robert,Saleh,47,N/A,Head Coach,Administration,2,20
+C002,Brian,Daboll,51,N/A,Offensive Coordinator,Offense,2,26
+C003,Carmen,Bricillo,48,N/A,Offensive Line Coach,Offense,2,18
+C004,Trevor,Browder,30,N/A,Offensive Assistant,Offense,2,6
+C005,Randy,Jordan,58,N/A,Running Backs Coach,Offense,2,24
+C006,Cade,Knox,28,N/A,Offensive Assistant/Game Management,Offense,2,4
+C007,Greg,Lewis,45,N/A,Wide Receivers Coach,Offense,2,14
+C008,John,Rudnicki,32,N/A,Offensive Assistant,Offense,2,7
+C009,Luke,Stocker,37,N/A,Tight Ends Coach,Offense,2,4
+C010,Shea,Tierney,40,N/A,Quarterbacks Coach,Offense,2,12
+C011,Isaac,Williams,30,N/A,Assistant Offensive Line Coach,Offense,2,5
+C012,Gus,Bradley,59,N/A,Defensive Coordinator,Defense,2,30
+C013,Ben,Bloom,45,N/A,Senior Defensive Assistant,Defense,2,18
+C014,Dave,Borgonzi,40,N/A,Linebackers Coach,Defense,2,12
+C015,Dalton,Hilliard,34,N/A,Defensive Backs/Nickels Coach,Defense,2,8
+C016,Marquand,Manuel,46,N/A,Defensive Backs/Safeties Coach,Defense,2,17
+C017,Tony,Oden,50,N/A,Defensive Pass Game Coordinator/Cornerbacks Coach,Defense,2,22
+C018,Ahmed,Saleh,40,N/A,Defensive Assistant,Defense,2,10
+C019,Tanzel,Smart,31,N/A,Assistant Defensive Line Coach,Defense,2,5
+C020,Aaron,Whitecotton,48,N/A,Defensive Run Game Coordinator/Defensive Line Coach,Defense,2,20
+C021,John,Fassel,52,N/A,Assistant Head Coach/Special Teams Coordinator,Special Teams,2,24
+C022,Rayna,Stewart,35,N/A,Assistant Special Teams Coach,Special Teams,2,9
+C023,Zac,Woodfin,42,N/A,Director of Sports Performance,Strength & Conditioning,4,18
+C024,Brian,Bell,38,N/A,Assistant Director of Sports Performance,Strength & Conditioning,3,14
+C025,Dave,Puloka,45,N/A,Senior Assistant Sports Performance Coach,Strength & Conditioning,3,16
+C026,Brent,Callaway,32,N/A,Assistant Sports Performance Coach,Strength & Conditioning,2,7
+C027,John,Shaw,30,N/A,Assistant Sports Performance and Speed Training Coach,Strength & Conditioning,2,6
+C028,Rob,Dadona,40,N/A,Chief of Staff,Administration,2,12

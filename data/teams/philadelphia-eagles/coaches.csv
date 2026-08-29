@@ -1,0 +1,27 @@
+id,firstName,lastName,age,hometown,title,unit,yearsWithTeam,yearsExperienceTotal
+C001,Nick,Sirianni,44,N/A,Head Coach,Administration,5,15
+C002,Michael,Clay,37,N/A,Special Teams Coordinator,Special Teams,5,12
+C003,Vic,Fangio,66,N/A,Defensive Coordinator,Defense,3,38
+C004,Sean,Mannion,33,N/A,Offensive Coordinator,Offense,1,3
+C005,Clint,Hurtt,45,N/A,Defensive Line Coach/Associate Head Coach,Defense,4,20
+C006,Jemal,Singleton,48,N/A,Running Backs Coach/Assistant Head Coach,Offense,3,18
+C007,Josh,Grizzard,34,N/A,Offensive Passing Game Coordinator,Offense,3,9
+C008,Joe,Kasper,40,N/A,Defensive Passing Game Coordinator,Defense,3,14
+C009,Ryan,Mahaffey,38,N/A,Run Game Coordinator/Tight Ends Coach,Offense,4,12
+C010,Roy,Anderson,42,N/A,Cornerbacks Coach,Defense,3,15
+C011,Parks,Frazier,32,N/A,Quarterbacks Coach,Offense,2,8
+C012,Bobby,King,40,N/A,Inside Linebackers Coach,Defense,3,14
+C013,Chris,Kuper,43,N/A,Offensive Line Coach,Offense,2,6
+C014,Aaron,Moorehead,45,N/A,Wide Receivers Coach,Offense,5,16
+C015,Mike,Pellegrino,38,N/A,Secondary Coach,Defense,3,12
+C016,Jeremiah,Washburn,44,N/A,Defensive Ends/Outside Linebackers Coach,Defense,4,17
+C017,Jerrod,Johnson,38,N/A,Senior Offensive Analyst,Offense,4,9
+C018,Joe,Pannunzio,48,N/A,Assistant Special Teams Coordinator,Special Teams,6,20
+C019,Greg,Austin,36,N/A,Assistant Offensive Line Coach,Offense,3,10
+C020,Tyler,Brown,30,N/A,Special Teams Assistant,Special Teams,2,6
+C021,Eric,Dickerson,29,N/A,Offensive Assistant/Assistant Tight Ends,Offense,1,4
+C022,Beyah,Rasool,28,N/A,Defensive Assistant,Defense,1,3
+C023,Tyler,Scudder,30,N/A,Assistant Linebackers Coach,Defense,2,6
+C024,Allen,Smith,29,N/A,Defensive Assistant,Defense,1,4
+C025,Montgomery,VanGorder,29,N/A,Offensive Assistant/Assistant Quarterbacks,Offense,1,3
+C026,Cole,Peterson,28,N/A,Assistant to the Head Coach,Administration,2,4

@@ -1,0 +1,27 @@
+id,firstName,lastName,age,hometown,title,unit,yearsWithTeam,yearsExperienceTotal
+C001,Kellen,Moore,37,N/A,Head Coach,Administration,1,8
+C002,Doug,Nussmeier,55,N/A,Offensive Coordinator,Offense,1,25
+C003,Joel,Thomas,50,N/A,Associate Head Coach/Running Backs Coach,Offense,1,20
+C004,T.J.,Paganetti,38,N/A,Run Game Coordinator,Offense,1,12
+C005,Will,Clapp,30,N/A,Offensive Assistant,Offense,1,3
+C006,Chase,Haslett,35,N/A,Tight Ends Coach,Offense,1,9
+C007,Josh,Hill,36,N/A,Assistant Tight Ends Coach,Offense,1,4
+C008,Tobijah,Hughley,33,N/A,Assistant Offensive Line Coach,Offense,1,6
+C009,Brendan,Nugent,45,N/A,Offensive Line Coach,Offense,1,15
+C010,Scott,Linehan,67,N/A,Senior Offensive Assistant,Offense,1,35
+C011,Mike,Martinez,40,N/A,Assistant to the Head Coach/Game Management Coordinator,Administration,1,10
+C012,Scott,Tolzien,37,N/A,Quarterbacks Coach,Offense,1,6
+C013,Kyle,Valero,32,N/A,Assistant Wide Receivers Coach,Offense,1,7
+C014,Keith,Williams,48,N/A,Wide Receivers Coach,Offense,1,18
+C015,Brandon,Staley,43,N/A,Defensive Coordinator,Defense,1,16
+C016,Terry,Joseph,48,N/A,Defensive Pass Game Coordinator,Defense,1,20
+C017,Robert,Blanton,37,N/A,Assistant Defensive Backs Coach,Defense,1,5
+C018,Grady,Brown,45,N/A,Cornerbacks Coach,Defense,1,17
+C019,Bo,Davis,55,N/A,Defensive Line Coach,Defense,1,24
+C020,Peter,Giunta,69,N/A,Senior Defensive Assistant,Defense,1,40
+C021,Adam,Gristick,33,N/A,Assistant Linebackers Coach,Defense,1,8
+C022,Jay,Rodgers,50,N/A,Edges Coach,Defense,1,22
+C023,Peter,Sirmon,45,N/A,Linebackers Coach,Defense,1,12
+C024,Brian,Young,47,N/A,Assistant Defensive Line Coach,Defense,1,10
+C025,Phil,Galiano,42,N/A,Special Teams Coordinator,Special Teams,1,14
+C026,Kyle,Wilber,36,N/A,Assistant Special Teams Coach,Special Teams,1,5

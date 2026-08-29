@@ -1,0 +1,17 @@
+id,firstName,lastName,age,hometown,department,title,yearsWithOrganization
+S001,Zygi,Wilf,76,N/A,Ownership,Owner/Chairman,21
+S002,Mark,Wilf,64,N/A,Ownership,Owner/President,21
+S003,Leonard,Wilf,70,N/A,Ownership,Owner/Vice Chairman,21
+S004,Jonathan,Wilf,45,N/A,Ownership,Owner/Executive Vice President - Strategic Planning & Business Initiatives,15
+S005,Steven,Wilf,42,N/A,Ownership,Owner/Executive Vice President - Innovation and Strategy,12
+S006,Andrew,Miller,50,N/A,Business Operations,Chief Operating Officer,10
+S007,Nolan,Teasley,42,N/A,Football Operations,General Manager,0
+S008,Jeff,Anderson,48,N/A,Media Relations,Executive Vice President and Chief Communications Officer,15
+S009,Lester,Bagley,58,N/A,Front Office/Executive,Executive Vice President - Public Affairs,20
+S010,Don,Becker,55,N/A,Stadium Operations,Executive Vice President Real Estate Development & Strategic Projects,15
+S011,Rob,Brzezinski,58,N/A,Football Operations,Executive Vice President - Football Operations,25
+S012,Lara,Juras,48,N/A,Human Resources,Executive Vice President & Chief People & Culture Officer,8
+S013,Martin,Nance,44,N/A,Marketing,Executive Vice President and Chief Marketing Officer,10
+S014,Karin,Nelsen,50,N/A,Front Office/Executive,Executive Vice President & Chief Legal Officer,12
+S015,Steve,Poppen,52,N/A,Business Operations,Executive Vice President & Chief Business Administration Officer,15
+S016,Kate,Shibilski,45,N/A,Business Operations,Executive Vice President & Chief Financial Officer,10

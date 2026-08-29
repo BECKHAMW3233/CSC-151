@@ -1,0 +1,24 @@
+id,firstName,lastName,age,hometown,department,title,yearsWithOrganization
+S001,E. Stanley,Kroenke,79,N/A,Ownership,Owner/Chairman,15
+S002,Kevin,Demoff,47,N/A,Front Office/Executive,President,18
+S003,Les,Snead,55,N/A,Football Operations,General Manager,14
+S004,Tony,Pastoors,45,N/A,Business Operations,Chief Operating Officer,10
+S005,Dan,August,44,N/A,Business Operations,"Executive VP of Consumer Revenue and Strategy",8
+S006,Michael,Brandi,46,N/A,Business Operations,"Vice President, Finance",9
+S007,Todd,Davis,50,N/A,Front Office/Executive,"Vice President, General Counsel",11
+S008,Eric,Dickerson,65,N/A,Business Operations,"Vice President, Business Development",6
+S009,Kathryn Kai-ling,Frederick,45,N/A,Marketing,Chief Marketing Officer,7
+S010,Artis,Twyman,48,N/A,Media Relations,"Vice President, Communications",12
+S011,Joanna,Hunter,42,N/A,Business Operations,"Vice President, Corporate Affairs",6
+S012,Jennifer,Prince,47,N/A,Business Operations,Chief Commercial Officer,8
+S013,Reggie,Scott,50,N/A,Medical/Athletic Training,"Senior Vice President, Sports Medicine and Performance",12
+S014,Neal,Elattrache,65,N/A,Medical/Athletic Training,Executive Director of Medical Services,20
+S015,Casey,Batten,50,N/A,Medical/Athletic Training,Head Team Physician,10
+S016,Byron,Cunningham,42,N/A,Medical/Athletic Training,"Director, Sports Medicine",7
+S017,John,McKay,44,N/A,Football Operations,Assistant General Manager,6
+S018,Nicole,Blake,36,N/A,Analytics,"Director, Scouting, Strategy & Analytics",5
+S019,Ray,Farmer,55,N/A,Football Operations,Senior Advisor to the General Manager,3
+S020,Taylor,Morton,40,N/A,Scouting,Senior Personnel Executive & Deputy Chief of College Scouting,7
+S021,Molly,Higgins,58,N/A,Marketing,Executive VP of Community Impact and Engagement,25
+S022,Stephanie,Cheng,38,N/A,Business Operations,VP/Head of International & Special Projects,5
+S023,Oracio,Galindo,40,N/A,Human Resources,Head of Employee Experience,6

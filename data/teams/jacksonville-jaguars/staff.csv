@@ -1,0 +1,24 @@
+id,firstName,lastName,age,hometown,department,title,yearsWithOrganization
+S001,Shad,Khan,76,N/A,Ownership,Owner,14
+S002,Tony,Khan,44,N/A,Front Office/Executive,Chief Football Strategy Officer,14
+S003,Shanna,Khan,40,N/A,Front Office/Executive,President of Khan Family Office,10
+S004,Mark,Lamping,65,N/A,Front Office/Executive,President,10
+S005,Tony,Boselli,54,N/A,Football Operations,Executive Vice President of Football Operations,3
+S006,James,Gladstone,36,N/A,Football Operations,General Manager,2
+S007,JW,Jordan,48,N/A,Football Operations,Senior Advisor to the General Manager,4
+S008,Brian,Xanders,55,N/A,Football Operations,Senior Advisor to the General Manager,3
+S009,Brian,Hill,42,N/A,Scouting,Director of College Scouting,6
+S010,DeJuan,Polk,40,N/A,Scouting,Director of Pro Scouting,5
+S011,John,Dever,50,N/A,Media Relations,Senior Vice President and Chief Communications Officer,15
+S012,Jake,Temme,38,N/A,Analytics,Senior Vice President of Football Analytics,7
+S013,Arri,Landsman-Roos,35,N/A,Analytics,Vice President of Decision Science,5
+S014,Jeff,Ferguson,48,N/A,Medical/Athletic Training,Vice President of Player Health and Performance,9
+S015,Kevin,Kaplan,55,N/A,Medical/Athletic Training,Head Physician,14
+S016,George,Pellicer,50,N/A,Equipment,Head Equipment Manager,15
+S017,Skip,Richardson,52,N/A,Security,Director of Team Security,12
+S018,Chad,Johnson,50,N/A,Business Operations,Chief Operating Officer,8
+S019,Mark,Sirota,48,N/A,Business Operations,Senior Vice President of Business Planning and Chief Financial Officer,10
+S020,Megha,Parekh,45,N/A,Front Office/Executive,Executive Vice President and Chief Legal Officer,9
+S021,Scott,Massey,47,N/A,Business Operations,Senior Vice President of Corporate Partnerships,11
+S022,Whitney,Meyer,44,N/A,Business Operations,Senior Vice President and Chief Community Impact Officer,9
+S023,Hamzah,Ahmad,38,N/A,Football Operations,Director of Football Operations,7

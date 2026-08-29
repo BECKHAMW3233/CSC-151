@@ -1,0 +1,34 @@
+id,firstName,lastName,age,hometown,title,unit,yearsWithTeam,yearsExperienceTotal
+C001,Mike,Macdonald,39,N/A,Head Coach,Administration,3,15
+C002,Brian,Fleury,47,N/A,Offensive Coordinator,Offense,1,15
+C003,Aden,Durde,47,N/A,Defensive Coordinator,Defense,3,12
+C004,Jay,Harbaugh,38,N/A,Special Teams Coordinator,Special Teams,3,13
+C005,John,Benton,55,N/A,Senior Offensive Assistant/Offensive Line Coach,Offense,10,25
+C006,Mack,Brown,42,N/A,Tight Ends Coach,Offense,3,12
+C007,Thomas,Hammock,42,N/A,Senior Offensive Assistant/Running Backs Coach,Offense,1,15
+C008,Justin,Outten,40,N/A,Run Game Coordinator,Offense,1,14
+C009,Jake,Peetz,42,N/A,Offensive Passing Game Coordinator/Quarterbacks Coach,Offense,1,13
+C010,Tyson,Prince,34,N/A,Quarterbacks Coach,Offense,3,8
+C011,Frisman,Jackson,46,N/A,Wide Receivers Coach,Offense,3,15
+C012,Quinshon,Odom,30,N/A,Assistant Offensive Line Coach,Offense,1,5
+C013,Johnathan,Williams,32,N/A,Offensive Assistant,Offense,2,3
+C014,Daniel,Stern,30,N/A,Pass-Game Strategist,Offense,1,5
+C015,Justin,Hinds,42,N/A,Defensive Line Coach,Defense,3,13
+C016,Josh,Bynes,37,N/A,Outside Linebackers Coach,Defense,2,4
+C017,Zachary,Orr,34,N/A,Inside Linebackers Coach,Defense,1,6
+C018,Jeff,Howard,40,N/A,Safeties Coach,Defense,3,12
+C019,Karl,Scott,42,N/A,Defensive Passing Game Coordinator/Defensive Backs Coach,Defense,3,15
+C020,Neiko,Thorpe,36,N/A,Defensive Assistant/Defensive Backs Coach,Defense,2,4
+C021,Chris,Partridge,45,N/A,Defensive Run Game Coordinator,Defense,3,20
+C022,Kirk,Olivadotti,55,N/A,Senior Defensive Assistant,Defense,3,28
+C023,Rob,Caprice,32,N/A,Defensive Assistant,Defense,2,6
+C024,Keller,Chryst,30,N/A,Defensive Quality Control Coach,Defense,2,5
+C025,Devin,Fitzsimmons,30,N/A,Assistant Special Teams Coach,Special Teams,2,6
+C026,Danny,van Dijk,45,N/A,Head Strength Coach,Strength & Conditioning,6,18
+C027,Mark,Philipp,40,N/A,Associate Head Strength Coach,Strength & Conditioning,4,14
+C028,Thomas,Garcia,30,N/A,Strength & Conditioning Assistant,Strength & Conditioning,2,6
+C029,Tim,Ojeda,32,N/A,Strength & Conditioning Assistant,Strength & Conditioning,2,7
+C030,Jamie,Yanchar,34,N/A,Strength & Conditioning Assistant,Strength & Conditioning,3,9
+C031,Leslie,Frazier,67,N/A,Assistant Head Coach,Administration,3,30
+C032,Michael,Byrne,29,N/A,Assistant Tight Ends Coach,Offense,2,4
+C033,Ivan,Lewis,38,N/A,Director of Player Performance and Development,Administration,4,12

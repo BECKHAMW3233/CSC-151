@@ -1,0 +1,26 @@
+id,firstName,lastName,age,hometown,department,title,yearsWithOrganization
+S001,Carlie,Irsay-Gordon,45,N/A,Ownership,Owner and Chief Executive Officer,20
+S002,Casey,Foyt,42,N/A,Ownership,Owner and Executive Vice President,18
+S003,Kalen,Jackson,38,N/A,Ownership,Owner and Chief Brand Officer,15
+S004,Chris,Ballard,56,N/A,Football Operations,General Manager,10
+S005,Pete,Ward,60,N/A,Front Office/Executive,Chief Operating Officer,25
+S006,Dan,Emerson,50,N/A,Front Office/Executive,Chief Legal Officer,12
+S007,Roger,VanDerSnick,48,N/A,Business Operations,Chief Commercial Officer,10
+S008,EJ,Tolentino,47,N/A,Business Operations,Chief Financial Officer,9
+S009,Elijah,Hammans,40,N/A,Front Office/Executive,General Counsel,6
+S010,Ed,Dodds,50,N/A,Football Operations,Assistant General Manager,9
+S011,Kevin,Rogers,45,N/A,Scouting,Director of Player Personnel,8
+S012,Jon,Shaw,44,N/A,Scouting,Director of Pro Personnel,7
+S013,Charlie,Shin,42,N/A,Analytics,Vice President of Analytics and Digital Innovation,7
+S014,Austin,Reed,36,N/A,Analytics,Senior Director of Analytics,5
+S015,Steve,Campbell,50,N/A,Media Relations,Vice President of Communications,15
+S016,Matt,Conti,42,N/A,Media Relations,Vice President of Football Communications,10
+S017,Ryan,Lobsiger,45,N/A,Business Operations,Vice President of Corporate Partnerships,10
+S018,Geoff,Sakaguchi,44,N/A,Media Relations,"Vice President of Creative, Content and Media",9
+S019,Sean,Sullivan,45,N/A,Equipment,Director of Equipment,12
+S020,Lindsey,Hammond,42,N/A,Business Operations,Vice President of Finance,9
+S021,Mike,Bluem,46,N/A,Football Operations,Director of Football Operations,11
+S022,Matt,Boothby,47,N/A,Business Operations,Vice President of Information Technology,10
+S023,Stephanie,Pemberton,48,N/A,Marketing,Senior Vice President of Marketing and Community Impact,11
+S024,Erin,Barill,48,N/A,Medical/Athletic Training,Director of Medical Staff,13
+S025,Jim,Van Dam,50,N/A,Business Operations,Vice President of Ticket Sales and Service,14

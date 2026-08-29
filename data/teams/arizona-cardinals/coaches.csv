@@ -1,0 +1,31 @@
+id,firstName,lastName,age,hometown,title,unit,yearsWithTeam,yearsExperienceTotal
+C001,Mike,LaFleur,38,N/A,Head Coach,Administration,1,14
+C002,Nathaniel,Hackett,46,N/A,Offensive Coordinator,Offense,1,23
+C003,Nick,Rallis,32,N/A,Defensive Coordinator,Defense,4,9
+C004,Michael,Ghobrial,40,N/A,Special Teams Coordinator,Special Teams,1,12
+C005,Justin,Frye,46,N/A,Offensive Line Coach,Offense,1,15
+C006,Chris,Cook,34,N/A,Assistant Offensive Line Coach,Offense,1,7
+C007,Brett,Ekkens,29,N/A,Offensive Quality Control Coach,Offense,1,5
+C008,Matt,Merritt,42,N/A,Running Backs Coach,Offense,1,12
+C009,Jake,Moreland,33,N/A,Tight Ends Coach,Offense,1,8
+C010,Matt,Schaub,45,N/A,Quarterbacks Coach,Offense,1,6
+C011,Connor,Senger,31,N/A,Pass Game Specialist,Offense,1,6
+C012,Tony,Sorrentino,44,N/A,Wide Receivers Coach,Offense,1,14
+C013,Teryl,Austin,60,N/A,Senior Defensive Assistant,Defense,1,24
+C014,Pete,Kwiatkowski,55,N/A,Defensive Line Coach,Defense,1,26
+C015,Matt,Feeney,38,N/A,Outside Linebackers Coach,Defense,1,10
+C016,Rod,Wilson,40,N/A,Inside Linebackers Coach,Defense,1,13
+C017,Zac,Etheridge,38,N/A,Cornerbacks Coach,Defense,1,10
+C018,Cristian,Garcia,32,N/A,Defensive Backs Coach,Defense,1,7
+C019,Brent,Jackson,28,N/A,Defensive Quality Control Coach,Defense,1,5
+C020,Alec,Osborne,27,N/A,Defensive Quality Control Coach,Defense,1,4
+C021,Sam,Sewell,30,N/A,Assistant Special Teams Coach,Special Teams,1,6
+C022,Kyle,Sammons,42,N/A,Head Strength and Conditioning Coach,Strength & Conditioning,1,17
+C023,Matt,King,35,N/A,Assistant Strength and Conditioning Coach,Strength & Conditioning,1,10
+C024,Rich,Pruett,38,N/A,Assistant Strength and Conditioning Coach,Strength & Conditioning,1,12
+C025,Aaron,Sanchez,33,N/A,Reconditioning/Assistant Strength and Conditioning Coach,Strength & Conditioning,1,8
+C026,Buddy,Morris,68,N/A,Senior Coordinator of Reconditioning,Strength & Conditioning,13,40
+C027,Shea,Thompson,36,N/A,Director of Football Performance,Strength & Conditioning,1,11
+C028,Wendy,Laurent,27,N/A,Bill Bidwill Fellowship Coach,Administration,1,2
+C029,Kenny,Bell,34,N/A,Director of Football Strategy,Administration,3,8
+C030,Jay,Razzano,29,N/A,Assistant to the Head Coach,Administration,1,5

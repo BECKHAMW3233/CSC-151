@@ -1,0 +1,25 @@
+id,firstName,lastName,age,hometown,department,title,yearsWithOrganization
+S001,Michael J.,Bidwill,61,N/A,Ownership,Owner/Chairman/President,30
+S002,Monti,Ossenfort,47,N/A,Football Operations,General Manager,4
+S003,Jeremy,Walls,48,N/A,Business Operations,Chief Operating Officer,6
+S004,David,Koeninger,50,N/A,Front Office/Executive,Chief Legal Officer,10
+S005,Shaun,Mayo,47,N/A,Human Resources,Chief People Officer,5
+S006,Stefanie,Meade,46,N/A,Business Operations,Chief Financial Officer,7
+S007,Dave,Sears,44,N/A,Football Operations,Assistant General Manager,4
+S008,Rob,Kisiel,45,N/A,Scouting,"Vice President, Player Personnel",9
+S009,Matt,Harriss,43,N/A,Football Operations,"Vice President, Football Administration",8
+S010,Glen,Fox,42,N/A,Scouting,"Director, Pro Personnel",7
+S011,Matt,Caracciolo,41,N/A,Football Operations,VP of Football Operations & Facilities,6
+S012,Carter,Tamblyn,33,N/A,Analytics,"Director, Football Systems",5
+S013,Drew,Krueger,45,N/A,Medical/Athletic Training,Head Athletic Trainer,9
+S014,Alfonza,Knight,38,N/A,Scouting,"Assistant Director, College Scouting",6
+S015,John,Mancini,40,N/A,Scouting,National Scout,8
+S016,Zac,Canty,34,N/A,Scouting,Regional Scout,4
+S017,Andrew,Ford,33,N/A,Scouting,Pro Scout,4
+S018,Tyler,Haskins,32,N/A,Scouting,Pro Scout,3
+S019,Mark,Dalton,60,N/A,Media Relations,"Senior Vice President, Media Relations",35
+S020,Chris,Melvin,42,N/A,Media Relations,"Vice President, Media Relations",8
+S021,Tania,Moreno,45,N/A,Marketing,"Senior Vice President, Marketing",9
+S022,Surf,Melendez,40,N/A,Marketing,"VP of Content, Creative & Brand",6
+S023,Joe,Andruzzi,47,N/A,Analytics,Football Analyst,3
+S024,Nick,Tice,30,N/A,Analytics,Football Analyst,2
