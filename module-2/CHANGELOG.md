@@ -4,6 +4,23 @@ All notable changes to this project, in the order they happened. Dates reflect t
 day the work was done (this project was built starting 2026-08-28, continuing into
 2026-08-29).
 
+## [15] 2026-08-29 — Logged the git-setup confusion in AI_SESSION_LOG.md
+
+**Why:** requested so the full record — including the mistakes, not just the
+successes — is in one place, with an explanation of why a concrete `CLAUDE.md`
+matters for preventing an AI assistant from making unintended file changes.
+
+- Added entries 21–33 to `AI_SESSION_LOG.md`, covering `CLAUDE.md`'s creation,
+  the GitHub push, and the git-setup confusion where several unrequested
+  restructuring actions were proposed (and partly attempted) before landing on
+  the simple, literal action that was actually asked for.
+- Added a closing "Why a clear CLAUDE.md matters" section explaining the
+  general lesson: an AI assistant will act on the most plausible-sounding
+  interpretation of an instruction unless a project's own rules say otherwise,
+  and a concrete CLAUDE.md that names actual past mistakes closes that gap.
+
+**Files changed:** `AI_SESSION_LOG.md`
+
 ## [14] 2026-08-29 — Made the "user decides, not Claude Code" rule concrete
 
 **Why:** while setting up local git tracking for this folder, several
