@@ -1,0 +1,29 @@
+id,firstName,lastName,age,hometown,title,unit,yearsWithTeam,yearsExperienceTotal
+C001,Dave,Canales,45,N/A,Head Coach,Administration,3,21
+C002,Brad,Idzik,42,N/A,Offensive Coordinator,Offense,1,17
+C003,Harold,Goodwin,53,N/A,Assistant Head Coach/Run Game Coordinator,Offense,3,27
+C004,Darrell,Bevell,55,N/A,Associate Head Coach & Offensive Specialist,Offense,2,24
+C005,Joe,Gilbert,49,N/A,Offensive Line Coach,Offense,3,22
+C006,Will,Harriger,38,N/A,Quarterbacks Coach,Offense,3,10
+C007,Mike,Bercovici,33,N/A,Offensive Passing Game Coordinator,Offense,2,8
+C008,Pat,McPherson,44,N/A,Tight Ends Coach,Offense,3,18
+C009,Rob,Moore,58,N/A,Wide Receivers Coach,Offense,3,25
+C010,Bernie,Parmalee,58,N/A,Running Backs Coach,Offense,3,23
+C011,Carl,Smith,80,N/A,Senior Offensive Consultant,Offense,2,50
+C012,Keyshawn,Colmon,29,N/A,Offensive Assistant,Offense,1,4
+C013,Dean,Petzing,36,N/A,Offensive Assistant,Offense,1,9
+C014,Ejiro,Evero,46,N/A,Defensive Coordinator,Defense,1,20
+C015,Peter,Hansen,40,N/A,Assistant Defensive Coordinator/Linebackers,Defense,1,15
+C016,Jonathan,Cooley,37,N/A,Defensive Passing Game Coordinator,Defense,1,12
+C017,AC,Carter,45,N/A,Outside Linebackers Coach & Run Game Specialist,Defense,1,18
+C018,Renaldo,Hill,50,N/A,Secondary/Defensive Backs Coach,Defense,1,22
+C019,Todd,Wash,58,N/A,Defensive Line Coach,Defense,1,28
+C020,Mayur,Chaudhari,31,N/A,Assistant Linebackers Coach,Defense,1,6
+C021,Kevin,Peterson,33,N/A,Defensive Assistant,Defense,1,6
+C022,Ilir,Emini,34,N/A,Defensive Assistant,Defense,1,7
+C023,Tracy,Smith,52,N/A,Special Teams Coordinator,Special Teams,3,24
+C024,Daren,Bates,36,N/A,Assistant - Special Teams/Inside Linebackers,Special Teams,2,4
+C025,Dwayne,Stukes,34,N/A,Special Teams & Defensive Assistant,Special Teams,2,7
+C026,Jessica,Beckenstein,34,N/A,Head Coach Assistant & Coaching Operations Manager,Administration,3,9
+C027,Scott,Cooper,47,N/A,Director of Coaching Development and Culture,Administration,3,20
+C028,George,Li,31,N/A,Game Management Coordinator,Administration,3,7
