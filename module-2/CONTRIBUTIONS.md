@@ -9,7 +9,7 @@ personal to you, then adjust once your group has met and made its own decisions.
 **Group members:** William Beckham, Christian Logan, Brandon Malave, Roberto Rendon-Valdez
 **Course / section:** Fall 2026 Java Programming (CSC-151-0901)
 **Instructor:** David Teter
-**Date:** 2026-08-29
+**Date:** 2026-08-29 (updated 2026-09-01, 2026-09-02)
 
 ## This is groundwork for the group, not a finished group decision
 
@@ -102,6 +102,37 @@ not have made any of these on its own, and each one shaped what got built:
     file) so the project's history and my role in it are traceable rather than
     assumed — and so the group has an honest record of what's actually done vs.
     still open, instead of a black box.
+12. **Diagnosed a real cross-machine portability failure** — asked why the
+    program ran fine on my original development PC but not on a laptop or other
+    computers, rather than assuming the laptop was just misconfigured. This
+    surfaced a genuine Java version mismatch (the laptop had no JDK at all, only
+    an old Java 8 runtime, while the code needs Java 11+) instead of a code bug.
+13. **Specified JDK 25** as the version to install, matching what I believe my
+    course actually requires, rather than an arbitrary newer version.
+14. **Reported and pinned down a real GUI display bug** — long text (a
+    paragraph-length Note field, and columns like College/Title/Department)
+    getting visually cut off — and specified exactly which screens were
+    affected and how it should look (multiple wrapped lines, not a
+    single clipped or scrollable line) once asked, rather than leaving it
+    as a vague complaint for the AI to guess at.
+15. **Asked for team graphics/branding per team**, then chose against using
+    real official NFL logos once shown the trademark/licensing risk of
+    embedding them in a public GitHub repository, opting instead for a
+    generated color theme sourced from data already present in the CSVs.
+16. **Directed the scope and intensity of that theme** — chose full,
+    application-wide, bold/saturated coloring (not just a header banner, and
+    not a subtle tint) after being shown the concrete Swing trade-off that
+    decision required (switching the app's look-and-feel to Nimbus so buttons
+    and other controls could be recolored consistently).
+17. **Reported the theme's real readability problems directly from using the
+    app** — flagged that menus and text weren't visible against some team
+    colors, specifically the Team Info page's text, then flagged a second,
+    separate readability failure in the menu bar once the first fix didn't
+    resolve it. Specified the verification method myself, too: check the fix
+    across multiple teams with dark color themes side by side, not just the
+    one team already checked.
+18. **Requested clickable column-header sorting** for the Players, Coaches,
+    and Support Staff tables as a new feature, on top of the theming fixes.
 
 ## Next steps (as of 2026-08-29)
 
@@ -111,6 +142,16 @@ groundwork, find out whether he's already been in touch with the other two group
 members, exchange contact information if we haven't already, and start
 coordinating as a group from there — including revisiting the open questions
 below together rather than me deciding them alone.
+
+### Update (2026-09-01)
+
+As of this date, **the rest of the group has not yet reviewed any of this work
+and does not appear to be involved yet.** This remains solo prototype work done
+ahead of that group involvement, not a group-reviewed or group-approved
+decision — the same status as the original entry above, just noting that the
+handoff/coordination described there hasn't resulted in group engagement so
+far. Continuing to build and document individually in the meantime so there's
+something concrete for the group to react to once they are involved.
 
 ## What exists right now (subject to the group's review)
 
@@ -126,11 +167,26 @@ short version:
   researched from official team sites and ESPN.
 - A zoom feature, auto-save on every edit, and a completely data-driven design with
   no team names hardcoded anywhere in the source.
+- A per-team color theme (`TeamTheme.java`), applied app-wide via a Nimbus
+  look-and-feel, driven entirely by the `Primary Colors` field already in each
+  team's `team_info.csv` — no logo images, after researching that no
+  freely-licensed source of real NFL team logos exists for a public repo.
+- Table display fixes: roster columns auto-size to their content instead of
+  getting clipped, and the Team Info tab's paragraph-length fields (like Note)
+  now wrap across multiple lines instead of showing one cut-off line.
+- Fixed two real readability bugs in the per-team theme: Team Info Value-column
+  text and the File/View/Help menu bar were both unreadable against certain
+  team colors (verified across 4 teams spanning dark and light Primary Colors).
+  Also added click-to-sort column headers on the Players/Coaches/Support Staff
+  tables, with correct numeric sorting and a fixed Edit/Remove row-selection
+  bug that sorting exposed.
 - Along the way: found and fixed a real data-integrity bug (numeric bounds too
-  tight for real NFL owners' ages/tenures) and a real rendering bug (the team
-  picker went blank under this environment's specific display/GPU setup) —
-  diagnosed with actual evidence (screenshots, stderr checks, timing tests) rather
-  than guessed at.
+  tight for real NFL owners' ages/tenures), a real rendering bug (the team
+  picker went blank under this environment's specific display/GPU setup), and a
+  real cross-machine portability bug (the app requires a JDK 11+, which one
+  laptop didn't have) — each diagnosed with actual evidence (screenshots,
+  stderr checks, timing tests, reproducing the exact failure) rather than
+  guessed at.
 
 ## Open questions for the group
 

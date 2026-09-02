@@ -62,6 +62,12 @@ built and remain the most thoroughly cross-checked.
 - **Zoom**: **View > Zoom In/Out/Reset** (Ctrl+= / Ctrl+- / Ctrl+0) scales font size
   and table row height across the whole window, including open dialogs — useful on
   a large monitor or projector.
+- **Per-team color theme**: the whole window (panels, tabs, tables, buttons,
+  dialogs) re-colors to match whichever team is selected, driven entirely by the
+  `Primary Colors` field already in that team's `team_info.csv` (see
+  [TeamTheme.java](src/team/gui/TeamTheme.java)). No logo images are used —
+  real team logos were considered and skipped after finding no freely-licensed
+  source of official NFL team logos exists for use in a public repository.
 - **Zero hardcoded team data** — swapping a team's 4 CSV files is a complete team
   swap with no code changes (see below).
 
@@ -106,6 +112,7 @@ src/team/
     CoachDialog.java            add/edit form for a coach
     StaffDialog.java            add/edit form for a staff member
     AboutDialog.java            Help > About box
+    TeamTheme.java              per-team color theming (Primary Colors -> Nimbus L&F colors)
     PlayerTableModel.java       table models backing each JTable
     CoachTableModel.java
     StaffTableModel.java
@@ -288,6 +295,23 @@ java -Dsun.java2d.d3d=false -Dsun.java2d.opengl=false -Dsun.java2d.noddraw=true 
 The VS Code Run button already includes these flags via `.vscode/launch.json`, so
 this is only needed if running from a plain terminal on an affected machine.
 
+### Troubleshooting: won't run on another computer (or throws a compilation-problems error)
+
+This app uses Java 11+ features (e.g. `String.isBlank()`). If it runs fine on one
+computer but fails on another — especially with an error like
+`java.lang.Error: Unresolved compilation problems` — the second machine almost
+certainly only has an old Java runtime (e.g. Java 8) or no JDK at all, not a real
+JDK 11 or newer. This was actually hit and diagnosed during development: a laptop
+with only a Java 8 JRE installed threw exactly this error the instant it hit
+`isBlank()`, because VS Code's bundled compiler allows building with unresolved
+errors baked in as runtime stubs rather than failing the build outright.
+
+Fix: install a real JDK 11 or newer (JDK 25 is recommended, to match this course's
+requirement) — a full JDK, not just a JRE, since you need `javac` too. In VS Code,
+the easiest way is **Ctrl+Shift+P > "Java: Install New JDK"**, which installs to
+your own user profile with no admin rights needed, then **"Java: Configure Java
+Runtime"** to point this project at it.
+
 ## Using the app
 
 - **On launch**, a "Select a Team" window shows every NFL team grouped by
@@ -372,6 +396,15 @@ was actually run and checked:
   and resets correctly, not just that the menu item exists.
 - **Team-swap independence** — confirmed by temporarily renaming a team and
   checking the window title updated with zero code changes, then reverting it.
+- **Cross-machine JDK requirement** — reproduced the exact failure on a second
+  computer (Java 8 only, no JDK), fixed it by installing JDK 25, then
+  recompiled and relaunched successfully from that same machine.
+- **Table display fixes** — recompiled clean and relaunched after adding
+  column auto-sizing and Note-field text wrapping; visually confirmed by the
+  user that long values are no longer clipped.
+- **Per-team theming** — recompiled clean and relaunched after adding
+  `TeamTheme`/Nimbus theming; visually confirmed by the user that the whole
+  window re-colors per team, including after switching teams.
 
 Full history of what changed and why, in order, is in [CHANGELOG.md](CHANGELOG.md).
 

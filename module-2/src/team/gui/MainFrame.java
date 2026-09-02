@@ -11,6 +11,9 @@ import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableCellRenderer;
+import javax.swing.table.TableColumn;
+import javax.swing.table.TableColumnModel;
 import java.awt.*;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
@@ -51,6 +54,9 @@ public class MainFrame extends JFrame {
     private JTable staffTable;
     private DefaultTableModel teamInfoTableModel;
 
+    private JPanel themeHeader;
+    private JLabel themeHeaderLabel;
+
     private static final Path TEAMS_ROOT = Paths.get("data", "teams");
     private static final double ZOOM_STEP = 0.1;
     private static final double MIN_ZOOM = 0.7;
@@ -74,10 +80,18 @@ public class MainFrame extends JFrame {
         tabs.addTab("Coaches", buildCoachesPanel());
         tabs.addTab("Support Staff", buildStaffPanel());
 
+        themeHeaderLabel = new JLabel("", SwingConstants.CENTER);
+        themeHeaderLabel.setFont(themeHeaderLabel.getFont().deriveFont(Font.BOLD, 16f));
+        themeHeaderLabel.setBorder(BorderFactory.createEmptyBorder(8, 8, 8, 8));
+        themeHeader = new JPanel(new BorderLayout());
+        themeHeader.add(themeHeaderLabel, BorderLayout.CENTER);
+
+        add(themeHeader, BorderLayout.NORTH);
         add(tabs, BorderLayout.CENTER);
         add(statusLabel, BorderLayout.SOUTH);
         statusLabel.setBorder(BorderFactory.createEmptyBorder(4, 8, 4, 8));
 
+        applyTeamTheme();
         refreshAll();
         setSize(900, 600);
         setLocationRelativeTo(null);
@@ -159,6 +173,14 @@ public class MainFrame extends JFrame {
             if (t != null) {
                 t.setRowHeight(rowHeight);
             }
+        }
+        for (JTable t : new JTable[] { playerTable, coachTable, staffTable }) {
+            if (t != null) {
+                sizeColumnsToFit(t);
+            }
+        }
+        if (teamInfoTable != null) {
+            resizeTeamInfoRows();
         }
         setStatus("Zoom: " + Math.round(zoomFactor * 100) + "%");
         revalidate();
@@ -242,12 +264,50 @@ public class MainFrame extends JFrame {
         dataStore.switchTeam(selector.getSelectedTeam().directory);
         try {
             dataStore.loadAll();
-            refreshAll();
             setTitle(buildTitle(dataStore));
+            applyTeamTheme();
+            refreshAll();
             setStatus("Switched to " + teamName() + ".");
         } catch (IOException ex) {
             JOptionPane.showMessageDialog(this, "Could not load data for this team:\n" + ex.getMessage(),
                     "Switch Team Error", JOptionPane.ERROR_MESSAGE);
+        }
+    }
+
+    // ---------- Team theme ----------
+
+    /** Applies the selected team's Primary Colors (from team_info.csv) across the whole window. */
+    private void applyTeamTheme() {
+        List<Color> colors = TeamTheme.parseColors(dataStore.getTeamInfo().get("Primary Colors"));
+        TeamTheme.applyNimbusTheme(colors);
+        SwingUtilities.updateComponentTreeUI(this);
+        applyFontRecursively(this, currentFont());
+        applyFontRecursively(getJMenuBar(), currentFont());
+
+        Color primary = colors.isEmpty() ? themeHeader.getBackground() : colors.get(0);
+        Color accent = colors.size() > 1 ? colors.get(1) : primary.darker();
+        themeHeader.setBackground(primary);
+        themeHeader.setBorder(BorderFactory.createMatteBorder(0, 0, 4, 0, accent));
+        themeHeaderLabel.setText(teamName());
+        themeHeaderLabel.setForeground(TeamTheme.readableTextColor(primary));
+
+        applyMenuBarColors(accent);
+    }
+
+    /**
+     * Nimbus paints the menu bar's own background from the accent color but leaves each
+     * JMenu's text at its own fixed dark default instead of following it, so on a dark accent
+     * (e.g. a team whose second Primary Color is "Black") the menu text becomes unreadable
+     * unless set directly here.
+     */
+    private void applyMenuBarColors(Color accent) {
+        Color menuText = TeamTheme.readableTextColor(accent);
+        JMenuBar menuBar = getJMenuBar();
+        menuBar.setBackground(accent);
+        menuBar.setForeground(menuText);
+        for (int i = 0; i < menuBar.getMenuCount(); i++) {
+            JMenu menu = menuBar.getMenu(i);
+            menu.setForeground(menuText);
         }
     }
 
@@ -260,11 +320,12 @@ public class MainFrame extends JFrame {
                 return false;
             }
         };
-        refreshTeamInfo();
         teamInfoTable = new JTable(teamInfoTableModel);
         teamInfoTable.setRowHeight(BASE_ROW_HEIGHT);
         teamInfoTable.getColumnModel().getColumn(0).setPreferredWidth(160);
         teamInfoTable.getColumnModel().getColumn(1).setPreferredWidth(500);
+        teamInfoTable.getColumnModel().getColumn(1).setCellRenderer(new WrappingCellRenderer());
+        refreshTeamInfo();
 
         JPanel panel = new JPanel(new BorderLayout());
         panel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
@@ -277,6 +338,15 @@ public class MainFrame extends JFrame {
         for (Map.Entry<String, String> entry : dataStore.getTeamInfo().entrySet()) {
             teamInfoTableModel.addRow(new Object[] { entry.getKey(), entry.getValue() });
         }
+        resizeTeamInfoRows();
+    }
+
+    /** Re-measures every row's wrapped Value text so long fields like Note show in full instead of one clipped line. */
+    private void resizeTeamInfoRows() {
+        TableCellRenderer renderer = teamInfoTable.getColumnModel().getColumn(1).getCellRenderer();
+        for (int row = 0; row < teamInfoTable.getRowCount(); row++) {
+            teamInfoTable.prepareRenderer(renderer, row, 1);
+        }
     }
 
     // ---------- Players tab ----------
@@ -284,7 +354,9 @@ public class MainFrame extends JFrame {
     private JComponent buildPlayersPanel() {
         playerTable = new JTable(playerTableModel);
         JTable table = playerTable;
+        table.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
         table.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+        table.setAutoCreateRowSorter(true);
         table.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
@@ -351,7 +423,7 @@ public class MainFrame extends JFrame {
             JOptionPane.showMessageDialog(this, "Select a player first.", "No Selection", JOptionPane.INFORMATION_MESSAGE);
             return;
         }
-        Player existing = playerTableModel.getRowObject(row);
+        Player existing = playerTableModel.getRowObject(table.convertRowIndexToModel(row));
         PlayerDialog dialog = new PlayerDialog(this, existing.getId(), existing);
         showZoomed(dialog);
         if (dialog.isConfirmed()) {
@@ -369,7 +441,7 @@ public class MainFrame extends JFrame {
             JOptionPane.showMessageDialog(this, "Select a player first.", "No Selection", JOptionPane.INFORMATION_MESSAGE);
             return;
         }
-        Player existing = playerTableModel.getRowObject(row);
+        Player existing = playerTableModel.getRowObject(table.convertRowIndexToModel(row));
         int confirm = JOptionPane.showConfirmDialog(this,
                 "Release " + existing.getFullName() + " from the roster?",
                 "Confirm Release", JOptionPane.YES_NO_OPTION);
@@ -385,6 +457,7 @@ public class MainFrame extends JFrame {
         String query = playerSearchField.getText();
         String position = (String) positionFilterCombo.getSelectedItem();
         playerTableModel.setRows(dataStore.searchPlayers(query, position));
+        sizeColumnsToFit(playerTable);
         setStatus(dataStore.getPlayers().size() + " players on file.");
     }
 
@@ -393,7 +466,9 @@ public class MainFrame extends JFrame {
     private JComponent buildCoachesPanel() {
         coachTable = new JTable(coachTableModel);
         JTable table = coachTable;
+        table.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
         table.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+        table.setAutoCreateRowSorter(true);
         table.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
@@ -460,7 +535,7 @@ public class MainFrame extends JFrame {
             JOptionPane.showMessageDialog(this, "Select a coach first.", "No Selection", JOptionPane.INFORMATION_MESSAGE);
             return;
         }
-        Coach existing = coachTableModel.getRowObject(row);
+        Coach existing = coachTableModel.getRowObject(table.convertRowIndexToModel(row));
         CoachDialog dialog = new CoachDialog(this, existing.getId(), existing);
         showZoomed(dialog);
         if (dialog.isConfirmed()) {
@@ -478,7 +553,7 @@ public class MainFrame extends JFrame {
             JOptionPane.showMessageDialog(this, "Select a coach first.", "No Selection", JOptionPane.INFORMATION_MESSAGE);
             return;
         }
-        Coach existing = coachTableModel.getRowObject(row);
+        Coach existing = coachTableModel.getRowObject(table.convertRowIndexToModel(row));
         int confirm = JOptionPane.showConfirmDialog(this,
                 "Remove " + existing.getFullName() + " from the coaching staff?",
                 "Confirm Removal", JOptionPane.YES_NO_OPTION);
@@ -494,6 +569,7 @@ public class MainFrame extends JFrame {
         String query = coachSearchField.getText();
         String unit = (String) unitFilterCombo.getSelectedItem();
         coachTableModel.setRows(dataStore.searchCoaches(query, unit));
+        sizeColumnsToFit(coachTable);
         setStatus(dataStore.getCoaches().size() + " coaches on file.");
     }
 
@@ -502,7 +578,9 @@ public class MainFrame extends JFrame {
     private JComponent buildStaffPanel() {
         staffTable = new JTable(staffTableModel);
         JTable table = staffTable;
+        table.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
         table.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+        table.setAutoCreateRowSorter(true);
         table.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
@@ -569,7 +647,7 @@ public class MainFrame extends JFrame {
             JOptionPane.showMessageDialog(this, "Select a staff member first.", "No Selection", JOptionPane.INFORMATION_MESSAGE);
             return;
         }
-        StaffMember existing = staffTableModel.getRowObject(row);
+        StaffMember existing = staffTableModel.getRowObject(table.convertRowIndexToModel(row));
         StaffDialog dialog = new StaffDialog(this, existing.getId(), existing);
         showZoomed(dialog);
         if (dialog.isConfirmed()) {
@@ -587,7 +665,7 @@ public class MainFrame extends JFrame {
             JOptionPane.showMessageDialog(this, "Select a staff member first.", "No Selection", JOptionPane.INFORMATION_MESSAGE);
             return;
         }
-        StaffMember existing = staffTableModel.getRowObject(row);
+        StaffMember existing = staffTableModel.getRowObject(table.convertRowIndexToModel(row));
         int confirm = JOptionPane.showConfirmDialog(this,
                 "Remove " + existing.getFullName() + " from the organization?",
                 "Confirm Removal", JOptionPane.YES_NO_OPTION);
@@ -603,6 +681,7 @@ public class MainFrame extends JFrame {
         String query = staffSearchField.getText();
         String department = (String) departmentFilterCombo.getSelectedItem();
         staffTableModel.setRows(dataStore.searchStaff(query, department));
+        sizeColumnsToFit(staffTable);
         setStatus(dataStore.getStaff().size() + " support staff on file.");
     }
 
@@ -661,5 +740,55 @@ public class MainFrame extends JFrame {
                 action.run();
             }
         };
+    }
+
+    /** Grows each column just wide enough for its header and current cell content, so values aren't clipped. */
+    private static void sizeColumnsToFit(JTable table) {
+        TableColumnModel columnModel = table.getColumnModel();
+        TableCellRenderer headerRenderer = table.getTableHeader().getDefaultRenderer();
+        for (int col = 0; col < table.getColumnCount(); col++) {
+            TableColumn column = columnModel.getColumn(col);
+            int width = headerRenderer
+                    .getTableCellRendererComponent(table, column.getHeaderValue(), false, false, 0, col)
+                    .getPreferredSize().width;
+            for (int row = 0; row < table.getRowCount(); row++) {
+                Component cell = table.prepareRenderer(table.getCellRenderer(row, col), row, col);
+                width = Math.max(width, cell.getPreferredSize().width);
+            }
+            width += 12;
+            column.setPreferredWidth(width);
+            column.setWidth(width);
+        }
+        table.revalidate();
+        table.repaint();
+    }
+
+    /** Renders a table cell as wrapped, multi-line text and grows its row to fit, instead of clipping to one line. */
+    private static class WrappingCellRenderer extends JTextArea implements TableCellRenderer {
+        WrappingCellRenderer() {
+            setLineWrap(true);
+            setWrapStyleWord(true);
+            setOpaque(true);
+            setBorder(BorderFactory.createEmptyBorder(4, 4, 4, 4));
+        }
+
+        @Override
+        public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected,
+                boolean hasFocus, int row, int column) {
+            setFont(table.getFont());
+            Color themeText = UIManager.getColor("text");
+            setForeground(isSelected ? table.getSelectionForeground()
+                    : themeText != null ? themeText : table.getForeground());
+            setBackground(isSelected ? table.getSelectionBackground() : table.getBackground());
+            setText(value == null ? "" : value.toString());
+
+            int columnWidth = table.getColumnModel().getColumn(column).getWidth();
+            setSize(columnWidth, Short.MAX_VALUE);
+            int preferredHeight = getPreferredSize().height;
+            if (table.getRowHeight(row) != preferredHeight) {
+                table.setRowHeight(row, preferredHeight);
+            }
+            return this;
+        }
     }
 }
