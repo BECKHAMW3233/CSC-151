@@ -2,7 +2,133 @@
 
 All notable changes to this project, in the order they happened. Dates reflect the
 day the work was done (this project was built starting 2026-08-28, continuing into
-2026-08-29).
+2026-08-29, 2026-09-01, and 2026-09-02).
+
+## [19] 2026-09-02 — Fixed unreadable menu/table text on dark team colors; added column-header sorting
+
+**Why:** the per-team Nimbus theming added in [18] made some text unreadable —
+specifically the Team Info tab's Value column, and the File/View/Help menu bar
+for any team whose second Primary Color is dark (e.g. Baltimore Ravens'
+"Purple, Black, Metallic Gold" or New Orleans Saints' "Old Gold, Black") —
+because Nimbus derives some components' text color from fixed internal
+defaults that don't reliably follow the team-color overrides. Separately,
+clicking column headers to sort the data tables was requested as a new
+feature.
+
+- **Root cause 1 — Team Info "Value" column text:** `WrappingCellRenderer`
+  (`MainFrame.java`) read `table.getForeground()` for its text color, but that
+  renderer is a stamp component that's never attached to the actual component
+  tree, so it never picked up the recomputed team color — it stayed on
+  Nimbus's stale default (near-black), which was invisible against a dark
+  background. Fixed by reading the current theme's text color directly from
+  `UIManager.getColor("text")` instead.
+- **Root cause 2 — File/View/Help menu bar:** the menu bar's own background
+  follows the team's *accent* color (`Primary Colors`, 2nd value), but nothing
+  ever set the menu text to contrast against it, so it stayed on Nimbus's
+  fixed dark-gray default — unreadable specifically when the accent color
+  itself is dark. Added `MainFrame.applyMenuBarColors()`, which explicitly
+  colors the menu bar and its top-level menus so the text always contrasts
+  with the accent background, using the same luminance check already used
+  elsewhere in `TeamTheme`.
+- Also broadened `TeamTheme.applyNimbusTheme()`'s per-component Nimbus
+  UIManager overrides (Label, Table, TableHeader, Button, ComboBox, TextField,
+  List, ToolTip, etc.) as a general baseline, on top of the two targeted fixes
+  above.
+- **Verified empirically, not just by inspection:** since a native Swing
+  window can't be screenshotted through the normal editor tools, built a
+  throwaway launcher (outside the actual project, not committed) to open the
+  real app directly on a chosen team and capture real screenshots. Confirmed
+  both fixes across 4 teams spanning both directions of the contrast problem —
+  Cincinnati Bengals (Black), Baltimore Ravens (Purple/Black), Houston Texans
+  (Deep Steel Blue), New Orleans Saints (Old Gold, a light primary needing
+  dark text instead) — including a pixel-level check confirming the menu text
+  renders pure white (255,255,255) against the Ravens' black menu bar, where
+  it was previously unreadable dark-gray-on-black.
+- **Added column-header sorting** to the Players, Coaches, and Support Staff
+  tables (`setAutoCreateRowSorter(true)` in `MainFrame.java`): click a header
+  to sort by that column, click again to reverse.
+- Added `getColumnClass()` to `PlayerTableModel`, `CoachTableModel`, and
+  `StaffTableModel` so numeric columns (jersey #, years, weight) sort
+  numerically instead of as text (verified: 0, 1, 2, 4, 5... not the
+  lexicographic 0, 1, 11, 12...).
+- **Found and fixed a related correctness bug this exposed:** every
+  Edit/Remove action used `table.getSelectedRow()` directly as an index into
+  the table model, which is only correct when the view is unsorted — once a
+  column is sorted, the visible row order no longer matches the model's row
+  order. Added `table.convertRowIndexToModel(...)` at all six call sites
+  (Edit/Remove × Players/Coaches/Staff). Verified by sorting the Players table,
+  selecting a specific mid-list player (Joe Flacco), and confirming Edit
+  Selected opened that exact player rather than whichever row happened to sit
+  at that index in the unsorted model.
+
+**Files changed:** `src/team/gui/TeamTheme.java`, `src/team/gui/MainFrame.java`,
+`src/team/gui/PlayerTableModel.java`, `src/team/gui/CoachTableModel.java`,
+`src/team/gui/StaffTableModel.java`
+
+## [18] 2026-09-01 — Fixed a real cross-machine JDK issue; fixed table text truncation; added per-team color theming
+
+**Why:** the app ran fine on the original development PC but threw a runtime error
+on a laptop; separately, long values in the GUI tables were getting visually cut
+off; and per-team visual identity was requested beyond just data.
+
+- **Diagnosed and fixed a real portability bug, not a code bug**: the laptop had
+  no JDK at all, only a Java 8 JRE, while the code uses `String.isBlank()` (Java
+  11+) in `TeamCatalog.java` and `CsvUtil.java`. This produces a distinctive
+  `java.lang.Error: Unresolved compilation problems` at runtime rather than a
+  clean compile failure, because VS Code's bundled Eclipse compiler allows
+  building with unresolved errors baked in as runtime stubs. Fixed by installing
+  a real JDK 25 (matching the course's requirement) via VS Code's own "Install
+  New JDK" feature and configuring it as the project's runtime — no source code
+  was at fault or changed for this part.
+- **Fixed table text truncation**: `MainFrame`'s Players/Coaches/Staff tables now
+  auto-size every column to fit its actual header/content width
+  (`sizeColumnsToFit()`), with `AUTO_RESIZE_OFF` so columns no longer get
+  squeezed to fit the window — a horizontal scrollbar appears instead when a row
+  is genuinely wider than the window.
+- **Added multi-line wrapping** for the Team Info tab's "Value" column
+  (`WrappingCellRenderer`, a `JTextArea`-based `TableCellRenderer`), so long
+  paragraph fields like `Note` now display in full across multiple lines instead
+  of one clipped line, with each row's height recalculated to fit
+  (`resizeTeamInfoRows()`).
+- **Added `TeamTheme`** (new, `team.gui`): parses the `Primary Colors` field
+  already present in every team's `team_info.csv` (e.g. "Cardinal Red, Black,
+  White") into real `Color` values. Team-specific brand names (Honolulu Blue,
+  Panther Blue, Metallic Gold, Buccaneer Red, etc.) use that team's actual
+  verified hex, looked up from public team color-code references rather than
+  guessed; plain English color words shared across several teams' data (Red,
+  Gold, Navy Blue, Silver...) use one representative shade, since the CSV data
+  itself doesn't specify more precisely.
+- **Considered real team logo images first, and decided against them**:
+  researched whether a freely-licensed source of official NFL team logos exists
+  for use in this project. It doesn't — team logos are actively trademarked and
+  copyrighted, and Wikipedia's own copies are explicitly restricted to on-wiki
+  fair use only, not licensed for reuse elsewhere. Since this repository mirrors
+  to a public GitHub repo, embedding real logos was judged too risky and skipped
+  in favor of color-only theming, generated entirely from data already in the
+  CSVs.
+- **Switched the app's Look and Feel from the system (native Windows) L&F to
+  Nimbus** (`Main.java`), because Windows' native L&F does not allow recoloring
+  buttons and several other controls — Nimbus is a cross-platform Swing L&F that
+  fully supports color customization, which the bold, app-wide theming below
+  depends on.
+- **Applied the theme across the entire window, not just a header bar**:
+  `MainFrame.applyTeamTheme()` sets bold, fully-saturated Nimbus color keys from
+  the selected team's colors, then calls
+  `SwingUtilities.updateComponentTreeUI(...)` so every already-built component
+  (tabs, tables, buttons, dialogs) re-themes immediately — on startup and again
+  on **File > Switch Team**. That same refresh call has two side effects that
+  are now explicitly corrected right after it runs: it resets `JTable` row
+  heights (which would have undone the Note-field wrapping and column-width
+  fixes above) and resets fonts to the L&F default (which would have silently
+  undone the zoom feature if a team was switched while zoomed in).
+- Verified by compiling clean under the newly-installed JDK 25, launching the
+  app, and having the user confirm live: the Note field now wraps across
+  multiple lines, roster table columns are no longer clipped, and the entire
+  window (not just a banner) re-colors per team, including immediately after
+  switching teams.
+
+**Files changed:** `src/team/gui/MainFrame.java`, `src/team/gui/TeamTheme.java`
+(new), `src/team/Main.java`
 
 ## [17] 2026-08-29 — Moved this project under module-2/ on GitHub; restored root README
 

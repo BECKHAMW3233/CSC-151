@@ -40,6 +40,14 @@ class CoachTableModel extends AbstractTableModel {
     }
 
     @Override
+    public Class<?> getColumnClass(int columnIndex) {
+        switch (columnIndex) {
+            case 4: case 5: return Integer.class;
+            default: return String.class;
+        }
+    }
+
+    @Override
     public Object getValueAt(int rowIndex, int columnIndex) {
         Coach c = rows.get(rowIndex);
         switch (columnIndex) {

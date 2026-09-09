@@ -498,3 +498,194 @@ that would have prevented it in the first place: confirm which side is
 supposed to win before reconciling two versions of anything, and confirm a
 technical claim against real documentation before treating it as a reason to
 refuse or reshape a request.
+
+53. **Prompt:** Reported that the program runs fine on the home PC in VS Code
+    but won't run on this laptop or other computers.
+    **Response:** Diagnosed the actual cause by running the app the same way
+    the user did: the laptop only had a Java 8 JRE installed (no JDK, no
+    `javac`), while the code uses `String.isBlank()` (Java 11+). Explained the
+    specific "Unresolved compilation problems" runtime error this exact
+    mismatch produces under VS Code's bundled Eclipse compiler, and what an
+    actual fix requires (a real JDK 11+, not just any Java runtime).
+
+54. **Prompt:** Asked for help getting this laptop's VS Code to actually run
+    the project.
+    **Response:** Checked what Java installations already existed on the
+    laptop (confirmed: only that same Java 8 JRE, no JDK anywhere) before
+    proposing a fix, then asked how the user wanted to install a JDK rather
+    than just installing software unilaterally, since that's a system-level
+    change.
+
+55. **Prompt:** Mentioned the course likely requires JDK 25 specifically.
+    **Response:** Gave step-by-step instructions for installing JDK 25 via VS
+    Code's own built-in "Java: Install New JDK" command (installs to the
+    user's own profile, no admin/UAC prompt needed) rather than installing
+    anything directly.
+
+56. **Prompt:** Reported it was working now.
+    **Response:** Verified a JDK 25 (Eclipse Adoptium) install was actually
+    present on disk before treating the fix as confirmed, and used it
+    directly by its install path for all further compiling/running this
+    session, since it wasn't yet on the system PATH.
+
+57. **Prompt:** Asked to work on the GUI's formatting — fields with a lot of
+    text weren't fully displayed.
+    **Response:** Read through the relevant GUI/table code first rather than
+    guessing which screen was affected, found two distinct real causes (unset
+    column widths in the roster tables get squeezed by the window; the Team
+    Info tab's "Note" field is a full paragraph and `JTable` cells don't wrap
+    by default), and asked which one(s) the user meant before changing
+    anything.
+
+58. **Prompt:** Clarified it was the main table columns.
+    **Response:** Asked how to handle the two different root causes found
+    (auto-fitting column widths generally, versus needing actual text-wrapping
+    specifically for paragraph-length fields like Note) rather than assuming
+    one fix covered both.
+
+59. **Prompt:** Clarified the Team Info "Note" field specifically needed to
+    show as several wrapped lines, not one unscrollable line.
+    **Response:** Implemented both fixes in `MainFrame.java`: auto-sized the
+    Players/Coaches/Staff table columns to fit their actual content (with
+    horizontal scrolling instead of squeezing), and added a wrapping,
+    multi-line cell renderer plus per-row height recalculation specifically
+    for the Team Info tab's Value column. Compiled clean under the
+    newly-installed JDK 25 and launched the app to confirm no errors, leaving
+    visual confirmation of the actual wrapped layout to the user since a
+    native Swing window can't be screenshotted directly.
+
+60. **Prompt:** (mid-task) Asked for each team's own graphics to be applied to
+    that team's view.
+    **Response:** Asked what "graphics" meant specifically — a logo image, a
+    color theme, or something else — before starting anything, since no image
+    assets exist anywhere in this project.
+
+61. **Prompt:** Wanted both a team logo image and team-color theming.
+    **Response:** Before sourcing any images, researched whether a legitimate,
+    freely-licensed source of official NFL team logos exists. It doesn't —
+    logos are trademarked/copyrighted, and Wikipedia's own copies are
+    explicitly restricted to on-wiki fair use only, not licensed for reuse
+    elsewhere. Reported that finding, with sources, before asking how to
+    proceed rather than downloading anything unilaterally.
+
+62. **Prompt:** Chose to have this looked into further rather than deciding
+    immediately.
+    **Response:** Recommended against sourcing real logos given the licensing
+    risk, especially since this repository mirrors to a public GitHub repo,
+    not just a private local copy.
+
+63. **Prompt:** Agreed to go with color theming only, no logos.
+    **Response:** Looked up the real, official hex color codes for every
+    "Primary Colors" name actually used across all 32 teams' `team_info.csv`
+    files, rather than guessing plausible-looking colors, then built
+    `TeamTheme.java` and a themed header banner in `MainFrame` using them.
+
+64. **Prompt:** Clarified the request was for the entire program's theme
+    (window backgrounds, overall look), not just a header banner.
+    **Response:** Flagged a real Swing limitation before building further: the
+    app's native Windows look-and-feel doesn't allow recoloring buttons or
+    several other controls, so asked how bold the theming should be and how
+    far it should reach (just the main window vs. every dialog) before making
+    a bigger change.
+
+65. **Prompt:** Chose bold, fully-saturated colors applied everywhere.
+    **Response:** Asked one more specific technical question — switch the
+    app's look-and-feel to Nimbus (fully supports color theming, at the cost
+    of changing the app's overall widget style away from native Windows) or
+    keep native Windows look with only partial theming — before proceeding,
+    since it's a bigger behavioral change than a color tweak.
+
+66. **Prompt:** Chose to switch to Nimbus.
+    **Response:** Switched `Main.java` to Nimbus, added
+    `TeamTheme.applyNimbusTheme()` to drive Nimbus's color keys from the
+    selected team's colors, and wired it into `MainFrame` so the whole
+    already-built window re-themes live via
+    `SwingUtilities.updateComponentTreeUI(...)`, both at startup and on Switch
+    Team. Also caught and fixed two side effects that same refresh call would
+    otherwise have caused: it resets `JTable` row heights (which would have
+    undone the Note-wrapping and column-width fixes above) and resets fonts
+    (which would have silently undone the zoom feature when switching teams
+    while zoomed in) — both are now explicitly re-applied immediately after
+    every theme refresh.
+
+67. **Prompt:** Confirmed the result looked good.
+    **Response:** Asked whether to log this session's changes in
+    `CHANGELOG.md`, `AI_SESSION_LOG.md`, and `CONTRIBUTIONS.md` before
+    touching any of them, per this project's own documented workflow.
+
+68. **Prompt:** Approved logging in all three files plus the README,
+    specifying this session's work is William Beckham's.
+    **Response:** Added this entry and the ones above to this log, added a new
+    `CHANGELOG.md` entry, and updated `CONTRIBUTIONS.md` and `README.md`
+    accordingly.
+
+69. **Prompt:** (mid-task) Clarified that this is still solo prototype work —
+    the rest of the group hasn't looked at any of it and doesn't appear to be
+    involved yet.
+    **Response:** Added a dated update to `CONTRIBUTIONS.md`'s "Next steps"
+    section recording this directly, rather than rewriting the earlier
+    2026-08-29 handoff-plan entry — the project's own convention is to log
+    what was true at each point in time, not overwrite it.
+
+70. **Prompt:** (2026-09-02) Asked to read the program and adjust the theme
+    colors so that menus and text are visible.
+    **Response:** Read the relevant GUI source (`TeamTheme.java`,
+    `MainFrame.java`) to understand how per-team Nimbus theming works, then
+    built a throwaway test launcher (outside the actual project) to open the
+    real app on a dark-themed team and take real screenshots, since a native
+    Swing window can't be screenshotted through the normal editor tools.
+    Confirmed the Team Info tab's Value column text was genuinely low-contrast
+    against a dark team color and started diagnosing the root cause.
+
+71. **Prompt:** (mid-task) Confirmed the specific problem: on the Team Info
+    page, the actual text in the view needs to be white.
+    **Response:** Traced the cause precisely: `WrappingCellRenderer` read
+    `table.getForeground()`, but that renderer is never attached to the
+    component tree, so it never picked up the team's recomputed text color.
+    Fixed it to read the theme's color directly from `UIManager.getColor
+    ("text")`, rebuilt, and confirmed via a fresh screenshot that the text
+    rendered pure white against the black background.
+
+72. **Prompt:** (mid-task) Asked for the data tables to also be sortable by
+    clicking column headers.
+    **Response:** Added `setAutoCreateRowSorter(true)` to the Players,
+    Coaches, and Support Staff tables, plus `getColumnClass()` on each table
+    model so numeric columns (jersey #, years, weight) sort numerically
+    instead of alphabetically. Also found and fixed a correctness bug this
+    exposed: Edit/Remove read the selected row directly as a model index,
+    which breaks once the view is sorted — added the correct
+    view-to-model row conversion at all six call sites.
+
+73. **Prompt:** (mid-task) Asked to pick a team with a dark color theme and
+    cycle through several teams to verify the fix actually holds up, not just
+    for the one team already checked.
+    **Response:** Relaunched the real app across four teams chosen to span
+    both directions of the contrast problem — Cincinnati Bengals (Black),
+    Baltimore Ravens (Purple/Black), Houston Texans (Deep Steel Blue), and New
+    Orleans Saints (Old Gold, a light color needing dark text instead) —
+    screenshotting the Team Info tab, the File menu dropdown, and the Players
+    tab for each, and verified the new column sorting worked correctly on all
+    three data tables along the way.
+
+74. **Prompt:** (mid-task) Reported that the dark-gray menu text still wasn't
+    working properly on darker colors and needed to be white or another
+    light, contrasting color.
+    **Response:** Zoomed into the actual screenshots pixel-by-pixel and found
+    a second, distinct root cause: the File/View/Help menu bar's own
+    background follows the team's *accent* color (the 2nd `Primary Colors`
+    value), but nothing had ever set the menu text to contrast against it —
+    it stayed on Nimbus's fixed dark-gray default, which is only unreadable
+    when that accent color is itself dark (exactly Ravens' and Saints' case,
+    since both have "Black" as their second color). Added explicit menu-bar
+    coloring in `MainFrame.java`, rebuilt, and confirmed via pixel sampling
+    that the menu text now renders pure white (255,255,255) against the
+    previously-unreadable black bar, across all four test teams with no
+    regression to the parts that already worked.
+
+75. **Prompt:** Asked for `CHANGELOG.md`, `AI_SESSION_LOG.md`, and
+    `CONTRIBUTIONS.md` to be updated to reflect today's work, since they
+    hadn't been touched yet.
+    **Response:** Added this entry and the ones above to this log, added a
+    new `CHANGELOG.md` entry covering both the theming fixes and the new
+    sorting feature, and updated `CONTRIBUTIONS.md`'s decision list and
+    "What exists right now" summary to match.

@@ -15,13 +15,18 @@ import java.nio.file.Paths;
 import java.util.List;
 
 /** Application entry point: lets the user pick an NFL team, loads its data, then shows the main GUI window. */
-public class Main {
+public class JavaCode_GroupProject_01_beckhamwilliam {
 
     private static final Path TEAMS_ROOT = Paths.get("data", "teams");
 
     public static void main(String[] args) {
         try {
-            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+            for (UIManager.LookAndFeelInfo info : UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
         } catch (Exception ignored) {
             // fall back to the default look and feel
         }

@@ -227,7 +227,7 @@ this project's files and assume it'll land in the right place.
 
 ```bash
 javac -d bin $(find src -name "*.java")
-java -cp bin team.Main
+java -cp bin team.JavaCode_GroupProject_01_beckhamwilliam
 ```
 
 Run from the project root so the app can find `data/` via its relative path. If

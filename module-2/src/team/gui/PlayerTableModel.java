@@ -40,6 +40,14 @@ class PlayerTableModel extends AbstractTableModel {
     }
 
     @Override
+    public Class<?> getColumnClass(int columnIndex) {
+        switch (columnIndex) {
+            case 0: case 6: case 8: return Integer.class;
+            default: return String.class;
+        }
+    }
+
+    @Override
     public Object getValueAt(int rowIndex, int columnIndex) {
         Player p = rows.get(rowIndex);
         switch (columnIndex) {
