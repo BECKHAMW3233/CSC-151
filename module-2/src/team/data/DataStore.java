@@ -19,6 +19,7 @@ import java.util.stream.Collectors;
  * between the GUI layer and persistence. Call {@link #switchTeam(Path)} to point this
  * store at a different team's folder (e.g. from a team-selector screen).
  */
+// Written by: William Beckham
 public class DataStore {
 
     private Path teamDir;

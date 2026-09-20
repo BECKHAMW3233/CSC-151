@@ -9,6 +9,7 @@ import java.awt.*;
  * Modal add/edit form for a {@link Coach}. Construct with an existing coach to edit it,
  * or with {@code null} to create a new one (an id is supplied separately for new coaches).
  */
+// Written by: William Beckham
 class CoachDialog extends JDialog {
 
     private final JTextField firstNameField = new JTextField(15);

@@ -14,6 +14,7 @@ import java.util.Locale;
  * subfolders, so adding, removing, or renaming a team is just a folder change -
  * nothing in the Java code needs to know the roster of teams in advance.
  */
+// Written by: William Beckham
 public final class TeamCatalog {
 
     /** One team's folder plus the display metadata read from its team_info.csv. */

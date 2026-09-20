@@ -31,6 +31,7 @@ import java.util.Map;
  * The application's main window: a Team Info tab plus Players / Coaches / Support Staff
  * tabs, each with search, add, edit, and remove controls backed by {@link DataStore}.
  */
+// Written by: William Beckham
 public class MainFrame extends JFrame {
 
     private final DataStore dataStore;

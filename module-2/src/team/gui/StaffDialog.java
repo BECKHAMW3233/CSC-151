@@ -9,6 +9,7 @@ import java.awt.*;
  * Modal add/edit form for a {@link StaffMember}. Construct with an existing member to edit it,
  * or with {@code null} to create a new one (an id is supplied separately for new members).
  */
+// Written by: William Beckham
 class StaffDialog extends JDialog {
 
     private final JTextField firstNameField = new JTextField(15);

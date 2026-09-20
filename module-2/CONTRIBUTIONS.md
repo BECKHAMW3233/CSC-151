@@ -133,6 +133,15 @@ not have made any of these on its own, and each one shaped what got built:
     one team already checked.
 18. **Requested clickable column-header sorting** for the Players, Coaches,
     and Support Staff tables as a new feature, on top of the theming fixes.
+19. **Directed the Module 3 checklist verification** (2026-09-20): shared the
+    Module 3 assignment (File I/O, Code Cleanup & Final Submission) and asked
+    for the existing file I/O (Part 1) and cleanup (Part 2) requirements to
+    be checked against the actual code rather than assumed met, before
+    deciding on anything else.
+20. **Directed the individual-contribution comments** (Part 3): since all
+    code in this repository is currently mine, asked for a
+    `// Written by: William Beckham` comment above each class, and asked for
+    this file and `AI_SESSION_LOG.md` to be brought up to date to reflect it.
 
 ## Next steps (as of 2026-08-29)
 
@@ -152,6 +161,14 @@ decision — the same status as the original entry above, just noting that the
 handoff/coordination described there hasn't resulted in group engagement so
 far. Continuing to build and document individually in the meantime so there's
 something concrete for the group to react to once they are involved.
+
+### Update (2026-09-20)
+
+Confirmed directly (not assumed) that the status above is unchanged: the rest
+of the group still has not reviewed or contributed to this work as of this
+date. This is why every `// Written by:` comment added for Module 3 credits
+William only — it reflects who has actually written code so far, not a
+decision about how credit should be split once the group is involved.
 
 ## What exists right now (subject to the group's review)
 

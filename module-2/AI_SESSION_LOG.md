@@ -689,3 +689,58 @@ refuse or reshape a request.
     new `CHANGELOG.md` entry covering both the theming fixes and the new
     sorting feature, and updated `CONTRIBUTIONS.md`'s decision list and
     "What exists right now" summary to match.
+
+76. **Prompt:** (2026-09-20) Shared the Module 3 assignment instructions
+    (File I/O, Code Cleanup & Final Submission) with no further instruction
+    attached.
+    **Response:** Read `README.md` and `CONTRIBUTIONS.md` first rather than
+    assuming what was wanted, summarized which parts of the Module 3
+    checklist the existing architecture already appeared to satisfy, and
+    asked what specifically to do next instead of starting any work
+    unprompted.
+
+77. **Prompt:** Said the program already does most of what Module 3 asks for.
+    **Response:** Asked a follow-up question narrowing down what to actually
+    work on next, rather than treating the statement itself as a go-ahead to
+    start changing files.
+
+78. **Prompt:** Chose to have Part 1 (file I/O) actually verified.
+    **Response:** Read all 18 source files in full (2,419 lines) rather than
+    sampling, confirmed `CsvUtil.readAll()`/`writeAll()` and
+    `DataStore.loadAll()`/`saveAll()` are real read/write methods wired to
+    the entry point, **File > Save All**, **File > Reload From Files**, and
+    every Add/Edit/Remove action, and confirmed every person record is built
+    from parsed CSV rows with nothing hardcoded. Also checked, unprompted but
+    as part of an honest verification, for Part 2 cleanup issues (commented-
+    out code, unused methods, debug leftovers, excessive blank lines) and
+    found none.
+
+79. **Prompt:** Said the program is a single finished working version, not a
+    separate "working draft," since development cruft isn't left in the code
+    on purpose, and asked whether it's ready to ship.
+    **Response:** Reported the Part 2 verification findings plainly (nothing
+    to remove) rather than just agreeing, and flagged that this creates a
+    real tension with Part 3's requirement to submit two distinct versions —
+    left that decision to William and the group instead of picking a
+    resolution (e.g. fabricating a messier draft) unilaterally.
+
+80. **Prompt:** Asked what to do next, since all the code was written by one
+    person (William).
+    **Response:** Asked which of two things was meant — adding "Written by"
+    attribution comments (Module 3 Part 3) or updating
+    `CONTRIBUTIONS.md`/`AI_SESSION_LOG.md` to reflect current status — rather
+    than assuming either one alone was wanted.
+
+81. **Prompt:** Asked for both: the attribution comments and updated tracking
+    docs.
+    **Response:** Asked two more scope questions before touching any files:
+    whether the attribution comments should go once per class or above every
+    individual method, and whether the group's status (still fully solo, per
+    `CONTRIBUTIONS.md`'s last 2026-09-02 update) had changed since then.
+
+82. **Prompt:** Chose one `// Written by: William Beckham` comment per class,
+    and confirmed the group is still fully solo — no change since 2026-09-02.
+    **Response:** Added that comment directly above the class declaration in
+    all 18 `.java` files, recompiled clean to confirm nothing broke, and
+    added this entry plus a new `CHANGELOG.md` [20] entry covering the Part
+    1/2 verification and the attribution comments.

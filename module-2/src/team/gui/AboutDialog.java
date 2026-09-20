@@ -4,6 +4,7 @@ import javax.swing.JOptionPane;
 import java.awt.Component;
 
 /** Simple About box describing the project for grading purposes. */
+// Written by: William Beckham
 final class AboutDialog {
 
     private AboutDialog() {

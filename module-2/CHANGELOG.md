@@ -2,7 +2,49 @@
 
 All notable changes to this project, in the order they happened. Dates reflect the
 day the work was done (this project was built starting 2026-08-28, continuing into
-2026-08-29, 2026-09-01, and 2026-09-02).
+2026-08-29, 2026-09-01, 2026-09-02, and 2026-09-20).
+
+## [20] 2026-09-20 — Verified Module 3's file I/O and cleanup checklist; added per-file authorship comments
+
+**Why:** the Module 3 assignment (File I/O, Code Cleanup & Final Submission) was
+shared, and William asked for the existing code to be checked against its Part 1
+(file I/O) and Part 2 (cleanup) requirements before deciding anything else, then
+asked for the individual-contribution comments Part 3 requires.
+
+- **Verified Part 1 (file I/O) is already met**, rather than assuming: confirmed
+  `CsvUtil.readAll()`/`writeAll()` and `DataStore.loadAll()`/`saveAll()` are
+  real, wired-up read/write methods (not unused), called from the entry point,
+  **File > Save All**, **File > Reload From Files**, and every Add/Edit/Remove
+  action, and that every `Player`/`Coach`/`StaffMember`/team-info value is built
+  from parsed CSV rows rather than hardcoded anywhere in the source.
+- **Verified Part 2 (cleanup) against all 18 source files (2,419 lines)**:
+  no commented-out code, no unused methods (traced every private method to a
+  caller), no `TODO`/`FIXME`/debug leftovers, and no runs of 3+ consecutive
+  blank lines anywhere. Nothing needed to be removed.
+- **Added a `// Written by: William Beckham` comment above the class
+  declaration in each of the 18 `.java` files**, per Part 3's individual-
+  contribution requirement — one header comment per class rather than one per
+  method, since 100% of the code is currently William's and per-method
+  attribution comments throughout would itself add the kind of comment clutter
+  Part 2 asks to remove.
+- Recompiled clean (`javac -d bin ...`) after the comment additions to confirm
+  nothing broke.
+- **Left open, not decided here:** the assignment's Part 3 also requires
+  submitting both a "working draft" and a separate "polished final" version.
+  Since the cleanup check above found nothing to remove, there currently isn't
+  a meaningfully different draft version to submit — this is flagged for
+  William and the group to decide how to handle, not resolved unilaterally.
+
+**Files changed:** `src/team/model/Person.java`, `src/team/model/Coach.java`,
+`src/team/model/Player.java`, `src/team/model/StaffMember.java`,
+`src/team/data/CsvUtil.java`, `src/team/data/DataStore.java`,
+`src/team/data/TeamCatalog.java`, `src/team/gui/PlayerDialog.java`,
+`src/team/gui/CoachDialog.java`, `src/team/gui/StaffDialog.java`,
+`src/team/gui/TeamSelectorDialog.java`, `src/team/gui/AboutDialog.java`,
+`src/team/gui/TeamTheme.java`, `src/team/gui/PlayerTableModel.java`,
+`src/team/gui/CoachTableModel.java`, `src/team/gui/StaffTableModel.java`,
+`src/team/gui/MainFrame.java`,
+`src/team/JavaCode_GroupProject_01_beckhamwilliam.java`
 
 ## [19] 2026-09-02 — Fixed unreadable menu/table text on dark team colors; added column-header sorting
 

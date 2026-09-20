@@ -16,6 +16,7 @@ import java.util.Map;
  * Modal team picker shown at startup (and from File > Switch Team) grouped by
  * Conference then Division, e.g. NFC > South > Carolina Panthers.
  */
+// Written by: William Beckham
 public class TeamSelectorDialog extends JDialog {
 
     private final JTree tree;

@@ -9,6 +9,7 @@ import java.awt.*;
  * Modal add/edit form for a {@link Player}. Construct with an existing player to edit it,
  * or with {@code null} to create a new one (an id is supplied separately for new players).
  */
+// Written by: William Beckham
 class PlayerDialog extends JDialog {
 
     private final JTextField firstNameField = new JTextField(15);

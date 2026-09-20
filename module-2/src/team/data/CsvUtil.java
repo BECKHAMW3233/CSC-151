@@ -13,6 +13,7 @@ import java.util.List;
  * Minimal CSV reader/writer shared by every data file (players, coaches, staff, team info).
  * Supports quoted fields so values containing commas (e.g. "Charlotte, North Carolina") round-trip safely.
  */
+// Written by: William Beckham
 public final class CsvUtil {
 
     private CsvUtil() {

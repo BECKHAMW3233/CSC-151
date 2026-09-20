@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** Backs the Coaches JTable with a live, filterable list of {@link Coach} rows. */
+// Written by: William Beckham
 class CoachTableModel extends AbstractTableModel {
 
     private static final String[] COLUMNS = {

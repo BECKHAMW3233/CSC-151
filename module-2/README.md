@@ -46,6 +46,16 @@ built and remain the most thoroughly cross-checked.
 | Modular | `model` / `data` / `gui` packages, described below |
 | Individual work identified for Canvas | See [CONTRIBUTIONS.md](CONTRIBUTIONS.md) |
 
+### Module 3 (File I/O, Cleanup & Final Submission) — verified 2026-09-20
+
+| Requirement | How it's met |
+|---|---|
+| A method that writes data to a file | [`CsvUtil.writeAll()`](src/team/data/CsvUtil.java), called from [`DataStore.saveAll()`](src/team/data/DataStore.java) |
+| A method that reads data from a file | [`CsvUtil.readAll()`](src/team/data/CsvUtil.java), called from [`DataStore.loadAll()`](src/team/data/DataStore.java) |
+| Data loaded from a file, not hardcoded | Every `Player`/`Coach`/`StaffMember`/team-info value is parsed from CSV rows at load time — see [CHANGELOG.md](CHANGELOG.md) [20] |
+| Commented-out code / unused methods / excess comments / excess blank lines removed | Checked against all 18 source files (2,419 lines) — none found; see [CHANGELOG.md](CHANGELOG.md) [20] |
+| Individual contributions marked in code | A `// Written by:` comment above the class declaration in each of the 18 `.java` files |
+
 ## Features
 
 - **32-team picker** — a `JTree` grouped by Conference then Division (e.g. NFC >

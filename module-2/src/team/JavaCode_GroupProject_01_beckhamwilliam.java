@@ -15,6 +15,7 @@ import java.nio.file.Paths;
 import java.util.List;
 
 /** Application entry point: lets the user pick an NFL team, loads its data, then shows the main GUI window. */
+// Written by: William Beckham
 public class JavaCode_GroupProject_01_beckhamwilliam {
 
     private static final Path TEAMS_ROOT = Paths.get("data", "teams");

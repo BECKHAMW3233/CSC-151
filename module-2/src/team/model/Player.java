@@ -3,6 +3,7 @@ package team.model;
 /**
  * A player on the active roster, practice squad, or injured reserve.
  */
+// Written by: William Beckham
 public class Player extends Person {
 
     public static final String[] CSV_HEADER = {

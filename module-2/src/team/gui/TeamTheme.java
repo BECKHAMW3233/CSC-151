@@ -14,6 +14,7 @@ import java.util.Map;
  * brand hex; plain English color words shared across several teams' data (e.g. "Red",
  * "Gold") use one representative shade, since the CSV itself doesn't specify more precisely.
  */
+// Written by: William Beckham
 final class TeamTheme {
 
     private static final Map<String, Color> NAMED_COLORS = new LinkedHashMap<>();

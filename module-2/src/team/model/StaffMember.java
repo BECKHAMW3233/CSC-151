@@ -4,6 +4,7 @@ package team.model;
  * Front-office and operations personnel who are not players or on-field coaches
  * (medical staff, equipment, scouting, analytics, communications, etc.).
  */
+// Written by: William Beckham
 public class StaffMember extends Person {
 
     public static final String[] CSV_HEADER = {

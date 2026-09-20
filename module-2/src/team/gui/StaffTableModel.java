@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** Backs the Support Staff JTable with a live, filterable list of {@link StaffMember} rows. */
+// Written by: William Beckham
 class StaffTableModel extends AbstractTableModel {
 
     private static final String[] COLUMNS = {

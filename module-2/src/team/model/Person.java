@@ -3,6 +3,7 @@ package team.model;
 /**
  * Base type for anyone tracked in the organization: players, coaches, and support staff.
  */
+// Written by: William Beckham
 public abstract class Person {
 
     protected String id;

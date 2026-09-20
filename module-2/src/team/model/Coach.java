@@ -3,6 +3,7 @@ package team.model;
 /**
  * A member of the coaching staff (head coach, coordinators, position coaches, etc.).
  */
+// Written by: William Beckham
 public class Coach extends Person {
 
     public static final String[] CSV_HEADER = {
