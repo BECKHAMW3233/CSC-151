@@ -104,7 +104,7 @@ hyphenated (e.g. `kansas-city-chiefs`, `san-francisco-49ers`).
 
 ```
 src/team/
-  JavaCode_GroupProject_02_WORKING_BeckhamWilliam.java   entry point — shows the team picker, loads data, shows the main window
+  JavaCode_GroupProject_02_POLISHED_BeckhamWilliam.java   entry point — shows the team picker, loads data, shows the main window
   model/
     Person.java               abstract base class (id, name, age, hometown)
     Player.java                player-specific fields (jersey #, position, status, ...)
@@ -257,7 +257,7 @@ roster current as the season progresses.
 1. Install the **Extension Pack for Java** (Microsoft) if you don't already have it
    — it bundles language support, debugging, and test running.
 2. Open this folder (`java football project`) in VS Code: **File > Open Folder...**.
-3. Open `src/team/JavaCode_GroupProject_02_WORKING_BeckhamWilliam.java` and click **Run** (the ▷ button above the `main`
+3. Open `src/team/JavaCode_GroupProject_02_POLISHED_BeckhamWilliam.java` and click **Run** (the ▷ button above the `main`
    method), or use **Run > Run Without Debugging**.
    - `.vscode/settings.json` tells the Java extension that `src` is the source
      folder and `bin` is where compiled `.class` files go.
@@ -285,7 +285,7 @@ javac -d bin "@sources.txt"
 Then run it (from the project root, so `data/` resolves correctly):
 
 ```bash
-java -cp bin team.JavaCode_GroupProject_02_WORKING_BeckhamWilliam
+java -cp bin team.JavaCode_GroupProject_02_POLISHED_BeckhamWilliam
 ```
 
 ### Troubleshooting: blank/white team-picker window
@@ -299,7 +299,7 @@ exception, and ruling out a slow-load delay. If it happens, run with software
 rendering forced instead:
 
 ```bash
-java -Dsun.java2d.d3d=false -Dsun.java2d.opengl=false -Dsun.java2d.noddraw=true -cp bin team.JavaCode_GroupProject_02_WORKING_BeckhamWilliam
+java -Dsun.java2d.d3d=false -Dsun.java2d.opengl=false -Dsun.java2d.noddraw=true -cp bin team.JavaCode_GroupProject_02_POLISHED_BeckhamWilliam
 ```
 
 The VS Code Run button already includes these flags via `.vscode/launch.json`, so

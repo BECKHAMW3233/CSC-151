@@ -16,7 +16,7 @@ import java.util.List;
 
 /** Application entry point: lets the user pick an NFL team, loads its data, then shows the main GUI window. */
 // Written by: William Beckham
-public class JavaCode_GroupProject_02_WORKING_BeckhamWilliam {
+public class JavaCode_GroupProject_02_POLISHED_BeckhamWilliam {
 
     private static final Path TEAMS_ROOT = Paths.get("data", "teams");
 

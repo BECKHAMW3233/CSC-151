@@ -4,6 +4,28 @@ All notable changes to this project, in the order they happened. Dates reflect t
 day the work was done (this project was built starting 2026-08-28, continuing into
 2026-08-29, 2026-09-01, 2026-09-02, and 2026-09-20).
 
+## [22] 2026-09-20 — Renamed the entry point for the Module 3 "POLISHED" submission
+
+**Why:** Canvas assignment `M3_JavaCode_GroupProject_02_POLISHED` requires the
+uploaded Java file to be named `JavaCode_GroupProject_02_POLISHED_LastnameFirstname`.
+Since the [20] cleanup verification found no unnecessary code, comments, or
+spacing to remove, the POLISHED submission is the same codebase as the
+WORKING one from [21] — only the entry point's name changes to identify
+which Canvas slot it's for.
+
+- Renamed `src/team/JavaCode_GroupProject_02_WORKING_BeckhamWilliam.java` to
+  `src/team/JavaCode_GroupProject_02_POLISHED_BeckhamWilliam.java` and
+  renamed its public class to match.
+- Updated every reference to the old class name: `README.md` (project
+  structure listing, VS Code run instructions, both terminal run commands),
+  `CLAUDE.md` (build/run command), and `.vscode/launch.json` (all three
+  `mainClass` entries).
+- Recompiled clean (`javac -d bin ...`) under the new name to confirm nothing
+  broke.
+
+**Files changed:** `src/team/JavaCode_GroupProject_02_WORKING_BeckhamWilliam.java`
+(renamed), `README.md`, `CLAUDE.md`, `.vscode/launch.json`
+
 ## [21] 2026-09-20 — Renamed the entry point for the Module 3 "WORKING" submission
 
 **Why:** Canvas assignment `M3_JavaCode_GroupProject_02_WORKING` requires the

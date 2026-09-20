@@ -5,21 +5,21 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
-            "mainClass": "team.JavaCode_GroupProject_02_WORKING_BeckhamWilliam",
+            "mainClass": "team.JavaCode_GroupProject_02_POLISHED_BeckhamWilliam",
             "projectName": "java football project_7deec089"
         },
         {
             "type": "java",
             "name": "Main",
             "request": "launch",
-            "mainClass": "team.JavaCode_GroupProject_02_WORKING_BeckhamWilliam",
+            "mainClass": "team.JavaCode_GroupProject_02_POLISHED_BeckhamWilliam",
             "projectName": "java football project_8c34d582"
         },
         {
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
-            "mainClass": "team.JavaCode_GroupProject_02_WORKING_BeckhamWilliam",
+            "mainClass": "team.JavaCode_GroupProject_02_POLISHED_BeckhamWilliam",
             "projectName": "java football project",
             "vmArgs": "-Dsun.java2d.d3d=false -Dsun.java2d.opengl=false -Dsun.java2d.noddraw=true"
         }
