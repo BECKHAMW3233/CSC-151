@@ -4,6 +4,26 @@ All notable changes to this project, in the order they happened. Dates reflect t
 day the work was done (this project was built starting 2026-08-28, continuing into
 2026-08-29, 2026-09-01, 2026-09-02, and 2026-09-20).
 
+## [21] 2026-09-20 — Renamed the entry point for the Module 3 "WORKING" submission
+
+**Why:** Canvas assignment `M3_JavaCode_GroupProject_02_WORKING` requires the
+uploaded Java file to be named `JavaCode_GroupProject_02_WORKING_LastnameFirstname`
+— the same naming pattern the entry point already followed for Module 2's own
+submission convention (`JavaCode_GroupProject_01_beckhamwilliam.java`).
+
+- Renamed `src/team/JavaCode_GroupProject_01_beckhamwilliam.java` to
+  `src/team/JavaCode_GroupProject_02_WORKING_BeckhamWilliam.java` and renamed
+  its public class to match (Java requires the two to be identical).
+- Updated every reference to the old class name: `README.md` (project
+  structure listing, VS Code run instructions, both terminal run commands),
+  `CLAUDE.md` (build/run command), and `.vscode/launch.json` (all three
+  `mainClass` entries).
+- Recompiled clean (`javac -d bin ...`) under the new name to confirm nothing
+  broke.
+
+**Files changed:** `src/team/JavaCode_GroupProject_01_beckhamwilliam.java`
+(renamed), `README.md`, `CLAUDE.md`, `.vscode/launch.json`
+
 ## [20] 2026-09-20 — Verified Module 3's file I/O and cleanup checklist; added per-file authorship comments
 
 **Why:** the Module 3 assignment (File I/O, Code Cleanup & Final Submission) was
